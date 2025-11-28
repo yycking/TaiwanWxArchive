@@ -1,0 +1,43 @@
+name: Fetch ZIP Backup
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"     # 每 3 小時執行
+  workflow_dispatch:
+
+jobs:
+  fetch-and-unzip:
+    runs-on: ubuntu-latest
+
+    env:
+      API_TOKEN: ${{ secrets.CWA_KEY }}
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Download ZIP
+        run: |
+          curl -L -o data.zip "https://opendata.cwa.gov.tw/fileapi/v1/opendataapi/F-D0047-093?Authorization=$API_TOKEN&downloadType=WEB&format=ZIP"
+
+      - name: Unzip
+        run: |
+          rm -rf extracted/             # 清空舊資料
+          mkdir extracted
+          unzip -o data.zip -d extracted
+
+      - name: Save timestamp
+        run: |
+          echo "Downloaded at $(date)" > last_update.txt
+
+      - name: Commit Changes
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "GitHub Actions"
+          git add .
+          git commit -m "Update ZIP backup: $(date)" || echo "No changes to commit"
+
+      - name: Push
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
