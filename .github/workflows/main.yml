@@ -2,7 +2,7 @@ name: Fetch ZIP Backup
 
 on:
   schedule:
-    - cron: "*/5 * * * *"     # 每 3 小時執行
+    - cron: "11 */3 * * *"     # 每 3 小時執行
   workflow_dispatch:
 
 jobs:
