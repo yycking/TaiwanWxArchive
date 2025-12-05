@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <cwaopendata xmlns="urn:cwa:gov:tw:cwacommon:0.1">
-  <Identifier>6e8a2ede-2201-4091-af43-7f028b34850e</Identifier>
+  <Identifier>f1960f94-dcd5-4a29-9119-8dc87eda2947</Identifier>
   <Sender>weather@cwa.gov.tw</Sender>
-  <Sent>2025-12-05T12:19:28+08:00</Sent>
+  <Sent>2025-12-05T18:19:16+08:00</Sent>
   <Status>Actual</Status>
   <Scope>Public</Scope>
   <MsgType>Issue</MsgType>
@@ -34,12 +34,12 @@
         <WeatherCode description="weather code" unit="NA"/>
         <WeatherDescription description="weather description" unit="NA"/>
       </DataValueInfo>
-      <IssueTime>2025-12-05T11:00:00+08:00</IssueTime>
+      <IssueTime>2025-12-05T17:00:00+08:00</IssueTime>
       <ValidTime>
-        <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-        <EndTime>2025-12-12T00:00:00+08:00</EndTime>
+        <StartTime>2025-12-05T18:00:00+08:00</StartTime>
+        <EndTime>2025-12-13T00:00:00+08:00</EndTime>
       </ValidTime>
-      <Update>2025-12-05T12:19:28+08:00</Update>
+      <Update>2025-12-05T18:19:16+08:00</Update>
     </DatasetInfo>
     <Locations>
       <LocationsName>Penghu County</LocationsName>
@@ -51,17 +51,10 @@
         <WeatherElement>
           <ElementName>Average Temperature</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <Temperature>20</Temperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Temperature>20</Temperature>
+              <Temperature>21</Temperature>
             </ElementValue>
           </Time>
           <Time>
@@ -95,6 +88,13 @@
           <Time>
             <StartTime>2025-12-11T00:00:00+08:00</StartTime>
             <EndTime>2025-12-12T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <Temperature>21</Temperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
             <ElementValue>
               <Temperature>21</Temperature>
             </ElementValue>
@@ -103,13 +103,6 @@
         <WeatherElement>
           <ElementName>Maximum Temperature</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxTemperature>21</MaxTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
@@ -134,7 +127,7 @@
             <StartTime>2025-12-09T00:00:00+08:00</StartTime>
             <EndTime>2025-12-10T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxTemperature>22</MaxTemperature>
+              <MaxTemperature>23</MaxTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -149,19 +142,19 @@
             <EndTime>2025-12-12T00:00:00+08:00</EndTime>
             <ElementValue>
               <MaxTemperature>23</MaxTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxTemperature>22</MaxTemperature>
             </ElementValue>
           </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Temperature</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinTemperature>20</MinTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
@@ -199,6 +192,13 @@
           <Time>
             <StartTime>2025-12-11T00:00:00+08:00</StartTime>
             <EndTime>2025-12-12T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinTemperature>20</MinTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
             <ElementValue>
               <MinTemperature>20</MinTemperature>
             </ElementValue>
@@ -206,13 +206,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Average Dew Point Temperature</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <DewPoint>15</DewPoint>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -255,16 +248,16 @@
               <DewPoint>17</DewPoint>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <DewPoint>18</DewPoint>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Average Relative Humidity</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <RelativeHumidity>71</RelativeHumidity>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -307,21 +300,21 @@
               <RelativeHumidity>79</RelativeHumidity>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <RelativeHumidity>81</RelativeHumidity>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Apparent Temperature</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxApparentTemperature>20</MaxApparentTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>21</MaxApparentTemperature>
+              <MaxApparentTemperature>22</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -335,7 +328,7 @@
             <StartTime>2025-12-08T00:00:00+08:00</StartTime>
             <EndTime>2025-12-09T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>21</MaxApparentTemperature>
+              <MaxApparentTemperature>22</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -349,7 +342,7 @@
             <StartTime>2025-12-10T00:00:00+08:00</StartTime>
             <EndTime>2025-12-11T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>22</MaxApparentTemperature>
+              <MaxApparentTemperature>23</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -359,16 +352,16 @@
               <MaxApparentTemperature>23</MaxApparentTemperature>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxApparentTemperature>23</MaxApparentTemperature>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Apparent Temperature</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinApparentTemperature>19</MinApparentTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -411,22 +404,21 @@
               <MinApparentTemperature>20</MinApparentTemperature>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinApparentTemperature>20</MinApparentTemperature>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Comfort Index</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxComfortIndex>20</MaxComfortIndex>
-              <MaxComfortIndexDescription>Comfortable</MaxComfortIndexDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxComfortIndex>20</MaxComfortIndex>
+              <MaxComfortIndex>21</MaxComfortIndex>
               <MaxComfortIndexDescription>Comfortable</MaxComfortIndexDescription>
             </ElementValue>
           </Time>
@@ -470,17 +462,17 @@
               <MaxComfortIndexDescription>Comfortable</MaxComfortIndexDescription>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxComfortIndex>21</MaxComfortIndex>
+              <MaxComfortIndexDescription>Comfortable</MaxComfortIndexDescription>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Comfort Index</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinComfortIndex>19</MinComfortIndex>
-              <MinComfortIndexDescription>Cool</MinComfortIndexDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -527,20 +519,20 @@
             <ElementValue>
               <MinComfortIndex>19</MinComfortIndex>
               <MinComfortIndexDescription>Cool</MinComfortIndexDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinComfortIndex>20</MinComfortIndex>
+              <MinComfortIndexDescription>Comfortable</MinComfortIndexDescription>
             </ElementValue>
           </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Wind Speed</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindSpeed>6</WindSpeed>
-              <BeaufortScale>4</BeaufortScale>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
@@ -585,6 +577,14 @@
             <EndTime>2025-12-12T00:00:00+08:00</EndTime>
             <ElementValue>
               <WindSpeed>4</WindSpeed>
+              <BeaufortScale>3</BeaufortScale>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindSpeed>5</WindSpeed>
               <BeaufortScale>3</BeaufortScale>
             </ElementValue>
           </Time>
@@ -592,13 +592,6 @@
         <WeatherElement>
           <ElementName>Wind Direction</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindDirection>NE</WindDirection>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
@@ -638,19 +631,19 @@
             <EndTime>2025-12-12T00:00:00+08:00</EndTime>
             <ElementValue>
               <WindDirection>NE</WindDirection>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindDirection>N</WindDirection>
             </ElementValue>
           </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>24 Hours Probability Of Precipitation</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
@@ -668,7 +661,7 @@
             <StartTime>2025-12-08T00:00:00+08:00</StartTime>
             <EndTime>2025-12-09T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -688,6 +681,13 @@
           <Time>
             <StartTime>2025-12-11T00:00:00+08:00</StartTime>
             <EndTime>2025-12-12T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
             <ElementValue>
               <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
             </ElementValue>
@@ -696,14 +696,6 @@
         <WeatherElement>
           <ElementName>Weather</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <Weather>Mostly clear</Weather>
-              <WeatherCode>02</WeatherCode>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
@@ -723,16 +715,16 @@
             <StartTime>2025-12-08T00:00:00+08:00</StartTime>
             <EndTime>2025-12-09T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Partly cloudy with occasional rain</Weather>
-              <WeatherCode>08</WeatherCode>
+              <Weather>Partly cloudy</Weather>
+              <WeatherCode>04</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2025-12-09T00:00:00+08:00</StartTime>
             <EndTime>2025-12-10T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Mostly clear</Weather>
-              <WeatherCode>02</WeatherCode>
+              <Weather>Partly clear</Weather>
+              <WeatherCode>03</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -751,17 +743,17 @@
               <WeatherCode>02</WeatherCode>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <Weather>Mostly clear</Weather>
+              <WeatherCode>02</WeatherCode>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Ultraviolet Index</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <UVIndex>5</UVIndex>
-              <UVExposureLevel>Moderate</UVExposureLevel>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -782,7 +774,7 @@
             <StartTime>2025-12-08T00:00:00+08:00</StartTime>
             <EndTime>2025-12-09T00:00:00+08:00</EndTime>
             <ElementValue>
-              <UVIndex>3</UVIndex>
+              <UVIndex>4</UVIndex>
               <UVExposureLevel>Moderate</UVExposureLevel>
             </ElementValue>
           </Time>
@@ -790,7 +782,7 @@
             <StartTime>2025-12-09T00:00:00+08:00</StartTime>
             <EndTime>2025-12-10T00:00:00+08:00</EndTime>
             <ElementValue>
-              <UVIndex>4</UVIndex>
+              <UVIndex>5</UVIndex>
               <UVExposureLevel>Moderate</UVExposureLevel>
             </ElementValue>
           </Time>
@@ -798,7 +790,7 @@
             <StartTime>2025-12-10T00:00:00+08:00</StartTime>
             <EndTime>2025-12-11T00:00:00+08:00</EndTime>
             <ElementValue>
-              <UVIndex>5</UVIndex>
+              <UVIndex>4</UVIndex>
               <UVExposureLevel>Moderate</UVExposureLevel>
             </ElementValue>
           </Time>
@@ -806,20 +798,21 @@
             <StartTime>2025-12-11T00:00:00+08:00</StartTime>
             <EndTime>2025-12-12T00:00:00+08:00</EndTime>
             <ElementValue>
-              <UVIndex>4</UVIndex>
+              <UVIndex>5</UVIndex>
+              <UVExposureLevel>Moderate</UVExposureLevel>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <UVIndex>5</UVIndex>
               <UVExposureLevel>Moderate</UVExposureLevel>
             </ElementValue>
           </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Weather Description</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 20 and 21 centigrade. Cool ~ Comfortable. NorthEast wind 6m/s. Chance of precipitation 10%.</WeatherDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -838,14 +831,14 @@
             <StartTime>2025-12-08T00:00:00+08:00</StartTime>
             <EndTime>2025-12-09T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly cloudy with occasional rain. Temperature between 20 and 22 centigrade. Comfortable. NorthEast wind 6m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy. Temperature between 20 and 22 centigrade. Comfortable. NorthEast wind 6m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2025-12-09T00:00:00+08:00</StartTime>
             <EndTime>2025-12-10T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 20 and 22 centigrade. Cool ~ Comfortable. NorthEast wind 6m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Partly clear. Temperature between 20 and 23 centigrade. Cool ~ Comfortable. NorthEast wind 6m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -862,6 +855,13 @@
               <WeatherDescription>Mostly clear. Temperature between 20 and 23 centigrade. Cool ~ Comfortable. NorthEast wind 4m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <WeatherDescription>Mostly clear. Temperature between 20 and 22 centigrade. Comfortable. North wind 5m/s. Chance of precipitation -%.</WeatherDescription>
+            </ElementValue>
+          </Time>
         </WeatherElement>
       </Location>
       <Location>
@@ -871,13 +871,6 @@
         <Longitude>119.644584</Longitude>
         <WeatherElement>
           <ElementName>Average Temperature</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <Temperature>20</Temperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -920,21 +913,21 @@
               <Temperature>21</Temperature>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <Temperature>21</Temperature>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Temperature</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxTemperature>21</MaxTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxTemperature>21</MaxTemperature>
+              <MaxTemperature>22</MaxTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -972,16 +965,16 @@
               <MaxTemperature>22</MaxTemperature>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxTemperature>22</MaxTemperature>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Temperature</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinTemperature>20</MinTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -1024,16 +1017,16 @@
               <MinTemperature>20</MinTemperature>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinTemperature>20</MinTemperature>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Average Dew Point Temperature</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <DewPoint>15</DewPoint>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -1076,16 +1069,16 @@
               <DewPoint>17</DewPoint>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <DewPoint>18</DewPoint>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Average Relative Humidity</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <RelativeHumidity>74</RelativeHumidity>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -1128,21 +1121,21 @@
               <RelativeHumidity>81</RelativeHumidity>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <RelativeHumidity>83</RelativeHumidity>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Apparent Temperature</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxApparentTemperature>18</MaxApparentTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>19</MaxApparentTemperature>
+              <MaxApparentTemperature>20</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -1180,16 +1173,16 @@
               <MaxApparentTemperature>21</MaxApparentTemperature>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxApparentTemperature>21</MaxApparentTemperature>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Apparent Temperature</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinApparentTemperature>17</MinApparentTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -1232,17 +1225,16 @@
               <MinApparentTemperature>18</MinApparentTemperature>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinApparentTemperature>18</MinApparentTemperature>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Comfort Index</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxComfortIndex>20</MaxComfortIndex>
-              <MaxComfortIndexDescription>Comfortable</MaxComfortIndexDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -1286,6 +1278,14 @@
           <Time>
             <StartTime>2025-12-11T00:00:00+08:00</StartTime>
             <EndTime>2025-12-12T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxComfortIndex>21</MaxComfortIndex>
+              <MaxComfortIndexDescription>Comfortable</MaxComfortIndexDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
             <ElementValue>
               <MaxComfortIndex>21</MaxComfortIndex>
               <MaxComfortIndexDescription>Comfortable</MaxComfortIndexDescription>
@@ -1295,14 +1295,6 @@
         <WeatherElement>
           <ElementName>Minimum Comfort Index</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinComfortIndex>19</MinComfortIndex>
-              <MinComfortIndexDescription>Cool</MinComfortIndexDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
@@ -1350,17 +1342,17 @@
               <MinComfortIndexDescription>Cool</MinComfortIndexDescription>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinComfortIndex>20</MinComfortIndex>
+              <MinComfortIndexDescription>Comfortable</MinComfortIndexDescription>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Wind Speed</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindSpeed>9</WindSpeed>
-              <BeaufortScale>5</BeaufortScale>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -1409,16 +1401,17 @@
               <BeaufortScale>4</BeaufortScale>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindSpeed>8</WindSpeed>
+              <BeaufortScale>5</BeaufortScale>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Wind Direction</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindDirection>NE</WindDirection>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -1459,19 +1452,19 @@
             <EndTime>2025-12-12T00:00:00+08:00</EndTime>
             <ElementValue>
               <WindDirection>NE</WindDirection>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindDirection>N</WindDirection>
             </ElementValue>
           </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>24 Hours Probability Of Precipitation</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
@@ -1489,7 +1482,7 @@
             <StartTime>2025-12-08T00:00:00+08:00</StartTime>
             <EndTime>2025-12-09T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -1509,6 +1502,13 @@
           <Time>
             <StartTime>2025-12-11T00:00:00+08:00</StartTime>
             <EndTime>2025-12-12T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
             <ElementValue>
               <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
             </ElementValue>
@@ -1517,14 +1517,6 @@
         <WeatherElement>
           <ElementName>Weather</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <Weather>Mostly clear</Weather>
-              <WeatherCode>02</WeatherCode>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
@@ -1544,8 +1536,8 @@
             <StartTime>2025-12-08T00:00:00+08:00</StartTime>
             <EndTime>2025-12-09T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Mostly cloudy with occasional rain</Weather>
-              <WeatherCode>09</WeatherCode>
+              <Weather>Partly cloudy</Weather>
+              <WeatherCode>04</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -1560,13 +1552,21 @@
             <StartTime>2025-12-10T00:00:00+08:00</StartTime>
             <EndTime>2025-12-11T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Mostly clear</Weather>
-              <WeatherCode>02</WeatherCode>
+              <Weather>Partly clear</Weather>
+              <WeatherCode>03</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2025-12-11T00:00:00+08:00</StartTime>
             <EndTime>2025-12-12T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <Weather>Mostly clear</Weather>
+              <WeatherCode>02</WeatherCode>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
             <ElementValue>
               <Weather>Mostly clear</Weather>
               <WeatherCode>02</WeatherCode>
@@ -1576,14 +1576,6 @@
         <WeatherElement>
           <ElementName>Ultraviolet Index</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <UVIndex>5</UVIndex>
-              <UVExposureLevel>Moderate</UVExposureLevel>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
@@ -1611,7 +1603,7 @@
             <StartTime>2025-12-09T00:00:00+08:00</StartTime>
             <EndTime>2025-12-10T00:00:00+08:00</EndTime>
             <ElementValue>
-              <UVIndex>4</UVIndex>
+              <UVIndex>5</UVIndex>
               <UVExposureLevel>Moderate</UVExposureLevel>
             </ElementValue>
           </Time>
@@ -1619,7 +1611,7 @@
             <StartTime>2025-12-10T00:00:00+08:00</StartTime>
             <EndTime>2025-12-11T00:00:00+08:00</EndTime>
             <ElementValue>
-              <UVIndex>5</UVIndex>
+              <UVIndex>4</UVIndex>
               <UVExposureLevel>Moderate</UVExposureLevel>
             </ElementValue>
           </Time>
@@ -1627,7 +1619,15 @@
             <StartTime>2025-12-11T00:00:00+08:00</StartTime>
             <EndTime>2025-12-12T00:00:00+08:00</EndTime>
             <ElementValue>
-              <UVIndex>4</UVIndex>
+              <UVIndex>5</UVIndex>
+              <UVExposureLevel>Moderate</UVExposureLevel>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <UVIndex>5</UVIndex>
               <UVExposureLevel>Moderate</UVExposureLevel>
             </ElementValue>
           </Time>
@@ -1635,17 +1635,10 @@
         <WeatherElement>
           <ElementName>Weather Description</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 20 and 21 centigrade. Cool ~ Comfortable. NorthEast wind 9m/s. Chance of precipitation 10%.</WeatherDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 20 and 21 centigrade. Cool ~ Comfortable. NorthEast wind 8m/s. Chance of precipitation 10%.</WeatherDescription>
+              <WeatherDescription>Mostly clear. Temperature between 20 and 22 centigrade. Cool ~ Comfortable. NorthEast wind 8m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -1659,7 +1652,7 @@
             <StartTime>2025-12-08T00:00:00+08:00</StartTime>
             <EndTime>2025-12-09T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly cloudy with occasional rain. Temperature between 20 and 22 centigrade. Comfortable. North wind 10m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy. Temperature between 20 and 22 centigrade. Comfortable. North wind 10m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -1673,7 +1666,7 @@
             <StartTime>2025-12-10T00:00:00+08:00</StartTime>
             <EndTime>2025-12-11T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 20 and 22 centigrade. Comfortable. North wind 7m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Partly clear. Temperature between 20 and 22 centigrade. Comfortable. North wind 7m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -1681,6 +1674,13 @@
             <EndTime>2025-12-12T00:00:00+08:00</EndTime>
             <ElementValue>
               <WeatherDescription>Mostly clear. Temperature between 20 and 22 centigrade. Cool ~ Comfortable. NorthEast wind 7m/s. Chance of precipitation -%.</WeatherDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <WeatherDescription>Mostly clear. Temperature between 20 and 22 centigrade. Comfortable. North wind 8m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
           </Time>
         </WeatherElement>
@@ -1692,13 +1692,6 @@
         <Longitude>119.590497</Longitude>
         <WeatherElement>
           <ElementName>Average Temperature</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <Temperature>20</Temperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -1741,16 +1734,16 @@
               <Temperature>21</Temperature>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <Temperature>21</Temperature>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Temperature</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxTemperature>21</MaxTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -1793,16 +1786,16 @@
               <MaxTemperature>22</MaxTemperature>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxTemperature>22</MaxTemperature>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Temperature</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinTemperature>20</MinTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -1845,16 +1838,16 @@
               <MinTemperature>20</MinTemperature>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinTemperature>20</MinTemperature>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Average Dew Point Temperature</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <DewPoint>15</DewPoint>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -1897,16 +1890,16 @@
               <DewPoint>17</DewPoint>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <DewPoint>18</DewPoint>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Average Relative Humidity</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <RelativeHumidity>72</RelativeHumidity>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -1949,16 +1942,16 @@
               <RelativeHumidity>81</RelativeHumidity>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <RelativeHumidity>82</RelativeHumidity>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Apparent Temperature</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxApparentTemperature>16</MaxApparentTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -2001,16 +1994,16 @@
               <MaxApparentTemperature>19</MaxApparentTemperature>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxApparentTemperature>18</MaxApparentTemperature>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Apparent Temperature</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinApparentTemperature>15</MinApparentTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -2053,22 +2046,21 @@
               <MinApparentTemperature>16</MinApparentTemperature>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinApparentTemperature>16</MinApparentTemperature>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Comfort Index</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxComfortIndex>20</MaxComfortIndex>
-              <MaxComfortIndexDescription>Comfortable</MaxComfortIndexDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxComfortIndex>20</MaxComfortIndex>
+              <MaxComfortIndex>21</MaxComfortIndex>
               <MaxComfortIndexDescription>Comfortable</MaxComfortIndexDescription>
             </ElementValue>
           </Time>
@@ -2112,17 +2104,17 @@
               <MaxComfortIndexDescription>Comfortable</MaxComfortIndexDescription>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxComfortIndex>21</MaxComfortIndex>
+              <MaxComfortIndexDescription>Comfortable</MaxComfortIndexDescription>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Comfort Index</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinComfortIndex>19</MinComfortIndex>
-              <MinComfortIndexDescription>Cool</MinComfortIndexDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -2159,8 +2151,8 @@
             <StartTime>2025-12-10T00:00:00+08:00</StartTime>
             <EndTime>2025-12-11T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinComfortIndex>20</MinComfortIndex>
-              <MinComfortIndexDescription>Comfortable</MinComfortIndexDescription>
+              <MinComfortIndex>19</MinComfortIndex>
+              <MinComfortIndexDescription>Cool</MinComfortIndexDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -2169,20 +2161,20 @@
             <ElementValue>
               <MinComfortIndex>19</MinComfortIndex>
               <MinComfortIndexDescription>Cool</MinComfortIndexDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinComfortIndex>20</MinComfortIndex>
+              <MinComfortIndexDescription>Comfortable</MinComfortIndexDescription>
             </ElementValue>
           </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Wind Speed</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindSpeed>&gt;= 11</WindSpeed>
-              <BeaufortScale>&gt;= 6</BeaufortScale>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
@@ -2228,19 +2220,20 @@
             <ElementValue>
               <WindSpeed>10</WindSpeed>
               <BeaufortScale>5</BeaufortScale>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindSpeed>&gt;= 11</WindSpeed>
+              <BeaufortScale>&gt;= 6</BeaufortScale>
             </ElementValue>
           </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Wind Direction</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindDirection>NE</WindDirection>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
@@ -2280,19 +2273,19 @@
             <EndTime>2025-12-12T00:00:00+08:00</EndTime>
             <ElementValue>
               <WindDirection>NE</WindDirection>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindDirection>N</WindDirection>
             </ElementValue>
           </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>24 Hours Probability Of Precipitation</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
@@ -2310,7 +2303,7 @@
             <StartTime>2025-12-08T00:00:00+08:00</StartTime>
             <EndTime>2025-12-09T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -2330,6 +2323,13 @@
           <Time>
             <StartTime>2025-12-11T00:00:00+08:00</StartTime>
             <EndTime>2025-12-12T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
             <ElementValue>
               <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
             </ElementValue>
@@ -2338,14 +2338,6 @@
         <WeatherElement>
           <ElementName>Weather</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <Weather>Mostly clear</Weather>
-              <WeatherCode>02</WeatherCode>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
@@ -2365,16 +2357,16 @@
             <StartTime>2025-12-08T00:00:00+08:00</StartTime>
             <EndTime>2025-12-09T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Partly cloudy with occasional rain</Weather>
-              <WeatherCode>08</WeatherCode>
+              <Weather>Partly cloudy</Weather>
+              <WeatherCode>04</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2025-12-09T00:00:00+08:00</StartTime>
             <EndTime>2025-12-10T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Partly cloudy with occasional rain</Weather>
-              <WeatherCode>08</WeatherCode>
+              <Weather>Partly cloudy</Weather>
+              <WeatherCode>04</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -2393,17 +2385,17 @@
               <WeatherCode>02</WeatherCode>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <Weather>Mostly clear</Weather>
+              <WeatherCode>02</WeatherCode>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Ultraviolet Index</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <UVIndex>5</UVIndex>
-              <UVExposureLevel>Moderate</UVExposureLevel>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -2440,7 +2432,7 @@
             <StartTime>2025-12-10T00:00:00+08:00</StartTime>
             <EndTime>2025-12-11T00:00:00+08:00</EndTime>
             <ElementValue>
-              <UVIndex>5</UVIndex>
+              <UVIndex>4</UVIndex>
               <UVExposureLevel>Moderate</UVExposureLevel>
             </ElementValue>
           </Time>
@@ -2448,20 +2440,21 @@
             <StartTime>2025-12-11T00:00:00+08:00</StartTime>
             <EndTime>2025-12-12T00:00:00+08:00</EndTime>
             <ElementValue>
-              <UVIndex>4</UVIndex>
+              <UVIndex>5</UVIndex>
+              <UVExposureLevel>Moderate</UVExposureLevel>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <UVIndex>5</UVIndex>
               <UVExposureLevel>Moderate</UVExposureLevel>
             </ElementValue>
           </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Weather Description</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 20 and 21 centigrade. Cool ~ Comfortable. NorthEast wind &gt;= 11m/s. Chance of precipitation 10%.</WeatherDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -2480,21 +2473,21 @@
             <StartTime>2025-12-08T00:00:00+08:00</StartTime>
             <EndTime>2025-12-09T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly cloudy with occasional rain. Temperature between 20 and 22 centigrade. Cool ~ Comfortable. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy. Temperature between 20 and 22 centigrade. Cool ~ Comfortable. NorthEast wind &gt;= 11m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2025-12-09T00:00:00+08:00</StartTime>
             <EndTime>2025-12-10T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly cloudy with occasional rain. Temperature between 20 and 22 centigrade. Cool ~ Comfortable. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy. Temperature between 20 and 22 centigrade. Cool ~ Comfortable. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2025-12-10T00:00:00+08:00</StartTime>
             <EndTime>2025-12-11T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly cloudy. Temperature between 20 and 22 centigrade. Comfortable. North wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy. Temperature between 20 and 22 centigrade. Cool ~ Comfortable. North wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -2502,6 +2495,13 @@
             <EndTime>2025-12-12T00:00:00+08:00</EndTime>
             <ElementValue>
               <WeatherDescription>Mostly clear. Temperature between 20 and 22 centigrade. Cool ~ Comfortable. NorthEast wind 10m/s. Chance of precipitation -%.</WeatherDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <WeatherDescription>Mostly clear. Temperature between 20 and 22 centigrade. Comfortable. North wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
           </Time>
         </WeatherElement>
@@ -2514,13 +2514,6 @@
         <WeatherElement>
           <ElementName>Average Temperature</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <Temperature>20</Temperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
@@ -2552,12 +2545,19 @@
             <StartTime>2025-12-10T00:00:00+08:00</StartTime>
             <EndTime>2025-12-11T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Temperature>21</Temperature>
+              <Temperature>20</Temperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2025-12-11T00:00:00+08:00</StartTime>
             <EndTime>2025-12-12T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <Temperature>21</Temperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
             <ElementValue>
               <Temperature>21</Temperature>
             </ElementValue>
@@ -2566,13 +2566,6 @@
         <WeatherElement>
           <ElementName>Maximum Temperature</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxTemperature>21</MaxTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
@@ -2612,19 +2605,19 @@
             <EndTime>2025-12-12T00:00:00+08:00</EndTime>
             <ElementValue>
               <MaxTemperature>23</MaxTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxTemperature>22</MaxTemperature>
             </ElementValue>
           </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Temperature</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinTemperature>20</MinTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
@@ -2662,6 +2655,13 @@
           <Time>
             <StartTime>2025-12-11T00:00:00+08:00</StartTime>
             <EndTime>2025-12-12T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinTemperature>20</MinTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
             <ElementValue>
               <MinTemperature>20</MinTemperature>
             </ElementValue>
@@ -2669,13 +2669,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Average Dew Point Temperature</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <DewPoint>15</DewPoint>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -2718,16 +2711,16 @@
               <DewPoint>17</DewPoint>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <DewPoint>18</DewPoint>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Average Relative Humidity</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <RelativeHumidity>71</RelativeHumidity>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -2770,21 +2763,21 @@
               <RelativeHumidity>80</RelativeHumidity>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <RelativeHumidity>83</RelativeHumidity>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Apparent Temperature</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxApparentTemperature>17</MaxApparentTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>19</MaxApparentTemperature>
+              <MaxApparentTemperature>20</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -2822,16 +2815,16 @@
               <MaxApparentTemperature>21</MaxApparentTemperature>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxApparentTemperature>21</MaxApparentTemperature>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Apparent Temperature</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinApparentTemperature>16</MinApparentTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -2864,7 +2857,7 @@
             <StartTime>2025-12-10T00:00:00+08:00</StartTime>
             <EndTime>2025-12-11T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>18</MinApparentTemperature>
+              <MinApparentTemperature>17</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -2874,22 +2867,21 @@
               <MinApparentTemperature>18</MinApparentTemperature>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinApparentTemperature>17</MinApparentTemperature>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Comfort Index</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxComfortIndex>20</MaxComfortIndex>
-              <MaxComfortIndexDescription>Comfortable</MaxComfortIndexDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxComfortIndex>20</MaxComfortIndex>
+              <MaxComfortIndex>21</MaxComfortIndex>
               <MaxComfortIndexDescription>Comfortable</MaxComfortIndexDescription>
             </ElementValue>
           </Time>
@@ -2933,17 +2925,17 @@
               <MaxComfortIndexDescription>Comfortable</MaxComfortIndexDescription>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxComfortIndex>21</MaxComfortIndex>
+              <MaxComfortIndexDescription>Comfortable</MaxComfortIndexDescription>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Comfort Index</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinComfortIndex>19</MinComfortIndex>
-              <MinComfortIndexDescription>Cool</MinComfortIndexDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -2992,17 +2984,17 @@
               <MinComfortIndexDescription>Cool</MinComfortIndexDescription>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinComfortIndex>20</MinComfortIndex>
+              <MinComfortIndexDescription>Comfortable</MinComfortIndexDescription>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Wind Speed</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindSpeed>10</WindSpeed>
-              <BeaufortScale>5</BeaufortScale>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -3051,16 +3043,17 @@
               <BeaufortScale>5</BeaufortScale>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindSpeed>9</WindSpeed>
+              <BeaufortScale>5</BeaufortScale>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Wind Direction</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindDirection>NE</WindDirection>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -3101,19 +3094,19 @@
             <EndTime>2025-12-12T00:00:00+08:00</EndTime>
             <ElementValue>
               <WindDirection>NE</WindDirection>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindDirection>N</WindDirection>
             </ElementValue>
           </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>24 Hours Probability Of Precipitation</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
@@ -3131,7 +3124,7 @@
             <StartTime>2025-12-08T00:00:00+08:00</StartTime>
             <EndTime>2025-12-09T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -3151,6 +3144,13 @@
           <Time>
             <StartTime>2025-12-11T00:00:00+08:00</StartTime>
             <EndTime>2025-12-12T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
             <ElementValue>
               <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
             </ElementValue>
@@ -3159,14 +3159,6 @@
         <WeatherElement>
           <ElementName>Weather</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <Weather>Mostly clear</Weather>
-              <WeatherCode>02</WeatherCode>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
@@ -3186,29 +3178,37 @@
             <StartTime>2025-12-08T00:00:00+08:00</StartTime>
             <EndTime>2025-12-09T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Mostly cloudy</Weather>
-              <WeatherCode>05</WeatherCode>
+              <Weather>Partly cloudy with occasional rain</Weather>
+              <WeatherCode>08</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2025-12-09T00:00:00+08:00</StartTime>
             <EndTime>2025-12-10T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Mostly cloudy</Weather>
-              <WeatherCode>05</WeatherCode>
+              <Weather>Partly cloudy</Weather>
+              <WeatherCode>04</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2025-12-10T00:00:00+08:00</StartTime>
             <EndTime>2025-12-11T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Partly clear</Weather>
-              <WeatherCode>03</WeatherCode>
+              <Weather>Mostly cloudy</Weather>
+              <WeatherCode>05</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2025-12-11T00:00:00+08:00</StartTime>
             <EndTime>2025-12-12T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <Weather>Mostly clear</Weather>
+              <WeatherCode>02</WeatherCode>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
             <ElementValue>
               <Weather>Mostly clear</Weather>
               <WeatherCode>02</WeatherCode>
@@ -3218,14 +3218,6 @@
         <WeatherElement>
           <ElementName>Ultraviolet Index</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <UVIndex>5</UVIndex>
-              <UVExposureLevel>Moderate</UVExposureLevel>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
@@ -3245,7 +3237,7 @@
             <StartTime>2025-12-08T00:00:00+08:00</StartTime>
             <EndTime>2025-12-09T00:00:00+08:00</EndTime>
             <ElementValue>
-              <UVIndex>3</UVIndex>
+              <UVIndex>4</UVIndex>
               <UVExposureLevel>Moderate</UVExposureLevel>
             </ElementValue>
           </Time>
@@ -3253,7 +3245,7 @@
             <StartTime>2025-12-09T00:00:00+08:00</StartTime>
             <EndTime>2025-12-10T00:00:00+08:00</EndTime>
             <ElementValue>
-              <UVIndex>4</UVIndex>
+              <UVIndex>5</UVIndex>
               <UVExposureLevel>Moderate</UVExposureLevel>
             </ElementValue>
           </Time>
@@ -3261,7 +3253,7 @@
             <StartTime>2025-12-10T00:00:00+08:00</StartTime>
             <EndTime>2025-12-11T00:00:00+08:00</EndTime>
             <ElementValue>
-              <UVIndex>5</UVIndex>
+              <UVIndex>4</UVIndex>
               <UVExposureLevel>Moderate</UVExposureLevel>
             </ElementValue>
           </Time>
@@ -3269,20 +3261,21 @@
             <StartTime>2025-12-11T00:00:00+08:00</StartTime>
             <EndTime>2025-12-12T00:00:00+08:00</EndTime>
             <ElementValue>
-              <UVIndex>4</UVIndex>
+              <UVIndex>5</UVIndex>
+              <UVExposureLevel>Moderate</UVExposureLevel>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <UVIndex>5</UVIndex>
               <UVExposureLevel>Moderate</UVExposureLevel>
             </ElementValue>
           </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Weather Description</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 20 and 21 centigrade. Cool ~ Comfortable. NorthEast wind 10m/s. Chance of precipitation 10%.</WeatherDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -3301,21 +3294,21 @@
             <StartTime>2025-12-08T00:00:00+08:00</StartTime>
             <EndTime>2025-12-09T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly cloudy. Temperature between 20 and 22 centigrade. Cool ~ Comfortable. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy with occasional rain. Temperature between 20 and 22 centigrade. Cool ~ Comfortable. NorthEast wind &gt;= 11m/s. Chance of precipitation 30%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2025-12-09T00:00:00+08:00</StartTime>
             <EndTime>2025-12-10T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly cloudy. Temperature between 20 and 22 centigrade. Cool ~ Comfortable. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy. Temperature between 20 and 22 centigrade. Cool ~ Comfortable. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2025-12-10T00:00:00+08:00</StartTime>
             <EndTime>2025-12-11T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly clear. Temperature between 20 and 22 centigrade. Cool ~ Comfortable. North wind 9m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Mostly cloudy. Temperature between 20 and 22 centigrade. Cool ~ Comfortable. North wind 9m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -3323,6 +3316,13 @@
             <EndTime>2025-12-12T00:00:00+08:00</EndTime>
             <ElementValue>
               <WeatherDescription>Mostly clear. Temperature between 20 and 23 centigrade. Cool ~ Comfortable. NorthEast wind 8m/s. Chance of precipitation -%.</WeatherDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <WeatherDescription>Mostly clear. Temperature between 20 and 22 centigrade. Comfortable. North wind 9m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
           </Time>
         </WeatherElement>
@@ -3334,13 +3334,6 @@
         <Longitude>119.492356</Longitude>
         <WeatherElement>
           <ElementName>Average Temperature</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <Temperature>20</Temperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -3383,21 +3376,21 @@
               <Temperature>21</Temperature>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <Temperature>21</Temperature>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Temperature</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxTemperature>21</MaxTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxTemperature>21</MaxTemperature>
+              <MaxTemperature>22</MaxTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -3435,16 +3428,16 @@
               <MaxTemperature>22</MaxTemperature>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxTemperature>22</MaxTemperature>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Temperature</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinTemperature>20</MinTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -3487,16 +3480,16 @@
               <MinTemperature>20</MinTemperature>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinTemperature>20</MinTemperature>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Average Dew Point Temperature</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <DewPoint>15</DewPoint>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -3522,7 +3515,7 @@
             <StartTime>2025-12-09T00:00:00+08:00</StartTime>
             <EndTime>2025-12-10T00:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>17</DewPoint>
+              <DewPoint>18</DewPoint>
             </ElementValue>
           </Time>
           <Time>
@@ -3539,16 +3532,16 @@
               <DewPoint>17</DewPoint>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <DewPoint>18</DewPoint>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Average Relative Humidity</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <RelativeHumidity>72</RelativeHumidity>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -3591,16 +3584,16 @@
               <RelativeHumidity>79</RelativeHumidity>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <RelativeHumidity>81</RelativeHumidity>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Apparent Temperature</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxApparentTemperature>17</MaxApparentTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -3643,16 +3636,16 @@
               <MaxApparentTemperature>21</MaxApparentTemperature>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxApparentTemperature>20</MaxApparentTemperature>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Apparent Temperature</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinApparentTemperature>16</MinApparentTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -3678,7 +3671,7 @@
             <StartTime>2025-12-09T00:00:00+08:00</StartTime>
             <EndTime>2025-12-10T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>15</MinApparentTemperature>
+              <MinApparentTemperature>16</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -3695,17 +3688,16 @@
               <MinApparentTemperature>19</MinApparentTemperature>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinApparentTemperature>17</MinApparentTemperature>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Comfort Index</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxComfortIndex>20</MaxComfortIndex>
-              <MaxComfortIndexDescription>Comfortable</MaxComfortIndexDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -3749,6 +3741,14 @@
           <Time>
             <StartTime>2025-12-11T00:00:00+08:00</StartTime>
             <EndTime>2025-12-12T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxComfortIndex>21</MaxComfortIndex>
+              <MaxComfortIndexDescription>Comfortable</MaxComfortIndexDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
             <ElementValue>
               <MaxComfortIndex>21</MaxComfortIndex>
               <MaxComfortIndexDescription>Comfortable</MaxComfortIndexDescription>
@@ -3758,14 +3758,6 @@
         <WeatherElement>
           <ElementName>Minimum Comfort Index</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinComfortIndex>19</MinComfortIndex>
-              <MinComfortIndexDescription>Cool</MinComfortIndexDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
@@ -3793,8 +3785,8 @@
             <StartTime>2025-12-09T00:00:00+08:00</StartTime>
             <EndTime>2025-12-10T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinComfortIndex>19</MinComfortIndex>
-              <MinComfortIndexDescription>Cool</MinComfortIndexDescription>
+              <MinComfortIndex>20</MinComfortIndex>
+              <MinComfortIndexDescription>Comfortable</MinComfortIndexDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -3813,17 +3805,17 @@
               <MinComfortIndexDescription>Cool</MinComfortIndexDescription>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinComfortIndex>20</MinComfortIndex>
+              <MinComfortIndexDescription>Comfortable</MinComfortIndexDescription>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Wind Speed</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindSpeed>&gt;= 11</WindSpeed>
-              <BeaufortScale>&gt;= 6</BeaufortScale>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -3872,16 +3864,17 @@
               <BeaufortScale>4</BeaufortScale>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindSpeed>9</WindSpeed>
+              <BeaufortScale>5</BeaufortScale>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Wind Direction</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindDirection>NE</WindDirection>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -3922,19 +3915,19 @@
             <EndTime>2025-12-12T00:00:00+08:00</EndTime>
             <ElementValue>
               <WindDirection>NE</WindDirection>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindDirection>N</WindDirection>
             </ElementValue>
           </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>24 Hours Probability Of Precipitation</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
@@ -3952,7 +3945,7 @@
             <StartTime>2025-12-08T00:00:00+08:00</StartTime>
             <EndTime>2025-12-09T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -3972,6 +3965,13 @@
           <Time>
             <StartTime>2025-12-11T00:00:00+08:00</StartTime>
             <EndTime>2025-12-12T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
             <ElementValue>
               <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
             </ElementValue>
@@ -3980,14 +3980,6 @@
         <WeatherElement>
           <ElementName>Weather</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <Weather>Mostly clear</Weather>
-              <WeatherCode>02</WeatherCode>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
@@ -4007,8 +3999,8 @@
             <StartTime>2025-12-08T00:00:00+08:00</StartTime>
             <EndTime>2025-12-09T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Partly cloudy</Weather>
-              <WeatherCode>04</WeatherCode>
+              <Weather>Partly clear</Weather>
+              <WeatherCode>03</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -4023,8 +4015,8 @@
             <StartTime>2025-12-10T00:00:00+08:00</StartTime>
             <EndTime>2025-12-11T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Mostly clear</Weather>
-              <WeatherCode>02</WeatherCode>
+              <Weather>Partly clear</Weather>
+              <WeatherCode>03</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -4033,20 +4025,20 @@
             <ElementValue>
               <Weather>Mostly clear</Weather>
               <WeatherCode>02</WeatherCode>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <Weather>Partly clear</Weather>
+              <WeatherCode>03</WeatherCode>
             </ElementValue>
           </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Ultraviolet Index</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <UVIndex>5</UVIndex>
-              <UVExposureLevel>Moderate</UVExposureLevel>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
@@ -4074,7 +4066,7 @@
             <StartTime>2025-12-09T00:00:00+08:00</StartTime>
             <EndTime>2025-12-10T00:00:00+08:00</EndTime>
             <ElementValue>
-              <UVIndex>4</UVIndex>
+              <UVIndex>5</UVIndex>
               <UVExposureLevel>Moderate</UVExposureLevel>
             </ElementValue>
           </Time>
@@ -4090,7 +4082,15 @@
             <StartTime>2025-12-11T00:00:00+08:00</StartTime>
             <EndTime>2025-12-12T00:00:00+08:00</EndTime>
             <ElementValue>
-              <UVIndex>4</UVIndex>
+              <UVIndex>5</UVIndex>
+              <UVExposureLevel>Moderate</UVExposureLevel>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <UVIndex>5</UVIndex>
               <UVExposureLevel>Moderate</UVExposureLevel>
             </ElementValue>
           </Time>
@@ -4098,17 +4098,10 @@
         <WeatherElement>
           <ElementName>Weather Description</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 20 and 21 centigrade. Cool ~ Comfortable. NorthEast wind &gt;= 11m/s. Chance of precipitation 10%.</WeatherDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 20 and 21 centigrade. Cool ~ Comfortable. NorthEast wind 8m/s. Chance of precipitation 10%.</WeatherDescription>
+              <WeatherDescription>Mostly clear. Temperature between 20 and 22 centigrade. Cool ~ Comfortable. NorthEast wind 8m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -4122,21 +4115,21 @@
             <StartTime>2025-12-08T00:00:00+08:00</StartTime>
             <EndTime>2025-12-09T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly cloudy. Temperature between 20 and 22 centigrade. Comfortable. North wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Partly clear. Temperature between 20 and 22 centigrade. Comfortable. North wind &gt;= 11m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2025-12-09T00:00:00+08:00</StartTime>
             <EndTime>2025-12-10T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 20 and 22 centigrade. Cool ~ Comfortable. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Mostly clear. Temperature between 20 and 22 centigrade. Comfortable. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2025-12-10T00:00:00+08:00</StartTime>
             <EndTime>2025-12-11T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 20 and 22 centigrade. Comfortable. North wind 9m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Partly clear. Temperature between 20 and 22 centigrade. Comfortable. North wind 9m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -4144,6 +4137,13 @@
             <EndTime>2025-12-12T00:00:00+08:00</EndTime>
             <ElementValue>
               <WeatherDescription>Mostly clear. Temperature between 20 and 22 centigrade. Cool ~ Comfortable. NorthEast wind 7m/s. Chance of precipitation -%.</WeatherDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <WeatherDescription>Partly clear. Temperature between 20 and 22 centigrade. Comfortable. North wind 9m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
           </Time>
         </WeatherElement>
@@ -4156,13 +4156,6 @@
         <WeatherElement>
           <ElementName>Average Temperature</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <Temperature>21</Temperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
@@ -4200,6 +4193,13 @@
           <Time>
             <StartTime>2025-12-11T00:00:00+08:00</StartTime>
             <EndTime>2025-12-12T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <Temperature>21</Temperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
             <ElementValue>
               <Temperature>21</Temperature>
             </ElementValue>
@@ -4208,13 +4208,6 @@
         <WeatherElement>
           <ElementName>Maximum Temperature</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxTemperature>21</MaxTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
@@ -4232,14 +4225,14 @@
             <StartTime>2025-12-08T00:00:00+08:00</StartTime>
             <EndTime>2025-12-09T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxTemperature>22</MaxTemperature>
+              <MaxTemperature>23</MaxTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2025-12-09T00:00:00+08:00</StartTime>
             <EndTime>2025-12-10T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxTemperature>22</MaxTemperature>
+              <MaxTemperature>23</MaxTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -4256,16 +4249,16 @@
               <MaxTemperature>23</MaxTemperature>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxTemperature>22</MaxTemperature>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Temperature</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinTemperature>20</MinTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -4308,16 +4301,16 @@
               <MinTemperature>20</MinTemperature>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinTemperature>21</MinTemperature>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Average Dew Point Temperature</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <DewPoint>16</DewPoint>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -4360,16 +4353,16 @@
               <DewPoint>17</DewPoint>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <DewPoint>18</DewPoint>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Average Relative Humidity</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <RelativeHumidity>73</RelativeHumidity>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -4412,16 +4405,16 @@
               <RelativeHumidity>79</RelativeHumidity>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <RelativeHumidity>80</RelativeHumidity>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Apparent Temperature</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxApparentTemperature>17</MaxApparentTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -4464,16 +4457,16 @@
               <MaxApparentTemperature>21</MaxApparentTemperature>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxApparentTemperature>20</MaxApparentTemperature>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Apparent Temperature</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinApparentTemperature>16</MinApparentTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -4516,22 +4509,21 @@
               <MinApparentTemperature>18</MinApparentTemperature>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinApparentTemperature>17</MinApparentTemperature>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Comfort Index</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxComfortIndex>20</MaxComfortIndex>
-              <MaxComfortIndexDescription>Comfortable</MaxComfortIndexDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxComfortIndex>20</MaxComfortIndex>
+              <MaxComfortIndex>21</MaxComfortIndex>
               <MaxComfortIndexDescription>Comfortable</MaxComfortIndexDescription>
             </ElementValue>
           </Time>
@@ -4575,17 +4567,17 @@
               <MaxComfortIndexDescription>Comfortable</MaxComfortIndexDescription>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxComfortIndex>21</MaxComfortIndex>
+              <MaxComfortIndexDescription>Comfortable</MaxComfortIndexDescription>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Comfort Index</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinComfortIndex>19</MinComfortIndex>
-              <MinComfortIndexDescription>Cool</MinComfortIndexDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -4630,6 +4622,14 @@
             <StartTime>2025-12-11T00:00:00+08:00</StartTime>
             <EndTime>2025-12-12T00:00:00+08:00</EndTime>
             <ElementValue>
+              <MinComfortIndex>19</MinComfortIndex>
+              <MinComfortIndexDescription>Cool</MinComfortIndexDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
               <MinComfortIndex>20</MinComfortIndex>
               <MinComfortIndexDescription>Comfortable</MinComfortIndexDescription>
             </ElementValue>
@@ -4637,14 +4637,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Wind Speed</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindSpeed>&gt;= 11</WindSpeed>
-              <BeaufortScale>&gt;= 6</BeaufortScale>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -4693,16 +4685,17 @@
               <BeaufortScale>5</BeaufortScale>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindSpeed>10</WindSpeed>
+              <BeaufortScale>5</BeaufortScale>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Wind Direction</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindDirection>NE</WindDirection>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -4743,19 +4736,19 @@
             <EndTime>2025-12-12T00:00:00+08:00</EndTime>
             <ElementValue>
               <WindDirection>NE</WindDirection>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindDirection>N</WindDirection>
             </ElementValue>
           </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>24 Hours Probability Of Precipitation</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
@@ -4773,7 +4766,7 @@
             <StartTime>2025-12-08T00:00:00+08:00</StartTime>
             <EndTime>2025-12-09T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -4793,6 +4786,13 @@
           <Time>
             <StartTime>2025-12-11T00:00:00+08:00</StartTime>
             <EndTime>2025-12-12T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
             <ElementValue>
               <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
             </ElementValue>
@@ -4801,14 +4801,6 @@
         <WeatherElement>
           <ElementName>Weather</ElementName>
           <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <Weather>Mostly clear</Weather>
-              <WeatherCode>02</WeatherCode>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
             <ElementValue>
@@ -4828,8 +4820,8 @@
             <StartTime>2025-12-08T00:00:00+08:00</StartTime>
             <EndTime>2025-12-09T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Partly cloudy</Weather>
-              <WeatherCode>04</WeatherCode>
+              <Weather>Partly clear</Weather>
+              <WeatherCode>03</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -4856,17 +4848,17 @@
               <WeatherCode>02</WeatherCode>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <Weather>Partly clear</Weather>
+              <WeatherCode>03</WeatherCode>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Ultraviolet Index</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <UVIndex>5</UVIndex>
-              <UVExposureLevel>Moderate</UVExposureLevel>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -4915,16 +4907,17 @@
               <UVExposureLevel>Moderate</UVExposureLevel>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <UVIndex>5</UVIndex>
+              <UVExposureLevel>Moderate</UVExposureLevel>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Weather Description</ElementName>
-          <Time>
-            <StartTime>2025-12-05T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-06T00:00:00+08:00</EndTime>
-            <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 20 and 21 centigrade. Cool ~ Comfortable. NorthEast wind &gt;= 11m/s. Chance of precipitation 10%.</WeatherDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-06T00:00:00+08:00</StartTime>
             <EndTime>2025-12-07T00:00:00+08:00</EndTime>
@@ -4943,14 +4936,14 @@
             <StartTime>2025-12-08T00:00:00+08:00</StartTime>
             <EndTime>2025-12-09T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly cloudy. Temperature between 20 and 22 centigrade. Comfortable. North wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Partly clear. Temperature between 20 and 23 centigrade. Comfortable. North wind &gt;= 11m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2025-12-09T00:00:00+08:00</StartTime>
             <EndTime>2025-12-10T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 20 and 22 centigrade. Comfortable. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Mostly clear. Temperature between 20 and 23 centigrade. Comfortable. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -4964,7 +4957,14 @@
             <StartTime>2025-12-11T00:00:00+08:00</StartTime>
             <EndTime>2025-12-12T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 20 and 23 centigrade. Comfortable. NorthEast wind 8m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Mostly clear. Temperature between 20 and 23 centigrade. Cool ~ Comfortable. NorthEast wind 8m/s. Chance of precipitation -%.</WeatherDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-12T00:00:00+08:00</StartTime>
+            <EndTime>2025-12-13T00:00:00+08:00</EndTime>
+            <ElementValue>
+              <WeatherDescription>Partly clear. Temperature between 21 and 22 centigrade. Comfortable. North wind 10m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
           </Time>
         </WeatherElement>
