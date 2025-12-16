@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <cwaopendata xmlns="urn:cwa:gov:tw:cwacommon:0.1">
-  <Identifier>aeb8353b-0bf9-45de-9c32-875ccf6f8233</Identifier>
+  <Identifier>0016ab57-7662-4ebc-a90c-2c89029a6982</Identifier>
   <Sender>weather@cwa.gov.tw</Sender>
-  <Sent>2025-12-16T12:16:49+08:00</Sent>
+  <Sent>2025-12-16T18:17:04+08:00</Sent>
   <Status>Actual</Status>
   <Scope>Public</Scope>
   <MsgType>Issue</MsgType>
@@ -34,12 +34,12 @@
         <WeatherCode description="天氣現象代碼" unit="NA"/>
         <WeatherDescription description="天氣預報綜合描述" unit="NA"/>
       </DataValueInfo>
-      <IssueTime>2025-12-16T11:00:00+08:00</IssueTime>
+      <IssueTime>2025-12-16T17:00:00+08:00</IssueTime>
       <ValidTime>
-        <StartTime>2025-12-16T12:00:00+08:00</StartTime>
-        <EndTime>2025-12-23T06:00:00+08:00</EndTime>
+        <StartTime>2025-12-16T18:00:00+08:00</StartTime>
+        <EndTime>2025-12-24T06:00:00+08:00</EndTime>
       </ValidTime>
-      <Update>2025-12-16T12:16:49+08:00</Update>
+      <Update>2025-12-16T18:17:04+08:00</Update>
     </DatasetInfo>
     <Locations>
       <LocationsName>嘉義市</LocationsName>
@@ -50,13 +50,6 @@
         <Longitude>120.445361</Longitude>
         <WeatherElement>
           <ElementName>平均溫度</ElementName>
-          <Time>
-            <StartTime>2025-12-16T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-16T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <Temperature>24</Temperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-16T18:00:00+08:00</StartTime>
             <EndTime>2025-12-17T06:00:00+08:00</EndTime>
@@ -148,16 +141,23 @@
               <Temperature>17</Temperature>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-23T06:00:00+08:00</StartTime>
+            <EndTime>2025-12-23T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <Temperature>22</Temperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T18:00:00+08:00</StartTime>
+            <EndTime>2025-12-24T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <Temperature>18</Temperature>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>最高溫度</ElementName>
-          <Time>
-            <StartTime>2025-12-16T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-16T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxTemperature>26</MaxTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-16T18:00:00+08:00</StartTime>
             <EndTime>2025-12-17T06:00:00+08:00</EndTime>
@@ -239,12 +239,26 @@
             <StartTime>2025-12-22T06:00:00+08:00</StartTime>
             <EndTime>2025-12-22T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxTemperature>26</MaxTemperature>
+              <MaxTemperature>24</MaxTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2025-12-22T18:00:00+08:00</StartTime>
             <EndTime>2025-12-23T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxTemperature>20</MaxTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T06:00:00+08:00</StartTime>
+            <EndTime>2025-12-23T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxTemperature>26</MaxTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T18:00:00+08:00</StartTime>
+            <EndTime>2025-12-24T06:00:00+08:00</EndTime>
             <ElementValue>
               <MaxTemperature>21</MaxTemperature>
             </ElementValue>
@@ -252,13 +266,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>最低溫度</ElementName>
-          <Time>
-            <StartTime>2025-12-16T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-16T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinTemperature>20</MinTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-16T18:00:00+08:00</StartTime>
             <EndTime>2025-12-17T06:00:00+08:00</EndTime>
@@ -350,16 +357,23 @@
               <MinTemperature>16</MinTemperature>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-23T06:00:00+08:00</StartTime>
+            <EndTime>2025-12-23T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinTemperature>16</MinTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T18:00:00+08:00</StartTime>
+            <EndTime>2025-12-24T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinTemperature>16</MinTemperature>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>平均露點溫度</ElementName>
-          <Time>
-            <StartTime>2025-12-16T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-16T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <DewPoint>16</DewPoint>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-16T18:00:00+08:00</StartTime>
             <EndTime>2025-12-17T06:00:00+08:00</EndTime>
@@ -441,7 +455,7 @@
             <StartTime>2025-12-22T06:00:00+08:00</StartTime>
             <EndTime>2025-12-22T18:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>18</DewPoint>
+              <DewPoint>17</DewPoint>
             </ElementValue>
           </Time>
           <Time>
@@ -451,16 +465,23 @@
               <DewPoint>16</DewPoint>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-23T06:00:00+08:00</StartTime>
+            <EndTime>2025-12-23T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <DewPoint>17</DewPoint>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T18:00:00+08:00</StartTime>
+            <EndTime>2025-12-24T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <DewPoint>16</DewPoint>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>平均相對濕度</ElementName>
-          <Time>
-            <StartTime>2025-12-16T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-16T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <RelativeHumidity>60</RelativeHumidity>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-16T18:00:00+08:00</StartTime>
             <EndTime>2025-12-17T06:00:00+08:00</EndTime>
@@ -552,21 +573,28 @@
               <RelativeHumidity>91</RelativeHumidity>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-23T06:00:00+08:00</StartTime>
+            <EndTime>2025-12-23T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <RelativeHumidity>77</RelativeHumidity>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T18:00:00+08:00</StartTime>
+            <EndTime>2025-12-24T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <RelativeHumidity>91</RelativeHumidity>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>最高體感溫度</ElementName>
           <Time>
-            <StartTime>2025-12-16T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-16T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxApparentTemperature>27</MaxApparentTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-16T18:00:00+08:00</StartTime>
             <EndTime>2025-12-17T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>21</MaxApparentTemperature>
+              <MaxApparentTemperature>20</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -643,26 +671,33 @@
             <StartTime>2025-12-22T06:00:00+08:00</StartTime>
             <EndTime>2025-12-22T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>26</MaxApparentTemperature>
+              <MaxApparentTemperature>25</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2025-12-22T18:00:00+08:00</StartTime>
             <EndTime>2025-12-23T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>21</MaxApparentTemperature>
+              <MaxApparentTemperature>20</MaxApparentTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T06:00:00+08:00</StartTime>
+            <EndTime>2025-12-23T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxApparentTemperature>28</MaxApparentTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T18:00:00+08:00</StartTime>
+            <EndTime>2025-12-24T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxApparentTemperature>22</MaxApparentTemperature>
             </ElementValue>
           </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>最低體感溫度</ElementName>
-          <Time>
-            <StartTime>2025-12-16T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-16T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinApparentTemperature>21</MinApparentTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-16T18:00:00+08:00</StartTime>
             <EndTime>2025-12-17T06:00:00+08:00</EndTime>
@@ -754,17 +789,23 @@
               <MinApparentTemperature>17</MinApparentTemperature>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-23T06:00:00+08:00</StartTime>
+            <EndTime>2025-12-23T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinApparentTemperature>16</MinApparentTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T18:00:00+08:00</StartTime>
+            <EndTime>2025-12-24T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinApparentTemperature>16</MinApparentTemperature>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>最大舒適度指數</ElementName>
-          <Time>
-            <StartTime>2025-12-16T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-16T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxComfortIndex>23</MaxComfortIndex>
-              <MaxComfortIndexDescription>舒適</MaxComfortIndexDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-16T18:00:00+08:00</StartTime>
             <EndTime>2025-12-17T06:00:00+08:00</EndTime>
@@ -865,6 +906,22 @@
             <StartTime>2025-12-22T18:00:00+08:00</StartTime>
             <EndTime>2025-12-23T06:00:00+08:00</EndTime>
             <ElementValue>
+              <MaxComfortIndex>19</MaxComfortIndex>
+              <MaxComfortIndexDescription>稍有寒意</MaxComfortIndexDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T06:00:00+08:00</StartTime>
+            <EndTime>2025-12-23T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxComfortIndex>24</MaxComfortIndex>
+              <MaxComfortIndexDescription>舒適</MaxComfortIndexDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T18:00:00+08:00</StartTime>
+            <EndTime>2025-12-24T06:00:00+08:00</EndTime>
+            <ElementValue>
               <MaxComfortIndex>20</MaxComfortIndex>
               <MaxComfortIndexDescription>舒適</MaxComfortIndexDescription>
             </ElementValue>
@@ -872,14 +929,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>最小舒適度指數</ElementName>
-          <Time>
-            <StartTime>2025-12-16T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-16T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinComfortIndex>19</MinComfortIndex>
-              <MinComfortIndexDescription>稍有寒意</MinComfortIndexDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-16T18:00:00+08:00</StartTime>
             <EndTime>2025-12-17T06:00:00+08:00</EndTime>
@@ -984,17 +1033,25 @@
               <MinComfortIndexDescription>稍有寒意</MinComfortIndexDescription>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-23T06:00:00+08:00</StartTime>
+            <EndTime>2025-12-23T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinComfortIndex>16</MinComfortIndex>
+              <MinComfortIndexDescription>稍有寒意</MinComfortIndexDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T18:00:00+08:00</StartTime>
+            <EndTime>2025-12-24T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinComfortIndex>16</MinComfortIndex>
+              <MinComfortIndexDescription>稍有寒意</MinComfortIndexDescription>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>風速</ElementName>
-          <Time>
-            <StartTime>2025-12-16T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-16T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindSpeed>3</WindSpeed>
-              <BeaufortScale>2</BeaufortScale>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-16T18:00:00+08:00</StartTime>
             <EndTime>2025-12-17T06:00:00+08:00</EndTime>
@@ -1099,16 +1156,25 @@
               <BeaufortScale>2</BeaufortScale>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-23T06:00:00+08:00</StartTime>
+            <EndTime>2025-12-23T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindSpeed>3</WindSpeed>
+              <BeaufortScale>2</BeaufortScale>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T18:00:00+08:00</StartTime>
+            <EndTime>2025-12-24T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindSpeed>2</WindSpeed>
+              <BeaufortScale>2</BeaufortScale>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>風向</ElementName>
-          <Time>
-            <StartTime>2025-12-16T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-16T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindDirection>偏北風</WindDirection>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-16T18:00:00+08:00</StartTime>
             <EndTime>2025-12-17T06:00:00+08:00</EndTime>
@@ -1200,16 +1266,23 @@
               <WindDirection>東北風</WindDirection>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-23T06:00:00+08:00</StartTime>
+            <EndTime>2025-12-23T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindDirection>偏北風</WindDirection>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T18:00:00+08:00</StartTime>
+            <EndTime>2025-12-24T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindDirection>東北風</WindDirection>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>12小時降雨機率</ElementName>
-          <Time>
-            <StartTime>2025-12-16T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-16T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <ProbabilityOfPrecipitation>0</ProbabilityOfPrecipitation>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-16T18:00:00+08:00</StartTime>
             <EndTime>2025-12-17T06:00:00+08:00</EndTime>
@@ -1235,28 +1308,28 @@
             <StartTime>2025-12-18T06:00:00+08:00</StartTime>
             <EndTime>2025-12-18T18:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>0</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2025-12-18T18:00:00+08:00</StartTime>
             <EndTime>2025-12-19T06:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2025-12-19T06:00:00+08:00</StartTime>
             <EndTime>2025-12-19T18:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2025-12-19T18:00:00+08:00</StartTime>
             <EndTime>2025-12-20T06:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>60</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -1301,17 +1374,23 @@
               <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-23T06:00:00+08:00</StartTime>
+            <EndTime>2025-12-23T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T18:00:00+08:00</StartTime>
+            <EndTime>2025-12-24T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>天氣現象</ElementName>
-          <Time>
-            <StartTime>2025-12-16T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-16T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <Weather>晴時多雲</Weather>
-              <WeatherCode>02</WeatherCode>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-16T18:00:00+08:00</StartTime>
             <EndTime>2025-12-17T06:00:00+08:00</EndTime>
@@ -1416,17 +1495,25 @@
               <WeatherCode>02</WeatherCode>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-23T06:00:00+08:00</StartTime>
+            <EndTime>2025-12-23T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <Weather>晴時多雲</Weather>
+              <WeatherCode>02</WeatherCode>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T18:00:00+08:00</StartTime>
+            <EndTime>2025-12-24T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <Weather>晴時多雲</Weather>
+              <WeatherCode>02</WeatherCode>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>紫外線指數</ElementName>
-          <Time>
-            <StartTime>2025-12-16T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-16T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <UVIndex>5</UVIndex>
-              <UVExposureLevel>中量級</UVExposureLevel>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-17T06:00:00+08:00</StartTime>
             <EndTime>2025-12-17T18:00:00+08:00</EndTime>
@@ -1475,16 +1562,17 @@
               <UVExposureLevel>中量級</UVExposureLevel>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-23T06:00:00+08:00</StartTime>
+            <EndTime>2025-12-23T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <UVIndex>5</UVIndex>
+              <UVExposureLevel>中量級</UVExposureLevel>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>天氣預報綜合描述</ElementName>
-          <Time>
-            <StartTime>2025-12-16T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-16T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <WeatherDescription>晴時多雲。降雨機率0%。溫度攝氏20至26度。稍有寒意至舒適。偏北風 風速2級(每秒3公尺)。相對濕度60%。</WeatherDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-16T18:00:00+08:00</StartTime>
             <EndTime>2025-12-17T06:00:00+08:00</EndTime>
@@ -1510,28 +1598,28 @@
             <StartTime>2025-12-18T06:00:00+08:00</StartTime>
             <EndTime>2025-12-18T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>晴時多雲。降雨機率0%。溫度攝氏16至27度。寒冷至舒適。西北風 風速3級(每秒4公尺)。相對濕度69%。</WeatherDescription>
+              <WeatherDescription>晴時多雲。降雨機率10%。溫度攝氏16至27度。寒冷至舒適。西北風 風速3級(每秒4公尺)。相對濕度69%。</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2025-12-18T18:00:00+08:00</StartTime>
             <EndTime>2025-12-19T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>晴時多雲。降雨機率10%。溫度攝氏17至22度。稍有寒意至舒適。東南風 風速2級(每秒3公尺)。相對濕度90%。</WeatherDescription>
+              <WeatherDescription>晴時多雲。降雨機率20%。溫度攝氏17至22度。稍有寒意至舒適。東南風 風速2級(每秒3公尺)。相對濕度90%。</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2025-12-19T06:00:00+08:00</StartTime>
             <EndTime>2025-12-19T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>陰短暫陣雨。溫度攝氏17至25度。稍有寒意至舒適。西北風 風速2級(每秒3公尺)。相對濕度76%。</WeatherDescription>
+              <WeatherDescription>陰短暫陣雨。降雨機率30%。溫度攝氏17至25度。稍有寒意至舒適。西北風 風速2級(每秒3公尺)。相對濕度76%。</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2025-12-19T18:00:00+08:00</StartTime>
             <EndTime>2025-12-20T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>陰短暫陣雨。溫度攝氏18至21度。稍有寒意至舒適。偏北風 風速3級(每秒4公尺)。相對濕度97%。</WeatherDescription>
+              <WeatherDescription>陰短暫陣雨。降雨機率60%。溫度攝氏18至21度。稍有寒意至舒適。偏北風 風速3級(每秒4公尺)。相對濕度97%。</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -1566,14 +1654,28 @@
             <StartTime>2025-12-22T06:00:00+08:00</StartTime>
             <EndTime>2025-12-22T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>晴時多雲。溫度攝氏16至26度。稍有寒意至舒適。偏北風 風速3級(每秒4公尺)。相對濕度80%。</WeatherDescription>
+              <WeatherDescription>晴時多雲。溫度攝氏16至24度。稍有寒意至舒適。偏北風 風速3級(每秒4公尺)。相對濕度80%。</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2025-12-22T18:00:00+08:00</StartTime>
             <EndTime>2025-12-23T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>晴時多雲。溫度攝氏16至21度。稍有寒意至舒適。東北風 風速2級(每秒3公尺)。相對濕度91%。</WeatherDescription>
+              <WeatherDescription>晴時多雲。溫度攝氏16至20度。稍有寒意。東北風 風速2級(每秒3公尺)。相對濕度91%。</WeatherDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T06:00:00+08:00</StartTime>
+            <EndTime>2025-12-23T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <WeatherDescription>晴時多雲。溫度攝氏16至26度。稍有寒意至舒適。偏北風 風速2級(每秒3公尺)。相對濕度77%。</WeatherDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T18:00:00+08:00</StartTime>
+            <EndTime>2025-12-24T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <WeatherDescription>晴時多雲。溫度攝氏16至21度。稍有寒意至舒適。東北風 風速2級(每秒2公尺)。相對濕度91%。</WeatherDescription>
             </ElementValue>
           </Time>
         </WeatherElement>
@@ -1585,13 +1687,6 @@
         <Longitude>120.427285</Longitude>
         <WeatherElement>
           <ElementName>平均溫度</ElementName>
-          <Time>
-            <StartTime>2025-12-16T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-16T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <Temperature>24</Temperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-16T18:00:00+08:00</StartTime>
             <EndTime>2025-12-17T06:00:00+08:00</EndTime>
@@ -1680,19 +1775,26 @@
             <StartTime>2025-12-22T18:00:00+08:00</StartTime>
             <EndTime>2025-12-23T06:00:00+08:00</EndTime>
             <ElementValue>
+              <Temperature>17</Temperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T06:00:00+08:00</StartTime>
+            <EndTime>2025-12-23T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <Temperature>22</Temperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T18:00:00+08:00</StartTime>
+            <EndTime>2025-12-24T06:00:00+08:00</EndTime>
+            <ElementValue>
               <Temperature>18</Temperature>
             </ElementValue>
           </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>最高溫度</ElementName>
-          <Time>
-            <StartTime>2025-12-16T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-16T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxTemperature>26</MaxTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-16T18:00:00+08:00</StartTime>
             <EndTime>2025-12-17T06:00:00+08:00</EndTime>
@@ -1774,12 +1876,26 @@
             <StartTime>2025-12-22T06:00:00+08:00</StartTime>
             <EndTime>2025-12-22T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxTemperature>25</MaxTemperature>
+              <MaxTemperature>24</MaxTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2025-12-22T18:00:00+08:00</StartTime>
             <EndTime>2025-12-23T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxTemperature>20</MaxTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T06:00:00+08:00</StartTime>
+            <EndTime>2025-12-23T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxTemperature>26</MaxTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T18:00:00+08:00</StartTime>
+            <EndTime>2025-12-24T06:00:00+08:00</EndTime>
             <ElementValue>
               <MaxTemperature>21</MaxTemperature>
             </ElementValue>
@@ -1788,13 +1904,6 @@
         <WeatherElement>
           <ElementName>最低溫度</ElementName>
           <Time>
-            <StartTime>2025-12-16T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-16T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinTemperature>20</MinTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-16T18:00:00+08:00</StartTime>
             <EndTime>2025-12-17T06:00:00+08:00</EndTime>
             <ElementValue>
@@ -1881,6 +1990,20 @@
           <Time>
             <StartTime>2025-12-22T18:00:00+08:00</StartTime>
             <EndTime>2025-12-23T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinTemperature>16</MinTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T06:00:00+08:00</StartTime>
+            <EndTime>2025-12-23T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinTemperature>16</MinTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T18:00:00+08:00</StartTime>
+            <EndTime>2025-12-24T06:00:00+08:00</EndTime>
             <ElementValue>
               <MinTemperature>16</MinTemperature>
             </ElementValue>
@@ -1889,13 +2012,6 @@
         <WeatherElement>
           <ElementName>平均露點溫度</ElementName>
           <Time>
-            <StartTime>2025-12-16T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-16T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <DewPoint>16</DewPoint>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-16T18:00:00+08:00</StartTime>
             <EndTime>2025-12-17T06:00:00+08:00</EndTime>
             <ElementValue>
@@ -1976,7 +2092,7 @@
             <StartTime>2025-12-22T06:00:00+08:00</StartTime>
             <EndTime>2025-12-22T18:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>18</DewPoint>
+              <DewPoint>17</DewPoint>
             </ElementValue>
           </Time>
           <Time>
@@ -1986,16 +2102,23 @@
               <DewPoint>16</DewPoint>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-23T06:00:00+08:00</StartTime>
+            <EndTime>2025-12-23T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <DewPoint>17</DewPoint>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T18:00:00+08:00</StartTime>
+            <EndTime>2025-12-24T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <DewPoint>16</DewPoint>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>平均相對濕度</ElementName>
-          <Time>
-            <StartTime>2025-12-16T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-16T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <RelativeHumidity>61</RelativeHumidity>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-16T18:00:00+08:00</StartTime>
             <EndTime>2025-12-17T06:00:00+08:00</EndTime>
@@ -2087,21 +2210,28 @@
               <RelativeHumidity>91</RelativeHumidity>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-23T06:00:00+08:00</StartTime>
+            <EndTime>2025-12-23T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <RelativeHumidity>78</RelativeHumidity>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T18:00:00+08:00</StartTime>
+            <EndTime>2025-12-24T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <RelativeHumidity>92</RelativeHumidity>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>最高體感溫度</ElementName>
           <Time>
-            <StartTime>2025-12-16T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-16T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxApparentTemperature>27</MaxApparentTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-16T18:00:00+08:00</StartTime>
             <EndTime>2025-12-17T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>21</MaxApparentTemperature>
+              <MaxApparentTemperature>20</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -2178,26 +2308,33 @@
             <StartTime>2025-12-22T06:00:00+08:00</StartTime>
             <EndTime>2025-12-22T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>26</MaxApparentTemperature>
+              <MaxApparentTemperature>24</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2025-12-22T18:00:00+08:00</StartTime>
             <EndTime>2025-12-23T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>21</MaxApparentTemperature>
+              <MaxApparentTemperature>20</MaxApparentTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T06:00:00+08:00</StartTime>
+            <EndTime>2025-12-23T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxApparentTemperature>27</MaxApparentTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T18:00:00+08:00</StartTime>
+            <EndTime>2025-12-24T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxApparentTemperature>22</MaxApparentTemperature>
             </ElementValue>
           </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>最低體感溫度</ElementName>
-          <Time>
-            <StartTime>2025-12-16T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-16T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinApparentTemperature>21</MinApparentTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-16T18:00:00+08:00</StartTime>
             <EndTime>2025-12-17T06:00:00+08:00</EndTime>
@@ -2289,17 +2426,23 @@
               <MinApparentTemperature>17</MinApparentTemperature>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-23T06:00:00+08:00</StartTime>
+            <EndTime>2025-12-23T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinApparentTemperature>17</MinApparentTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T18:00:00+08:00</StartTime>
+            <EndTime>2025-12-24T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinApparentTemperature>17</MinApparentTemperature>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>最大舒適度指數</ElementName>
-          <Time>
-            <StartTime>2025-12-16T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-16T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxComfortIndex>23</MaxComfortIndex>
-              <MaxComfortIndexDescription>舒適</MaxComfortIndexDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-16T18:00:00+08:00</StartTime>
             <EndTime>2025-12-17T06:00:00+08:00</EndTime>
@@ -2392,13 +2535,29 @@
             <StartTime>2025-12-22T06:00:00+08:00</StartTime>
             <EndTime>2025-12-22T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxComfortIndex>23</MaxComfortIndex>
+              <MaxComfortIndex>22</MaxComfortIndex>
               <MaxComfortIndexDescription>舒適</MaxComfortIndexDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2025-12-22T18:00:00+08:00</StartTime>
             <EndTime>2025-12-23T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxComfortIndex>19</MaxComfortIndex>
+              <MaxComfortIndexDescription>稍有寒意</MaxComfortIndexDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T06:00:00+08:00</StartTime>
+            <EndTime>2025-12-23T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxComfortIndex>24</MaxComfortIndex>
+              <MaxComfortIndexDescription>舒適</MaxComfortIndexDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T18:00:00+08:00</StartTime>
+            <EndTime>2025-12-24T06:00:00+08:00</EndTime>
             <ElementValue>
               <MaxComfortIndex>20</MaxComfortIndex>
               <MaxComfortIndexDescription>舒適</MaxComfortIndexDescription>
@@ -2408,14 +2567,6 @@
         <WeatherElement>
           <ElementName>最小舒適度指數</ElementName>
           <Time>
-            <StartTime>2025-12-16T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-16T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinComfortIndex>19</MinComfortIndex>
-              <MinComfortIndexDescription>稍有寒意</MinComfortIndexDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-16T18:00:00+08:00</StartTime>
             <EndTime>2025-12-17T06:00:00+08:00</EndTime>
             <ElementValue>
@@ -2514,6 +2665,22 @@
           <Time>
             <StartTime>2025-12-22T18:00:00+08:00</StartTime>
             <EndTime>2025-12-23T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinComfortIndex>16</MinComfortIndex>
+              <MinComfortIndexDescription>稍有寒意</MinComfortIndexDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T06:00:00+08:00</StartTime>
+            <EndTime>2025-12-23T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinComfortIndex>16</MinComfortIndex>
+              <MinComfortIndexDescription>稍有寒意</MinComfortIndexDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T18:00:00+08:00</StartTime>
+            <EndTime>2025-12-24T06:00:00+08:00</EndTime>
             <ElementValue>
               <MinComfortIndex>16</MinComfortIndex>
               <MinComfortIndexDescription>稍有寒意</MinComfortIndexDescription>
@@ -2523,14 +2690,6 @@
         <WeatherElement>
           <ElementName>風速</ElementName>
           <Time>
-            <StartTime>2025-12-16T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-16T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindSpeed>3</WindSpeed>
-              <BeaufortScale>2</BeaufortScale>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-16T18:00:00+08:00</StartTime>
             <EndTime>2025-12-17T06:00:00+08:00</EndTime>
             <ElementValue>
@@ -2629,6 +2788,22 @@
           <Time>
             <StartTime>2025-12-22T18:00:00+08:00</StartTime>
             <EndTime>2025-12-23T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindSpeed>3</WindSpeed>
+              <BeaufortScale>2</BeaufortScale>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T06:00:00+08:00</StartTime>
+            <EndTime>2025-12-23T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindSpeed>3</WindSpeed>
+              <BeaufortScale>2</BeaufortScale>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T18:00:00+08:00</StartTime>
+            <EndTime>2025-12-24T06:00:00+08:00</EndTime>
             <ElementValue>
               <WindSpeed>3</WindSpeed>
               <BeaufortScale>2</BeaufortScale>
@@ -2638,13 +2813,6 @@
         <WeatherElement>
           <ElementName>風向</ElementName>
           <Time>
-            <StartTime>2025-12-16T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-16T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindDirection>偏北風</WindDirection>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-16T18:00:00+08:00</StartTime>
             <EndTime>2025-12-17T06:00:00+08:00</EndTime>
             <ElementValue>
@@ -2676,7 +2844,7 @@
             <StartTime>2025-12-18T18:00:00+08:00</StartTime>
             <EndTime>2025-12-19T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WindDirection>偏北風</WindDirection>
+              <WindDirection>偏南風</WindDirection>
             </ElementValue>
           </Time>
           <Time>
@@ -2733,19 +2901,26 @@
             <EndTime>2025-12-23T06:00:00+08:00</EndTime>
             <ElementValue>
               <WindDirection>偏北風</WindDirection>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T06:00:00+08:00</StartTime>
+            <EndTime>2025-12-23T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindDirection>偏北風</WindDirection>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T18:00:00+08:00</StartTime>
+            <EndTime>2025-12-24T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindDirection>東北風</WindDirection>
             </ElementValue>
           </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>12小時降雨機率</ElementName>
           <Time>
-            <StartTime>2025-12-16T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-16T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <ProbabilityOfPrecipitation>0</ProbabilityOfPrecipitation>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-16T18:00:00+08:00</StartTime>
             <EndTime>2025-12-17T06:00:00+08:00</EndTime>
             <ElementValue>
@@ -2770,28 +2945,28 @@
             <StartTime>2025-12-18T06:00:00+08:00</StartTime>
             <EndTime>2025-12-18T18:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>0</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2025-12-18T18:00:00+08:00</StartTime>
             <EndTime>2025-12-19T06:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2025-12-19T06:00:00+08:00</StartTime>
             <EndTime>2025-12-19T18:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2025-12-19T18:00:00+08:00</StartTime>
             <EndTime>2025-12-20T06:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>70</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -2832,6 +3007,20 @@
           <Time>
             <StartTime>2025-12-22T18:00:00+08:00</StartTime>
             <EndTime>2025-12-23T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T06:00:00+08:00</StartTime>
+            <EndTime>2025-12-23T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T18:00:00+08:00</StartTime>
+            <EndTime>2025-12-24T06:00:00+08:00</EndTime>
             <ElementValue>
               <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
             </ElementValue>
@@ -2840,14 +3029,6 @@
         <WeatherElement>
           <ElementName>天氣現象</ElementName>
           <Time>
-            <StartTime>2025-12-16T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-16T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <Weather>晴時多雲</Weather>
-              <WeatherCode>02</WeatherCode>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-16T18:00:00+08:00</StartTime>
             <EndTime>2025-12-17T06:00:00+08:00</EndTime>
             <ElementValue>
@@ -2946,6 +3127,22 @@
           <Time>
             <StartTime>2025-12-22T18:00:00+08:00</StartTime>
             <EndTime>2025-12-23T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <Weather>晴時多雲</Weather>
+              <WeatherCode>02</WeatherCode>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T06:00:00+08:00</StartTime>
+            <EndTime>2025-12-23T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <Weather>晴時多雲</Weather>
+              <WeatherCode>02</WeatherCode>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T18:00:00+08:00</StartTime>
+            <EndTime>2025-12-24T06:00:00+08:00</EndTime>
             <ElementValue>
               <Weather>晴時多雲</Weather>
               <WeatherCode>02</WeatherCode>
@@ -2955,14 +3152,6 @@
         <WeatherElement>
           <ElementName>紫外線指數</ElementName>
           <Time>
-            <StartTime>2025-12-16T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-16T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <UVIndex>5</UVIndex>
-              <UVExposureLevel>中量級</UVExposureLevel>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2025-12-17T06:00:00+08:00</StartTime>
             <EndTime>2025-12-17T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -3010,16 +3199,17 @@
               <UVExposureLevel>中量級</UVExposureLevel>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2025-12-23T06:00:00+08:00</StartTime>
+            <EndTime>2025-12-23T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <UVIndex>5</UVIndex>
+              <UVExposureLevel>中量級</UVExposureLevel>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>天氣預報綜合描述</ElementName>
-          <Time>
-            <StartTime>2025-12-16T12:00:00+08:00</StartTime>
-            <EndTime>2025-12-16T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <WeatherDescription>晴時多雲。降雨機率0%。溫度攝氏20至26度。稍有寒意至舒適。偏北風 風速2級(每秒3公尺)。相對濕度61%。</WeatherDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2025-12-16T18:00:00+08:00</StartTime>
             <EndTime>2025-12-17T06:00:00+08:00</EndTime>
@@ -3045,28 +3235,28 @@
             <StartTime>2025-12-18T06:00:00+08:00</StartTime>
             <EndTime>2025-12-18T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>晴時多雲。降雨機率0%。溫度攝氏16至27度。稍有寒意至舒適。西北風 風速3級(每秒4公尺)。相對濕度71%。</WeatherDescription>
+              <WeatherDescription>晴時多雲。降雨機率10%。溫度攝氏16至27度。稍有寒意至舒適。西北風 風速3級(每秒4公尺)。相對濕度71%。</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2025-12-18T18:00:00+08:00</StartTime>
             <EndTime>2025-12-19T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>晴時多雲。降雨機率10%。溫度攝氏17至22度。稍有寒意至舒適。偏北風 風速3級(每秒4公尺)。相對濕度91%。</WeatherDescription>
+              <WeatherDescription>晴時多雲。降雨機率20%。溫度攝氏17至22度。稍有寒意至舒適。偏南風 風速3級(每秒4公尺)。相對濕度91%。</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2025-12-19T06:00:00+08:00</StartTime>
             <EndTime>2025-12-19T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>陰短暫陣雨。溫度攝氏17至24度。稍有寒意至舒適。西北風 風速2級(每秒3公尺)。相對濕度77%。</WeatherDescription>
+              <WeatherDescription>陰短暫陣雨。降雨機率30%。溫度攝氏17至24度。稍有寒意至舒適。西北風 風速2級(每秒3公尺)。相對濕度77%。</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2025-12-19T18:00:00+08:00</StartTime>
             <EndTime>2025-12-20T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>陰短暫陣雨。溫度攝氏18至21度。稍有寒意至舒適。偏北風 風速3級(每秒4公尺)。相對濕度97%。</WeatherDescription>
+              <WeatherDescription>陰短暫陣雨。降雨機率70%。溫度攝氏18至21度。稍有寒意至舒適。偏北風 風速3級(每秒4公尺)。相對濕度97%。</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -3101,14 +3291,28 @@
             <StartTime>2025-12-22T06:00:00+08:00</StartTime>
             <EndTime>2025-12-22T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>晴時多雲。溫度攝氏16至25度。稍有寒意至舒適。偏北風 風速3級(每秒4公尺)。相對濕度80%。</WeatherDescription>
+              <WeatherDescription>晴時多雲。溫度攝氏16至24度。稍有寒意至舒適。偏北風 風速3級(每秒4公尺)。相對濕度80%。</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2025-12-22T18:00:00+08:00</StartTime>
             <EndTime>2025-12-23T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>晴時多雲。溫度攝氏16至21度。稍有寒意至舒適。偏北風 風速2級(每秒3公尺)。相對濕度91%。</WeatherDescription>
+              <WeatherDescription>晴時多雲。溫度攝氏16至20度。稍有寒意。偏北風 風速2級(每秒3公尺)。相對濕度91%。</WeatherDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T06:00:00+08:00</StartTime>
+            <EndTime>2025-12-23T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <WeatherDescription>晴時多雲。溫度攝氏16至26度。稍有寒意至舒適。偏北風 風速2級(每秒3公尺)。相對濕度78%。</WeatherDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2025-12-23T18:00:00+08:00</StartTime>
+            <EndTime>2025-12-24T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <WeatherDescription>晴時多雲。溫度攝氏16至21度。稍有寒意至舒適。東北風 風速2級(每秒3公尺)。相對濕度92%。</WeatherDescription>
             </ElementValue>
           </Time>
         </WeatherElement>
