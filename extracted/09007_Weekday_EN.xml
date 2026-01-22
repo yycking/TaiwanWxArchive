@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <cwaopendata xmlns="urn:cwa:gov:tw:cwacommon:0.1">
-  <Identifier>ff6c5264-5178-4a76-9a3f-bb33abd8ef55</Identifier>
+  <Identifier>e3eba292-1db6-4314-85f3-55a48c31f5e3</Identifier>
   <Sender>weather@cwa.gov.tw</Sender>
-  <Sent>2026-01-22T12:16:58+08:00</Sent>
+  <Sent>2026-01-22T18:16:26+08:00</Sent>
   <Status>Actual</Status>
   <Scope>Public</Scope>
   <MsgType>Issue</MsgType>
@@ -34,12 +34,12 @@
         <WeatherCode description="weather code" unit="NA"/>
         <WeatherDescription description="weather description" unit="NA"/>
       </DataValueInfo>
-      <IssueTime>2026-01-22T11:00:00+08:00</IssueTime>
+      <IssueTime>2026-01-22T17:00:00+08:00</IssueTime>
       <ValidTime>
-        <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-        <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+        <StartTime>2026-01-22T18:00:00+08:00</StartTime>
+        <EndTime>2026-01-30T06:00:00+08:00</EndTime>
       </ValidTime>
-      <Update>2026-01-22T12:16:58+08:00</Update>
+      <Update>2026-01-22T18:16:26+08:00</Update>
     </DatasetInfo>
     <Locations>
       <LocationsName>Lienchiang County</LocationsName>
@@ -50,13 +50,6 @@
         <Longitude>119.929303</Longitude>
         <WeatherElement>
           <ElementName>Average Temperature</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <Temperature>8</Temperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -138,12 +131,26 @@
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <Temperature>12</Temperature>
+              <Temperature>11</Temperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <Temperature>10</Temperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <Temperature>12</Temperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <Temperature>11</Temperature>
             </ElementValue>
@@ -151,13 +158,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Temperature</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxTemperature>8</MaxTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -190,7 +190,7 @@
             <StartTime>2026-01-24T18:00:00+08:00</StartTime>
             <EndTime>2026-01-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxTemperature>12</MaxTemperature>
+              <MaxTemperature>13</MaxTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -232,19 +232,33 @@
             <StartTime>2026-01-27T18:00:00+08:00</StartTime>
             <EndTime>2026-01-28T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxTemperature>12</MaxTemperature>
+              <MaxTemperature>11</MaxTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxTemperature>14</MaxTemperature>
+              <MaxTemperature>13</MaxTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxTemperature>11</MaxTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxTemperature>14</MaxTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <MaxTemperature>12</MaxTemperature>
             </ElementValue>
@@ -252,13 +266,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Temperature</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinTemperature>8</MinTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -291,14 +298,14 @@
             <StartTime>2026-01-24T18:00:00+08:00</StartTime>
             <EndTime>2026-01-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinTemperature>11</MinTemperature>
+              <MinTemperature>12</MinTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-25T06:00:00+08:00</StartTime>
             <EndTime>2026-01-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinTemperature>11</MinTemperature>
+              <MinTemperature>12</MinTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -326,7 +333,7 @@
             <StartTime>2026-01-27T06:00:00+08:00</StartTime>
             <EndTime>2026-01-27T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinTemperature>12</MinTemperature>
+              <MinTemperature>11</MinTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -340,12 +347,26 @@
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinTemperature>10</MinTemperature>
+              <MinTemperature>9</MinTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinTemperature>10</MinTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinTemperature>10</MinTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <MinTemperature>11</MinTemperature>
             </ElementValue>
@@ -354,17 +375,10 @@
         <WeatherElement>
           <ElementName>Average Dew Point Temperature</ElementName>
           <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <DewPoint>3</DewPoint>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>3</DewPoint>
+              <DewPoint>2</DewPoint>
             </ElementValue>
           </Time>
           <Time>
@@ -399,54 +413,68 @@
             <StartTime>2026-01-25T06:00:00+08:00</StartTime>
             <EndTime>2026-01-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>9</DewPoint>
+              <DewPoint>10</DewPoint>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-25T18:00:00+08:00</StartTime>
             <EndTime>2026-01-26T06:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>10</DewPoint>
+              <DewPoint>11</DewPoint>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-26T06:00:00+08:00</StartTime>
             <EndTime>2026-01-26T18:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>11</DewPoint>
+              <DewPoint>12</DewPoint>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-26T18:00:00+08:00</StartTime>
             <EndTime>2026-01-27T06:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>11</DewPoint>
+              <DewPoint>12</DewPoint>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-27T06:00:00+08:00</StartTime>
             <EndTime>2026-01-27T18:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>10</DewPoint>
+              <DewPoint>9</DewPoint>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-27T18:00:00+08:00</StartTime>
             <EndTime>2026-01-28T06:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>7</DewPoint>
+              <DewPoint>6</DewPoint>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>7</DewPoint>
+              <DewPoint>5</DewPoint>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <DewPoint>5</DewPoint>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <DewPoint>6</DewPoint>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <DewPoint>8</DewPoint>
             </ElementValue>
@@ -454,13 +482,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Average Relative Humidity</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <RelativeHumidity>63</RelativeHumidity>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -472,14 +493,14 @@
             <StartTime>2026-01-23T06:00:00+08:00</StartTime>
             <EndTime>2026-01-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>65</RelativeHumidity>
+              <RelativeHumidity>66</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-23T18:00:00+08:00</StartTime>
             <EndTime>2026-01-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>77</RelativeHumidity>
+              <RelativeHumidity>75</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
@@ -493,75 +514,82 @@
             <StartTime>2026-01-24T18:00:00+08:00</StartTime>
             <EndTime>2026-01-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>83</RelativeHumidity>
+              <RelativeHumidity>82</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-25T06:00:00+08:00</StartTime>
             <EndTime>2026-01-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>71</RelativeHumidity>
+              <RelativeHumidity>75</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-25T18:00:00+08:00</StartTime>
             <EndTime>2026-01-26T06:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>79</RelativeHumidity>
+              <RelativeHumidity>83</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-26T06:00:00+08:00</StartTime>
             <EndTime>2026-01-26T18:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>74</RelativeHumidity>
+              <RelativeHumidity>79</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-26T18:00:00+08:00</StartTime>
             <EndTime>2026-01-27T06:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>87</RelativeHumidity>
+              <RelativeHumidity>88</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-27T06:00:00+08:00</StartTime>
             <EndTime>2026-01-27T18:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>76</RelativeHumidity>
+              <RelativeHumidity>73</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-27T18:00:00+08:00</StartTime>
             <EndTime>2026-01-28T06:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>77</RelativeHumidity>
+              <RelativeHumidity>75</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>70</RelativeHumidity>
+              <RelativeHumidity>65</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>77</RelativeHumidity>
+              <RelativeHumidity>68</RelativeHumidity>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <RelativeHumidity>68</RelativeHumidity>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <RelativeHumidity>78</RelativeHumidity>
             </ElementValue>
           </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Apparent Temperature</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxApparentTemperature>2</MaxApparentTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -594,7 +622,7 @@
             <StartTime>2026-01-24T18:00:00+08:00</StartTime>
             <EndTime>2026-01-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>7</MaxApparentTemperature>
+              <MaxApparentTemperature>8</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -615,7 +643,7 @@
             <StartTime>2026-01-26T06:00:00+08:00</StartTime>
             <EndTime>2026-01-26T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>16</MaxApparentTemperature>
+              <MaxApparentTemperature>17</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -643,26 +671,33 @@
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>7</MaxApparentTemperature>
+              <MaxApparentTemperature>6</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>5</MaxApparentTemperature>
+              <MaxApparentTemperature>4</MaxApparentTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxApparentTemperature>9</MaxApparentTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxApparentTemperature>6</MaxApparentTemperature>
             </ElementValue>
           </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Apparent Temperature</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinApparentTemperature>1</MinApparentTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -695,21 +730,21 @@
             <StartTime>2026-01-24T18:00:00+08:00</StartTime>
             <EndTime>2026-01-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>5</MinApparentTemperature>
+              <MinApparentTemperature>6</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-25T06:00:00+08:00</StartTime>
             <EndTime>2026-01-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>5</MinApparentTemperature>
+              <MinApparentTemperature>6</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-25T18:00:00+08:00</StartTime>
             <EndTime>2026-01-26T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>8</MinApparentTemperature>
+              <MinApparentTemperature>9</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -723,7 +758,7 @@
             <StartTime>2026-01-26T18:00:00+08:00</StartTime>
             <EndTime>2026-01-27T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>8</MinApparentTemperature>
+              <MinApparentTemperature>9</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -737,34 +772,40 @@
             <StartTime>2026-01-27T18:00:00+08:00</StartTime>
             <EndTime>2026-01-28T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>3</MinApparentTemperature>
+              <MinApparentTemperature>2</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>3</MinApparentTemperature>
+              <MinApparentTemperature>2</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>5</MinApparentTemperature>
+              <MinApparentTemperature>3</MinApparentTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinApparentTemperature>4</MinApparentTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinApparentTemperature>4</MinApparentTemperature>
             </ElementValue>
           </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Comfort Index</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxComfortIndex>9</MaxComfortIndex>
-              <MaxComfortIndexDescription>Extremely cold</MaxComfortIndexDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -801,7 +842,7 @@
             <StartTime>2026-01-24T18:00:00+08:00</StartTime>
             <EndTime>2026-01-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxComfortIndex>12</MaxComfortIndex>
+              <MaxComfortIndex>13</MaxComfortIndex>
               <MaxComfortIndexDescription>Cold</MaxComfortIndexDescription>
             </ElementValue>
           </Time>
@@ -841,8 +882,8 @@
             <StartTime>2026-01-27T06:00:00+08:00</StartTime>
             <EndTime>2026-01-27T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxComfortIndex>15</MaxComfortIndex>
-              <MaxComfortIndexDescription>Cold</MaxComfortIndexDescription>
+              <MaxComfortIndex>16</MaxComfortIndex>
+              <MaxComfortIndexDescription>Cool</MaxComfortIndexDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -857,13 +898,29 @@
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxComfortIndex>14</MaxComfortIndex>
+              <MaxComfortIndex>13</MaxComfortIndex>
               <MaxComfortIndexDescription>Cold</MaxComfortIndexDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxComfortIndex>11</MaxComfortIndex>
+              <MaxComfortIndexDescription>Cold</MaxComfortIndexDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxComfortIndex>14</MaxComfortIndex>
+              <MaxComfortIndexDescription>Cold</MaxComfortIndexDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <MaxComfortIndex>12</MaxComfortIndex>
               <MaxComfortIndexDescription>Cold</MaxComfortIndexDescription>
@@ -872,14 +929,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Comfort Index</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinComfortIndex>9</MinComfortIndex>
-              <MinComfortIndexDescription>Extremely cold</MinComfortIndexDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -916,7 +965,7 @@
             <StartTime>2026-01-24T18:00:00+08:00</StartTime>
             <EndTime>2026-01-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinComfortIndex>11</MinComfortIndex>
+              <MinComfortIndex>12</MinComfortIndex>
               <MinComfortIndexDescription>Cold</MinComfortIndexDescription>
             </ElementValue>
           </Time>
@@ -924,7 +973,7 @@
             <StartTime>2026-01-25T06:00:00+08:00</StartTime>
             <EndTime>2026-01-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinComfortIndex>11</MinComfortIndex>
+              <MinComfortIndex>12</MinComfortIndex>
               <MinComfortIndexDescription>Cold</MinComfortIndexDescription>
             </ElementValue>
           </Time>
@@ -964,21 +1013,37 @@
             <StartTime>2026-01-27T18:00:00+08:00</StartTime>
             <EndTime>2026-01-28T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinComfortIndex>11</MinComfortIndex>
-              <MinComfortIndexDescription>Cold</MinComfortIndexDescription>
+              <MinComfortIndex>10</MinComfortIndex>
+              <MinComfortIndexDescription>Extremely cold</MinComfortIndexDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinComfortIndex>11</MinComfortIndex>
-              <MinComfortIndexDescription>Cold</MinComfortIndexDescription>
+              <MinComfortIndex>10</MinComfortIndex>
+              <MinComfortIndexDescription>Extremely cold</MinComfortIndexDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinComfortIndex>10</MinComfortIndex>
+              <MinComfortIndexDescription>Extremely cold</MinComfortIndexDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinComfortIndex>10</MinComfortIndex>
+              <MinComfortIndexDescription>Extremely cold</MinComfortIndexDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <MinComfortIndex>11</MinComfortIndex>
               <MinComfortIndexDescription>Cold</MinComfortIndexDescription>
@@ -987,14 +1052,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Wind Speed</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindSpeed>10</WindSpeed>
-              <BeaufortScale>5</BeaufortScale>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -1099,16 +1156,25 @@
               <BeaufortScale>&gt;= 6</BeaufortScale>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindSpeed>9</WindSpeed>
+              <BeaufortScale>5</BeaufortScale>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindSpeed>&gt;= 11</WindSpeed>
+              <BeaufortScale>&gt;= 6</BeaufortScale>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Wind Direction</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindDirection>NE</WindDirection>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -1169,7 +1235,7 @@
             <StartTime>2026-01-26T18:00:00+08:00</StartTime>
             <EndTime>2026-01-27T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WindDirection>SE</WindDirection>
+              <WindDirection>NE</WindDirection>
             </ElementValue>
           </Time>
           <Time>
@@ -1196,6 +1262,20 @@
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindDirection>NE</WindDirection>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindDirection>N</WindDirection>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <WindDirection>NE</WindDirection>
             </ElementValue>
@@ -1204,13 +1284,6 @@
         <WeatherElement>
           <ElementName>12 Hours Probability Of Precipitation</ElementName>
           <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
             <ElementValue>
@@ -1249,14 +1322,14 @@
             <StartTime>2026-01-25T06:00:00+08:00</StartTime>
             <EndTime>2026-01-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-25T18:00:00+08:00</StartTime>
             <EndTime>2026-01-26T06:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -1297,6 +1370,20 @@
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
             </ElementValue>
@@ -1305,14 +1392,6 @@
         <WeatherElement>
           <ElementName>Weather</ElementName>
           <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <Weather>Cloudy</Weather>
-              <WeatherCode>07</WeatherCode>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
             <ElementValue>
@@ -1396,8 +1475,8 @@
             <StartTime>2026-01-27T18:00:00+08:00</StartTime>
             <EndTime>2026-01-28T06:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Mostly cloudy</Weather>
-              <WeatherCode>06</WeatherCode>
+              <Weather>Partly cloudy</Weather>
+              <WeatherCode>04</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -1411,6 +1490,22 @@
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <Weather>Mostly clear</Weather>
+              <WeatherCode>02</WeatherCode>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <Weather>Mostly clear</Weather>
+              <WeatherCode>02</WeatherCode>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <Weather>Mostly clear</Weather>
               <WeatherCode>02</WeatherCode>
@@ -1420,14 +1515,6 @@
         <WeatherElement>
           <ElementName>Ultraviolet Index</ElementName>
           <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <UVIndex>2</UVIndex>
-              <UVExposureLevel>Low</UVExposureLevel>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-01-23T06:00:00+08:00</StartTime>
             <EndTime>2026-01-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -1475,16 +1562,17 @@
               <UVExposureLevel>Moderate</UVExposureLevel>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <UVIndex>4</UVIndex>
+              <UVExposureLevel>Moderate</UVExposureLevel>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Weather Description</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <WeatherDescription>Cloudy. Temperature between 8 and 8 centigrade. Extremely cold. NorthEast wind 10m/s. Chance of precipitation 20%.</WeatherDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -1517,21 +1605,21 @@
             <StartTime>2026-01-24T18:00:00+08:00</StartTime>
             <EndTime>2026-01-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly cloudy. Temperature between 11 and 12 centigrade. Cold. North wind 9m/s. Chance of precipitation 20%.</WeatherDescription>
+              <WeatherDescription>Mostly cloudy. Temperature between 12 and 13 centigrade. Cold. North wind 9m/s. Chance of precipitation 20%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-25T06:00:00+08:00</StartTime>
             <EndTime>2026-01-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly cloudy. Temperature between 11 and 16 centigrade. Cold ~ Cool. North wind 9m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Mostly cloudy. Temperature between 12 and 16 centigrade. Cold ~ Cool. North wind 9m/s. Chance of precipitation 20%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-25T18:00:00+08:00</StartTime>
             <EndTime>2026-01-26T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly cloudy. Temperature between 13 and 14 centigrade. Cold. North wind 9m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Mostly cloudy. Temperature between 13 and 14 centigrade. Cold. North wind 9m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -1545,33 +1633,47 @@
             <StartTime>2026-01-26T18:00:00+08:00</StartTime>
             <EndTime>2026-01-27T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 13 and 14 centigrade. Cold. SouthEast wind 8m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Mostly clear. Temperature between 13 and 14 centigrade. Cold. NorthEast wind 8m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-27T06:00:00+08:00</StartTime>
             <EndTime>2026-01-27T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly cloudy. Temperature between 12 and 16 centigrade. Cold. NorthEast wind 10m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Mostly cloudy. Temperature between 11 and 16 centigrade. Cold ~ Cool. NorthEast wind 10m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-27T18:00:00+08:00</StartTime>
             <EndTime>2026-01-28T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly cloudy. Temperature between 10 and 12 centigrade. Cold. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy. Temperature between 10 and 11 centigrade. Extremely cold ~ Cold. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly clear. Temperature between 10 and 14 centigrade. Cold. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Partly clear. Temperature between 9 and 13 centigrade. Extremely cold ~ Cold. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <WeatherDescription>Mostly clear. Temperature between 10 and 11 centigrade. Extremely cold ~ Cold. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <WeatherDescription>Mostly clear. Temperature between 10 and 14 centigrade. Extremely cold ~ Cold. North wind 9m/s. Chance of precipitation -%.</WeatherDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <WeatherDescription>Mostly clear. Temperature between 11 and 12 centigrade. Cold. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
@@ -1585,13 +1687,6 @@
         <Longitude>119.988516</Longitude>
         <WeatherElement>
           <ElementName>Average Temperature</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <Temperature>8</Temperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -1624,7 +1719,7 @@
             <StartTime>2026-01-24T18:00:00+08:00</StartTime>
             <EndTime>2026-01-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <Temperature>11</Temperature>
+              <Temperature>12</Temperature>
             </ElementValue>
           </Time>
           <Time>
@@ -1652,7 +1747,7 @@
             <StartTime>2026-01-26T18:00:00+08:00</StartTime>
             <EndTime>2026-01-27T06:00:00+08:00</EndTime>
             <ElementValue>
-              <Temperature>13</Temperature>
+              <Temperature>14</Temperature>
             </ElementValue>
           </Time>
           <Time>
@@ -1673,12 +1768,26 @@
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <Temperature>12</Temperature>
+              <Temperature>11</Temperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <Temperature>10</Temperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <Temperature>12</Temperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <Temperature>11</Temperature>
             </ElementValue>
@@ -1686,13 +1795,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Temperature</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxTemperature>9</MaxTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -1718,7 +1820,7 @@
             <StartTime>2026-01-24T06:00:00+08:00</StartTime>
             <EndTime>2026-01-24T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxTemperature>15</MaxTemperature>
+              <MaxTemperature>14</MaxTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -1760,26 +1862,40 @@
             <StartTime>2026-01-27T06:00:00+08:00</StartTime>
             <EndTime>2026-01-27T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxTemperature>15</MaxTemperature>
+              <MaxTemperature>16</MaxTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-27T18:00:00+08:00</StartTime>
             <EndTime>2026-01-28T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxTemperature>12</MaxTemperature>
+              <MaxTemperature>11</MaxTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxTemperature>14</MaxTemperature>
+              <MaxTemperature>12</MaxTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxTemperature>11</MaxTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxTemperature>14</MaxTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <MaxTemperature>12</MaxTemperature>
             </ElementValue>
@@ -1787,13 +1903,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Temperature</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinTemperature>8</MinTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -1826,14 +1935,14 @@
             <StartTime>2026-01-24T18:00:00+08:00</StartTime>
             <EndTime>2026-01-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinTemperature>11</MinTemperature>
+              <MinTemperature>12</MinTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-25T06:00:00+08:00</StartTime>
             <EndTime>2026-01-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinTemperature>11</MinTemperature>
+              <MinTemperature>12</MinTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -1861,7 +1970,7 @@
             <StartTime>2026-01-27T06:00:00+08:00</StartTime>
             <EndTime>2026-01-27T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinTemperature>12</MinTemperature>
+              <MinTemperature>11</MinTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -1875,12 +1984,26 @@
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinTemperature>10</MinTemperature>
+              <MinTemperature>9</MinTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinTemperature>10</MinTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinTemperature>10</MinTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <MinTemperature>11</MinTemperature>
             </ElementValue>
@@ -1889,17 +2012,10 @@
         <WeatherElement>
           <ElementName>Average Dew Point Temperature</ElementName>
           <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <DewPoint>3</DewPoint>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>3</DewPoint>
+              <DewPoint>2</DewPoint>
             </ElementValue>
           </Time>
           <Time>
@@ -1920,42 +2036,42 @@
             <StartTime>2026-01-24T06:00:00+08:00</StartTime>
             <EndTime>2026-01-24T18:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>7</DewPoint>
+              <DewPoint>8</DewPoint>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-24T18:00:00+08:00</StartTime>
             <EndTime>2026-01-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>8</DewPoint>
+              <DewPoint>9</DewPoint>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-25T06:00:00+08:00</StartTime>
             <EndTime>2026-01-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>9</DewPoint>
+              <DewPoint>10</DewPoint>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-25T18:00:00+08:00</StartTime>
             <EndTime>2026-01-26T06:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>9</DewPoint>
+              <DewPoint>10</DewPoint>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-26T06:00:00+08:00</StartTime>
             <EndTime>2026-01-26T18:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>10</DewPoint>
+              <DewPoint>12</DewPoint>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-26T18:00:00+08:00</StartTime>
             <EndTime>2026-01-27T06:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>11</DewPoint>
+              <DewPoint>12</DewPoint>
             </ElementValue>
           </Time>
           <Time>
@@ -1969,19 +2085,33 @@
             <StartTime>2026-01-27T18:00:00+08:00</StartTime>
             <EndTime>2026-01-28T06:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>7</DewPoint>
+              <DewPoint>6</DewPoint>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>7</DewPoint>
+              <DewPoint>5</DewPoint>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <DewPoint>5</DewPoint>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <DewPoint>6</DewPoint>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <DewPoint>7</DewPoint>
             </ElementValue>
@@ -1990,99 +2120,106 @@
         <WeatherElement>
           <ElementName>Average Relative Humidity</ElementName>
           <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <RelativeHumidity>63</RelativeHumidity>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>69</RelativeHumidity>
+              <RelativeHumidity>68</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-23T06:00:00+08:00</StartTime>
             <EndTime>2026-01-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>65</RelativeHumidity>
+              <RelativeHumidity>66</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-23T18:00:00+08:00</StartTime>
             <EndTime>2026-01-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>76</RelativeHumidity>
+              <RelativeHumidity>74</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-24T06:00:00+08:00</StartTime>
             <EndTime>2026-01-24T18:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>70</RelativeHumidity>
+              <RelativeHumidity>71</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-24T18:00:00+08:00</StartTime>
             <EndTime>2026-01-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>82</RelativeHumidity>
+              <RelativeHumidity>81</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-25T06:00:00+08:00</StartTime>
             <EndTime>2026-01-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>72</RelativeHumidity>
+              <RelativeHumidity>75</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-25T18:00:00+08:00</StartTime>
             <EndTime>2026-01-26T06:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>78</RelativeHumidity>
+              <RelativeHumidity>82</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-26T06:00:00+08:00</StartTime>
             <EndTime>2026-01-26T18:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>73</RelativeHumidity>
+              <RelativeHumidity>79</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-26T18:00:00+08:00</StartTime>
             <EndTime>2026-01-27T06:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>85</RelativeHumidity>
+              <RelativeHumidity>87</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-27T06:00:00+08:00</StartTime>
             <EndTime>2026-01-27T18:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>74</RelativeHumidity>
+              <RelativeHumidity>73</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-27T18:00:00+08:00</StartTime>
             <EndTime>2026-01-28T06:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>76</RelativeHumidity>
+              <RelativeHumidity>74</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>71</RelativeHumidity>
+              <RelativeHumidity>66</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <RelativeHumidity>69</RelativeHumidity>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <RelativeHumidity>68</RelativeHumidity>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <RelativeHumidity>76</RelativeHumidity>
             </ElementValue>
@@ -2090,13 +2227,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Apparent Temperature</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxApparentTemperature>1</MaxApparentTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -2129,7 +2259,7 @@
             <StartTime>2026-01-24T18:00:00+08:00</StartTime>
             <EndTime>2026-01-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>6</MaxApparentTemperature>
+              <MaxApparentTemperature>7</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -2157,33 +2287,47 @@
             <StartTime>2026-01-26T18:00:00+08:00</StartTime>
             <EndTime>2026-01-27T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>13</MaxApparentTemperature>
+              <MaxApparentTemperature>14</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-27T06:00:00+08:00</StartTime>
             <EndTime>2026-01-27T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>9</MaxApparentTemperature>
+              <MaxApparentTemperature>10</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-27T18:00:00+08:00</StartTime>
             <EndTime>2026-01-28T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>5</MaxApparentTemperature>
+              <MaxApparentTemperature>4</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>7</MaxApparentTemperature>
+              <MaxApparentTemperature>5</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxApparentTemperature>4</MaxApparentTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxApparentTemperature>9</MaxApparentTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <MaxApparentTemperature>6</MaxApparentTemperature>
             </ElementValue>
@@ -2191,13 +2335,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Apparent Temperature</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinApparentTemperature>1</MinApparentTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -2216,7 +2353,7 @@
             <StartTime>2026-01-23T18:00:00+08:00</StartTime>
             <EndTime>2026-01-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>5</MinApparentTemperature>
+              <MinApparentTemperature>4</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -2230,14 +2367,14 @@
             <StartTime>2026-01-24T18:00:00+08:00</StartTime>
             <EndTime>2026-01-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>4</MinApparentTemperature>
+              <MinApparentTemperature>5</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-25T06:00:00+08:00</StartTime>
             <EndTime>2026-01-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>4</MinApparentTemperature>
+              <MinApparentTemperature>5</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -2265,41 +2402,47 @@
             <StartTime>2026-01-27T06:00:00+08:00</StartTime>
             <EndTime>2026-01-27T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>5</MinApparentTemperature>
+              <MinApparentTemperature>4</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-27T18:00:00+08:00</StartTime>
             <EndTime>2026-01-28T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>3</MinApparentTemperature>
+              <MinApparentTemperature>2</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>3</MinApparentTemperature>
+              <MinApparentTemperature>2</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>5</MinApparentTemperature>
+              <MinApparentTemperature>3</MinApparentTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinApparentTemperature>4</MinApparentTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinApparentTemperature>4</MinApparentTemperature>
             </ElementValue>
           </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Comfort Index</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxComfortIndex>9</MaxComfortIndex>
-              <MaxComfortIndexDescription>Extremely cold</MaxComfortIndexDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -2336,7 +2479,7 @@
             <StartTime>2026-01-24T18:00:00+08:00</StartTime>
             <EndTime>2026-01-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxComfortIndex>12</MaxComfortIndex>
+              <MaxComfortIndex>13</MaxComfortIndex>
               <MaxComfortIndexDescription>Cold</MaxComfortIndexDescription>
             </ElementValue>
           </Time>
@@ -2392,13 +2535,29 @@
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxComfortIndex>14</MaxComfortIndex>
+              <MaxComfortIndex>13</MaxComfortIndex>
               <MaxComfortIndexDescription>Cold</MaxComfortIndexDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxComfortIndex>11</MaxComfortIndex>
+              <MaxComfortIndexDescription>Cold</MaxComfortIndexDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxComfortIndex>14</MaxComfortIndex>
+              <MaxComfortIndexDescription>Cold</MaxComfortIndexDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <MaxComfortIndex>12</MaxComfortIndex>
               <MaxComfortIndexDescription>Cold</MaxComfortIndexDescription>
@@ -2407,14 +2566,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Comfort Index</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinComfortIndex>9</MinComfortIndex>
-              <MinComfortIndexDescription>Extremely cold</MinComfortIndexDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -2451,7 +2602,7 @@
             <StartTime>2026-01-24T18:00:00+08:00</StartTime>
             <EndTime>2026-01-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinComfortIndex>11</MinComfortIndex>
+              <MinComfortIndex>12</MinComfortIndex>
               <MinComfortIndexDescription>Cold</MinComfortIndexDescription>
             </ElementValue>
           </Time>
@@ -2459,7 +2610,7 @@
             <StartTime>2026-01-25T06:00:00+08:00</StartTime>
             <EndTime>2026-01-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinComfortIndex>11</MinComfortIndex>
+              <MinComfortIndex>12</MinComfortIndex>
               <MinComfortIndexDescription>Cold</MinComfortIndexDescription>
             </ElementValue>
           </Time>
@@ -2499,21 +2650,37 @@
             <StartTime>2026-01-27T18:00:00+08:00</StartTime>
             <EndTime>2026-01-28T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinComfortIndex>11</MinComfortIndex>
-              <MinComfortIndexDescription>Cold</MinComfortIndexDescription>
+              <MinComfortIndex>10</MinComfortIndex>
+              <MinComfortIndexDescription>Extremely cold</MinComfortIndexDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinComfortIndex>11</MinComfortIndex>
-              <MinComfortIndexDescription>Cold</MinComfortIndexDescription>
+              <MinComfortIndex>10</MinComfortIndex>
+              <MinComfortIndexDescription>Extremely cold</MinComfortIndexDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinComfortIndex>11</MinComfortIndex>
+              <MinComfortIndexDescription>Cold</MinComfortIndexDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinComfortIndex>11</MinComfortIndex>
+              <MinComfortIndexDescription>Cold</MinComfortIndexDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <MinComfortIndex>11</MinComfortIndex>
               <MinComfortIndexDescription>Cold</MinComfortIndexDescription>
@@ -2523,14 +2690,6 @@
         <WeatherElement>
           <ElementName>Wind Speed</ElementName>
           <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindSpeed>10</WindSpeed>
-              <BeaufortScale>5</BeaufortScale>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
             <ElementValue>
@@ -2629,6 +2788,22 @@
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindSpeed>&gt;= 11</WindSpeed>
+              <BeaufortScale>&gt;= 6</BeaufortScale>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindSpeed>9</WindSpeed>
+              <BeaufortScale>5</BeaufortScale>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <WindSpeed>&gt;= 11</WindSpeed>
               <BeaufortScale>&gt;= 6</BeaufortScale>
@@ -2638,13 +2813,6 @@
         <WeatherElement>
           <ElementName>Wind Direction</ElementName>
           <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindDirection>NE</WindDirection>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
             <ElementValue>
@@ -2704,7 +2872,7 @@
             <StartTime>2026-01-26T18:00:00+08:00</StartTime>
             <EndTime>2026-01-27T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WindDirection>SE</WindDirection>
+              <WindDirection>NE</WindDirection>
             </ElementValue>
           </Time>
           <Time>
@@ -2731,6 +2899,20 @@
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindDirection>NE</WindDirection>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindDirection>N</WindDirection>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <WindDirection>NE</WindDirection>
             </ElementValue>
@@ -2739,13 +2921,6 @@
         <WeatherElement>
           <ElementName>12 Hours Probability Of Precipitation</ElementName>
           <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
             <ElementValue>
@@ -2784,14 +2959,14 @@
             <StartTime>2026-01-25T06:00:00+08:00</StartTime>
             <EndTime>2026-01-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-25T18:00:00+08:00</StartTime>
             <EndTime>2026-01-26T06:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -2832,6 +3007,20 @@
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
             </ElementValue>
@@ -2840,14 +3029,6 @@
         <WeatherElement>
           <ElementName>Weather</ElementName>
           <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <Weather>Cloudy</Weather>
-              <WeatherCode>07</WeatherCode>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
             <ElementValue>
@@ -2931,8 +3112,8 @@
             <StartTime>2026-01-27T18:00:00+08:00</StartTime>
             <EndTime>2026-01-28T06:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Mostly cloudy</Weather>
-              <WeatherCode>06</WeatherCode>
+              <Weather>Partly cloudy</Weather>
+              <WeatherCode>04</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -2951,17 +3132,25 @@
               <WeatherCode>02</WeatherCode>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <Weather>Mostly clear</Weather>
+              <WeatherCode>02</WeatherCode>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <Weather>Mostly clear</Weather>
+              <WeatherCode>02</WeatherCode>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Ultraviolet Index</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <UVIndex>2</UVIndex>
-              <UVExposureLevel>Low</UVExposureLevel>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-23T06:00:00+08:00</StartTime>
             <EndTime>2026-01-23T18:00:00+08:00</EndTime>
@@ -3010,16 +3199,17 @@
               <UVExposureLevel>Moderate</UVExposureLevel>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <UVIndex>4</UVIndex>
+              <UVExposureLevel>Moderate</UVExposureLevel>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Weather Description</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <WeatherDescription>Cloudy. Temperature between 8 and 9 centigrade. Extremely cold. NorthEast wind 10m/s. Chance of precipitation 20%.</WeatherDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -3045,28 +3235,28 @@
             <StartTime>2026-01-24T06:00:00+08:00</StartTime>
             <EndTime>2026-01-24T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly cloudy. Temperature between 10 and 15 centigrade. Cold. North wind 9m/s. Chance of precipitation 0%.</WeatherDescription>
+              <WeatherDescription>Mostly cloudy. Temperature between 10 and 14 centigrade. Cold. North wind 9m/s. Chance of precipitation 0%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-24T18:00:00+08:00</StartTime>
             <EndTime>2026-01-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly cloudy. Temperature between 11 and 12 centigrade. Cold. North wind 10m/s. Chance of precipitation 20%.</WeatherDescription>
+              <WeatherDescription>Mostly cloudy. Temperature between 12 and 12 centigrade. Cold. North wind 10m/s. Chance of precipitation 20%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-25T06:00:00+08:00</StartTime>
             <EndTime>2026-01-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly cloudy. Temperature between 11 and 16 centigrade. Cold ~ Cool. North wind 10m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Mostly cloudy. Temperature between 12 and 16 centigrade. Cold ~ Cool. North wind 10m/s. Chance of precipitation 20%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-25T18:00:00+08:00</StartTime>
             <EndTime>2026-01-26T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly cloudy. Temperature between 13 and 14 centigrade. Cold. North wind 10m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Mostly cloudy. Temperature between 13 and 14 centigrade. Cold. North wind 10m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -3080,33 +3270,47 @@
             <StartTime>2026-01-26T18:00:00+08:00</StartTime>
             <EndTime>2026-01-27T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 13 and 14 centigrade. Cold. SouthEast wind 8m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Mostly clear. Temperature between 13 and 14 centigrade. Cold. NorthEast wind 8m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-27T06:00:00+08:00</StartTime>
             <EndTime>2026-01-27T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly cloudy. Temperature between 12 and 15 centigrade. Cold. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Mostly cloudy. Temperature between 11 and 16 centigrade. Cold. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-27T18:00:00+08:00</StartTime>
             <EndTime>2026-01-28T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly cloudy. Temperature between 10 and 12 centigrade. Cold. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy. Temperature between 10 and 11 centigrade. Extremely cold ~ Cold. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly clear. Temperature between 10 and 14 centigrade. Cold. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Partly clear. Temperature between 9 and 12 centigrade. Extremely cold ~ Cold. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <WeatherDescription>Mostly clear. Temperature between 10 and 11 centigrade. Cold. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <WeatherDescription>Mostly clear. Temperature between 10 and 14 centigrade. Cold. North wind 9m/s. Chance of precipitation -%.</WeatherDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <WeatherDescription>Mostly clear. Temperature between 11 and 12 centigrade. Cold. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
@@ -3120,13 +3324,6 @@
         <Longitude>119.924587</Longitude>
         <WeatherElement>
           <ElementName>Average Temperature</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <Temperature>8</Temperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -3159,7 +3356,7 @@
             <StartTime>2026-01-24T18:00:00+08:00</StartTime>
             <EndTime>2026-01-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <Temperature>12</Temperature>
+              <Temperature>13</Temperature>
             </ElementValue>
           </Time>
           <Time>
@@ -3173,7 +3370,7 @@
             <StartTime>2026-01-25T18:00:00+08:00</StartTime>
             <EndTime>2026-01-26T06:00:00+08:00</EndTime>
             <ElementValue>
-              <Temperature>13</Temperature>
+              <Temperature>14</Temperature>
             </ElementValue>
           </Time>
           <Time>
@@ -3201,19 +3398,33 @@
             <StartTime>2026-01-27T18:00:00+08:00</StartTime>
             <EndTime>2026-01-28T06:00:00+08:00</EndTime>
             <ElementValue>
-              <Temperature>12</Temperature>
+              <Temperature>11</Temperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <Temperature>13</Temperature>
+              <Temperature>11</Temperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <Temperature>11</Temperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <Temperature>12</Temperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <Temperature>12</Temperature>
             </ElementValue>
@@ -3221,13 +3432,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Temperature</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxTemperature>9</MaxTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -3260,7 +3464,7 @@
             <StartTime>2026-01-24T18:00:00+08:00</StartTime>
             <EndTime>2026-01-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxTemperature>12</MaxTemperature>
+              <MaxTemperature>13</MaxTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -3288,14 +3492,14 @@
             <StartTime>2026-01-26T18:00:00+08:00</StartTime>
             <EndTime>2026-01-27T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxTemperature>14</MaxTemperature>
+              <MaxTemperature>15</MaxTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-27T06:00:00+08:00</StartTime>
             <EndTime>2026-01-27T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxTemperature>15</MaxTemperature>
+              <MaxTemperature>16</MaxTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -3309,12 +3513,26 @@
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxTemperature>14</MaxTemperature>
+              <MaxTemperature>13</MaxTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxTemperature>11</MaxTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxTemperature>14</MaxTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <MaxTemperature>12</MaxTemperature>
             </ElementValue>
@@ -3322,13 +3540,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Temperature</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinTemperature>8</MinTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -3361,14 +3572,14 @@
             <StartTime>2026-01-24T18:00:00+08:00</StartTime>
             <EndTime>2026-01-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinTemperature>11</MinTemperature>
+              <MinTemperature>12</MinTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-25T06:00:00+08:00</StartTime>
             <EndTime>2026-01-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinTemperature>11</MinTemperature>
+              <MinTemperature>12</MinTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -3389,7 +3600,7 @@
             <StartTime>2026-01-26T18:00:00+08:00</StartTime>
             <EndTime>2026-01-27T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinTemperature>13</MinTemperature>
+              <MinTemperature>14</MinTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -3403,19 +3614,33 @@
             <StartTime>2026-01-27T18:00:00+08:00</StartTime>
             <EndTime>2026-01-28T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinTemperature>11</MinTemperature>
+              <MinTemperature>10</MinTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinTemperature>11</MinTemperature>
+              <MinTemperature>10</MinTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinTemperature>11</MinTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinTemperature>11</MinTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <MinTemperature>12</MinTemperature>
             </ElementValue>
@@ -3424,38 +3649,31 @@
         <WeatherElement>
           <ElementName>Average Dew Point Temperature</ElementName>
           <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <DewPoint>4</DewPoint>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>3</DewPoint>
+              <DewPoint>2</DewPoint>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-23T06:00:00+08:00</StartTime>
             <EndTime>2026-01-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>4</DewPoint>
+              <DewPoint>5</DewPoint>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-23T18:00:00+08:00</StartTime>
             <EndTime>2026-01-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>6</DewPoint>
+              <DewPoint>7</DewPoint>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-24T06:00:00+08:00</StartTime>
             <EndTime>2026-01-24T18:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>7</DewPoint>
+              <DewPoint>8</DewPoint>
             </ElementValue>
           </Time>
           <Time>
@@ -3469,21 +3687,21 @@
             <StartTime>2026-01-25T06:00:00+08:00</StartTime>
             <EndTime>2026-01-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>9</DewPoint>
+              <DewPoint>10</DewPoint>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-25T18:00:00+08:00</StartTime>
             <EndTime>2026-01-26T06:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>10</DewPoint>
+              <DewPoint>11</DewPoint>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-26T06:00:00+08:00</StartTime>
             <EndTime>2026-01-26T18:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>11</DewPoint>
+              <DewPoint>12</DewPoint>
             </ElementValue>
           </Time>
           <Time>
@@ -3497,26 +3715,40 @@
             <StartTime>2026-01-27T06:00:00+08:00</StartTime>
             <EndTime>2026-01-27T18:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>10</DewPoint>
+              <DewPoint>9</DewPoint>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-27T18:00:00+08:00</StartTime>
             <EndTime>2026-01-28T06:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>8</DewPoint>
+              <DewPoint>6</DewPoint>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>8</DewPoint>
+              <DewPoint>5</DewPoint>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <DewPoint>5</DewPoint>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <DewPoint>7</DewPoint>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <DewPoint>8</DewPoint>
             </ElementValue>
@@ -3525,113 +3757,113 @@
         <WeatherElement>
           <ElementName>Average Relative Humidity</ElementName>
           <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <RelativeHumidity>66</RelativeHumidity>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>68</RelativeHumidity>
+              <RelativeHumidity>67</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-23T06:00:00+08:00</StartTime>
             <EndTime>2026-01-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>66</RelativeHumidity>
+              <RelativeHumidity>68</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-23T18:00:00+08:00</StartTime>
             <EndTime>2026-01-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>76</RelativeHumidity>
+              <RelativeHumidity>75</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-24T06:00:00+08:00</StartTime>
             <EndTime>2026-01-24T18:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>71</RelativeHumidity>
+              <RelativeHumidity>72</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-24T18:00:00+08:00</StartTime>
             <EndTime>2026-01-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>83</RelativeHumidity>
+              <RelativeHumidity>81</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-25T06:00:00+08:00</StartTime>
             <EndTime>2026-01-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>74</RelativeHumidity>
+              <RelativeHumidity>76</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-25T18:00:00+08:00</StartTime>
             <EndTime>2026-01-26T06:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>78</RelativeHumidity>
+              <RelativeHumidity>83</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-26T06:00:00+08:00</StartTime>
             <EndTime>2026-01-26T18:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>76</RelativeHumidity>
+              <RelativeHumidity>79</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-26T18:00:00+08:00</StartTime>
             <EndTime>2026-01-27T06:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>86</RelativeHumidity>
+              <RelativeHumidity>84</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-27T06:00:00+08:00</StartTime>
             <EndTime>2026-01-27T18:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>76</RelativeHumidity>
+              <RelativeHumidity>73</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-27T18:00:00+08:00</StartTime>
             <EndTime>2026-01-28T06:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>77</RelativeHumidity>
+              <RelativeHumidity>73</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>71</RelativeHumidity>
+              <RelativeHumidity>67</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>75</RelativeHumidity>
+              <RelativeHumidity>65</RelativeHumidity>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <RelativeHumidity>69</RelativeHumidity>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <RelativeHumidity>76</RelativeHumidity>
             </ElementValue>
           </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Apparent Temperature</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxApparentTemperature>2</MaxApparentTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -3664,7 +3896,7 @@
             <StartTime>2026-01-24T18:00:00+08:00</StartTime>
             <EndTime>2026-01-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>6</MaxApparentTemperature>
+              <MaxApparentTemperature>7</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -3678,14 +3910,14 @@
             <StartTime>2026-01-25T18:00:00+08:00</StartTime>
             <EndTime>2026-01-26T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>8</MaxApparentTemperature>
+              <MaxApparentTemperature>9</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-26T06:00:00+08:00</StartTime>
             <EndTime>2026-01-26T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>15</MaxApparentTemperature>
+              <MaxApparentTemperature>16</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -3699,26 +3931,40 @@
             <StartTime>2026-01-27T06:00:00+08:00</StartTime>
             <EndTime>2026-01-27T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>9</MaxApparentTemperature>
+              <MaxApparentTemperature>10</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-27T18:00:00+08:00</StartTime>
             <EndTime>2026-01-28T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>6</MaxApparentTemperature>
+              <MaxApparentTemperature>5</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>7</MaxApparentTemperature>
+              <MaxApparentTemperature>5</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxApparentTemperature>4</MaxApparentTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxApparentTemperature>8</MaxApparentTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <MaxApparentTemperature>6</MaxApparentTemperature>
             </ElementValue>
@@ -3726,13 +3972,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Apparent Temperature</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinApparentTemperature>1</MinApparentTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -3765,14 +4004,14 @@
             <StartTime>2026-01-24T18:00:00+08:00</StartTime>
             <EndTime>2026-01-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>4</MinApparentTemperature>
+              <MinApparentTemperature>6</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-25T06:00:00+08:00</StartTime>
             <EndTime>2026-01-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>4</MinApparentTemperature>
+              <MinApparentTemperature>6</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -3793,33 +4032,47 @@
             <StartTime>2026-01-26T18:00:00+08:00</StartTime>
             <EndTime>2026-01-27T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>9</MinApparentTemperature>
+              <MinApparentTemperature>10</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-27T06:00:00+08:00</StartTime>
             <EndTime>2026-01-27T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>6</MinApparentTemperature>
+              <MinApparentTemperature>5</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-27T18:00:00+08:00</StartTime>
             <EndTime>2026-01-28T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>4</MinApparentTemperature>
+              <MinApparentTemperature>3</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>4</MinApparentTemperature>
+              <MinApparentTemperature>3</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinApparentTemperature>4</MinApparentTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinApparentTemperature>4</MinApparentTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <MinApparentTemperature>5</MinApparentTemperature>
             </ElementValue>
@@ -3827,14 +4080,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Comfort Index</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxComfortIndex>10</MaxComfortIndex>
-              <MaxComfortIndexDescription>Extremely cold</MaxComfortIndexDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -3855,7 +4100,7 @@
             <StartTime>2026-01-23T18:00:00+08:00</StartTime>
             <EndTime>2026-01-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxComfortIndex>12</MaxComfortIndex>
+              <MaxComfortIndex>11</MaxComfortIndex>
               <MaxComfortIndexDescription>Cold</MaxComfortIndexDescription>
             </ElementValue>
           </Time>
@@ -3871,7 +4116,7 @@
             <StartTime>2026-01-24T18:00:00+08:00</StartTime>
             <EndTime>2026-01-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxComfortIndex>12</MaxComfortIndex>
+              <MaxComfortIndex>13</MaxComfortIndex>
               <MaxComfortIndexDescription>Cold</MaxComfortIndexDescription>
             </ElementValue>
           </Time>
@@ -3903,7 +4148,7 @@
             <StartTime>2026-01-26T18:00:00+08:00</StartTime>
             <EndTime>2026-01-27T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxComfortIndex>14</MaxComfortIndex>
+              <MaxComfortIndex>15</MaxComfortIndex>
               <MaxComfortIndexDescription>Cold</MaxComfortIndexDescription>
             </ElementValue>
           </Time>
@@ -3927,7 +4172,7 @@
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxComfortIndex>14</MaxComfortIndex>
+              <MaxComfortIndex>13</MaxComfortIndex>
               <MaxComfortIndexDescription>Cold</MaxComfortIndexDescription>
             </ElementValue>
           </Time>
@@ -3939,17 +4184,25 @@
               <MaxComfortIndexDescription>Cold</MaxComfortIndexDescription>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxComfortIndex>14</MaxComfortIndex>
+              <MaxComfortIndexDescription>Cold</MaxComfortIndexDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxComfortIndex>12</MaxComfortIndex>
+              <MaxComfortIndexDescription>Cold</MaxComfortIndexDescription>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Comfort Index</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinComfortIndex>9</MinComfortIndex>
-              <MinComfortIndexDescription>Extremely cold</MinComfortIndexDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -3994,7 +4247,7 @@
             <StartTime>2026-01-25T06:00:00+08:00</StartTime>
             <EndTime>2026-01-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinComfortIndex>11</MinComfortIndex>
+              <MinComfortIndex>12</MinComfortIndex>
               <MinComfortIndexDescription>Cold</MinComfortIndexDescription>
             </ElementValue>
           </Time>
@@ -4018,7 +4271,7 @@
             <StartTime>2026-01-26T18:00:00+08:00</StartTime>
             <EndTime>2026-01-27T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinComfortIndex>13</MinComfortIndex>
+              <MinComfortIndex>14</MinComfortIndex>
               <MinComfortIndexDescription>Cold</MinComfortIndexDescription>
             </ElementValue>
           </Time>
@@ -4042,13 +4295,29 @@
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinComfortIndex>11</MinComfortIndex>
-              <MinComfortIndexDescription>Cold</MinComfortIndexDescription>
+              <MinComfortIndex>10</MinComfortIndex>
+              <MinComfortIndexDescription>Extremely cold</MinComfortIndexDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinComfortIndex>11</MinComfortIndex>
+              <MinComfortIndexDescription>Cold</MinComfortIndexDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinComfortIndex>11</MinComfortIndex>
+              <MinComfortIndexDescription>Cold</MinComfortIndexDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <MinComfortIndex>12</MinComfortIndex>
               <MinComfortIndexDescription>Cold</MinComfortIndexDescription>
@@ -4057,14 +4326,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Wind Speed</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindSpeed>&gt;= 11</WindSpeed>
-              <BeaufortScale>&gt;= 6</BeaufortScale>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -4169,16 +4430,25 @@
               <BeaufortScale>&gt;= 6</BeaufortScale>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindSpeed>10</WindSpeed>
+              <BeaufortScale>5</BeaufortScale>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindSpeed>&gt;= 11</WindSpeed>
+              <BeaufortScale>&gt;= 6</BeaufortScale>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Wind Direction</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindDirection>NE</WindDirection>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -4232,14 +4502,14 @@
             <StartTime>2026-01-26T06:00:00+08:00</StartTime>
             <EndTime>2026-01-26T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WindDirection>N</WindDirection>
+              <WindDirection>NE</WindDirection>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-26T18:00:00+08:00</StartTime>
             <EndTime>2026-01-27T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WindDirection>SE</WindDirection>
+              <WindDirection>NE</WindDirection>
             </ElementValue>
           </Time>
           <Time>
@@ -4270,16 +4540,23 @@
               <WindDirection>NE</WindDirection>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindDirection>NE</WindDirection>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindDirection>NE</WindDirection>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>12 Hours Probability Of Precipitation</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -4319,14 +4596,14 @@
             <StartTime>2026-01-25T06:00:00+08:00</StartTime>
             <EndTime>2026-01-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-25T18:00:00+08:00</StartTime>
             <EndTime>2026-01-26T06:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -4371,17 +4648,23 @@
               <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Weather</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <Weather>Cloudy</Weather>
-              <WeatherCode>07</WeatherCode>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -4466,16 +4749,16 @@
             <StartTime>2026-01-27T18:00:00+08:00</StartTime>
             <EndTime>2026-01-28T06:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Mostly cloudy</Weather>
-              <WeatherCode>06</WeatherCode>
+              <Weather>Partly cloudy</Weather>
+              <WeatherCode>04</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Partly cloudy</Weather>
-              <WeatherCode>04</WeatherCode>
+              <Weather>Partly clear</Weather>
+              <WeatherCode>03</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -4486,17 +4769,25 @@
               <WeatherCode>02</WeatherCode>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <Weather>Mostly clear</Weather>
+              <WeatherCode>02</WeatherCode>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <Weather>Mostly clear</Weather>
+              <WeatherCode>02</WeatherCode>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Ultraviolet Index</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <UVIndex>2</UVIndex>
-              <UVExposureLevel>Low</UVExposureLevel>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-23T06:00:00+08:00</StartTime>
             <EndTime>2026-01-23T18:00:00+08:00</EndTime>
@@ -4533,8 +4824,8 @@
             <StartTime>2026-01-27T06:00:00+08:00</StartTime>
             <EndTime>2026-01-27T18:00:00+08:00</EndTime>
             <ElementValue>
-              <UVIndex>3</UVIndex>
-              <UVExposureLevel>Moderate</UVExposureLevel>
+              <UVIndex>2</UVIndex>
+              <UVExposureLevel>Low</UVExposureLevel>
             </ElementValue>
           </Time>
           <Time>
@@ -4545,16 +4836,17 @@
               <UVExposureLevel>Moderate</UVExposureLevel>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <UVIndex>4</UVIndex>
+              <UVExposureLevel>Moderate</UVExposureLevel>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Weather Description</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <WeatherDescription>Cloudy. Temperature between 8 and 9 centigrade. Extremely cold. NorthEast wind &gt;= 11m/s. Chance of precipitation 20%.</WeatherDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -4587,61 +4879,75 @@
             <StartTime>2026-01-24T18:00:00+08:00</StartTime>
             <EndTime>2026-01-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly cloudy. Temperature between 11 and 12 centigrade. Cold. North wind &gt;= 11m/s. Chance of precipitation 20%.</WeatherDescription>
+              <WeatherDescription>Mostly cloudy. Temperature between 12 and 13 centigrade. Cold. North wind &gt;= 11m/s. Chance of precipitation 20%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-25T06:00:00+08:00</StartTime>
             <EndTime>2026-01-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly cloudy. Temperature between 11 and 16 centigrade. Cold. North wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy. Temperature between 12 and 16 centigrade. Cold. North wind &gt;= 11m/s. Chance of precipitation 20%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-25T18:00:00+08:00</StartTime>
             <EndTime>2026-01-26T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly cloudy. Temperature between 13 and 14 centigrade. Cold. North wind 10m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Mostly cloudy. Temperature between 13 and 14 centigrade. Cold. North wind 10m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-26T06:00:00+08:00</StartTime>
             <EndTime>2026-01-26T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly cloudy. Temperature between 13 and 17 centigrade. Cold ~ Cool. North wind 9m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy. Temperature between 13 and 17 centigrade. Cold ~ Cool. NorthEast wind 9m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-26T18:00:00+08:00</StartTime>
             <EndTime>2026-01-27T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 13 and 14 centigrade. Cold. SouthEast wind 8m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Mostly clear. Temperature between 14 and 15 centigrade. Cold. NorthEast wind 8m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-27T06:00:00+08:00</StartTime>
             <EndTime>2026-01-27T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy. Temperature between 12 and 15 centigrade. Cold. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Cloudy. Temperature between 12 and 16 centigrade. Cold. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-27T18:00:00+08:00</StartTime>
             <EndTime>2026-01-28T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly cloudy. Temperature between 11 and 12 centigrade. Cold. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy. Temperature between 10 and 12 centigrade. Cold. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly cloudy. Temperature between 11 and 14 centigrade. Cold. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Partly clear. Temperature between 10 and 13 centigrade. Extremely cold ~ Cold. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <WeatherDescription>Mostly clear. Temperature between 11 and 11 centigrade. Cold. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <WeatherDescription>Mostly clear. Temperature between 11 and 14 centigrade. Cold. NorthEast wind 10m/s. Chance of precipitation -%.</WeatherDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <WeatherDescription>Mostly clear. Temperature between 12 and 12 centigrade. Cold. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
@@ -4655,13 +4961,6 @@
         <Longitude>120.48158</Longitude>
         <WeatherElement>
           <ElementName>Average Temperature</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <Temperature>8</Temperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -4687,21 +4986,21 @@
             <StartTime>2026-01-24T06:00:00+08:00</StartTime>
             <EndTime>2026-01-24T18:00:00+08:00</EndTime>
             <ElementValue>
-              <Temperature>13</Temperature>
+              <Temperature>14</Temperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-24T18:00:00+08:00</StartTime>
             <EndTime>2026-01-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <Temperature>12</Temperature>
+              <Temperature>13</Temperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-25T06:00:00+08:00</StartTime>
             <EndTime>2026-01-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <Temperature>14</Temperature>
+              <Temperature>15</Temperature>
             </ElementValue>
           </Time>
           <Time>
@@ -4736,19 +5035,33 @@
             <StartTime>2026-01-27T18:00:00+08:00</StartTime>
             <EndTime>2026-01-28T06:00:00+08:00</EndTime>
             <ElementValue>
-              <Temperature>12</Temperature>
+              <Temperature>11</Temperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <Temperature>13</Temperature>
+              <Temperature>11</Temperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <Temperature>11</Temperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <Temperature>13</Temperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <Temperature>12</Temperature>
             </ElementValue>
@@ -4756,13 +5069,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Temperature</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxTemperature>9</MaxTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -4823,7 +5129,7 @@
             <StartTime>2026-01-26T18:00:00+08:00</StartTime>
             <EndTime>2026-01-27T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxTemperature>14</MaxTemperature>
+              <MaxTemperature>15</MaxTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -4837,19 +5143,33 @@
             <StartTime>2026-01-27T18:00:00+08:00</StartTime>
             <EndTime>2026-01-28T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxTemperature>12</MaxTemperature>
+              <MaxTemperature>11</MaxTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxTemperature>14</MaxTemperature>
+              <MaxTemperature>12</MaxTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxTemperature>11</MaxTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxTemperature>14</MaxTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <MaxTemperature>13</MaxTemperature>
             </ElementValue>
@@ -4857,13 +5177,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Temperature</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinTemperature>8</MinTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -4924,33 +5237,47 @@
             <StartTime>2026-01-26T18:00:00+08:00</StartTime>
             <EndTime>2026-01-27T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinTemperature>13</MinTemperature>
+              <MinTemperature>14</MinTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-27T06:00:00+08:00</StartTime>
             <EndTime>2026-01-27T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinTemperature>12</MinTemperature>
+              <MinTemperature>11</MinTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-27T18:00:00+08:00</StartTime>
             <EndTime>2026-01-28T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinTemperature>11</MinTemperature>
+              <MinTemperature>10</MinTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinTemperature>11</MinTemperature>
+              <MinTemperature>10</MinTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinTemperature>11</MinTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinTemperature>11</MinTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <MinTemperature>12</MinTemperature>
             </ElementValue>
@@ -4958,13 +5285,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Average Dew Point Temperature</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <DewPoint>3</DewPoint>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -5011,14 +5331,14 @@
             <StartTime>2026-01-25T18:00:00+08:00</StartTime>
             <EndTime>2026-01-26T06:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>10</DewPoint>
+              <DewPoint>11</DewPoint>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-26T06:00:00+08:00</StartTime>
             <EndTime>2026-01-26T18:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>11</DewPoint>
+              <DewPoint>12</DewPoint>
             </ElementValue>
           </Time>
           <Time>
@@ -5039,134 +5359,148 @@
             <StartTime>2026-01-27T18:00:00+08:00</StartTime>
             <EndTime>2026-01-28T06:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>7</DewPoint>
+              <DewPoint>6</DewPoint>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>7</DewPoint>
+              <DewPoint>5</DewPoint>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
             <ElementValue>
+              <DewPoint>5</DewPoint>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
               <DewPoint>7</DewPoint>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <DewPoint>6</DewPoint>
             </ElementValue>
           </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Average Relative Humidity</ElementName>
           <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <RelativeHumidity>65</RelativeHumidity>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>65</RelativeHumidity>
+              <RelativeHumidity>66</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-23T06:00:00+08:00</StartTime>
             <EndTime>2026-01-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>67</RelativeHumidity>
+              <RelativeHumidity>66</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-23T18:00:00+08:00</StartTime>
             <EndTime>2026-01-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>78</RelativeHumidity>
+              <RelativeHumidity>77</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-24T06:00:00+08:00</StartTime>
             <EndTime>2026-01-24T18:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>77</RelativeHumidity>
+              <RelativeHumidity>76</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-24T18:00:00+08:00</StartTime>
             <EndTime>2026-01-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>80</RelativeHumidity>
+              <RelativeHumidity>79</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-25T06:00:00+08:00</StartTime>
             <EndTime>2026-01-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>78</RelativeHumidity>
+              <RelativeHumidity>79</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-25T18:00:00+08:00</StartTime>
             <EndTime>2026-01-26T06:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>81</RelativeHumidity>
+              <RelativeHumidity>86</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-26T06:00:00+08:00</StartTime>
             <EndTime>2026-01-26T18:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>79</RelativeHumidity>
+              <RelativeHumidity>80</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-26T18:00:00+08:00</StartTime>
             <EndTime>2026-01-27T06:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>82</RelativeHumidity>
+              <RelativeHumidity>84</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-27T06:00:00+08:00</StartTime>
             <EndTime>2026-01-27T18:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>71</RelativeHumidity>
+              <RelativeHumidity>72</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-27T18:00:00+08:00</StartTime>
             <EndTime>2026-01-28T06:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>74</RelativeHumidity>
+              <RelativeHumidity>72</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>68</RelativeHumidity>
+              <RelativeHumidity>65</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>68</RelativeHumidity>
+              <RelativeHumidity>66</RelativeHumidity>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <RelativeHumidity>69</RelativeHumidity>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <RelativeHumidity>67</RelativeHumidity>
             </ElementValue>
           </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Apparent Temperature</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxApparentTemperature>1</MaxApparentTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -5199,7 +5533,7 @@
             <StartTime>2026-01-24T18:00:00+08:00</StartTime>
             <EndTime>2026-01-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>7</MaxApparentTemperature>
+              <MaxApparentTemperature>8</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -5241,19 +5575,33 @@
             <StartTime>2026-01-27T18:00:00+08:00</StartTime>
             <EndTime>2026-01-28T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>5</MaxApparentTemperature>
+              <MaxApparentTemperature>4</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>7</MaxApparentTemperature>
+              <MaxApparentTemperature>5</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxApparentTemperature>5</MaxApparentTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxApparentTemperature>8</MaxApparentTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <MaxApparentTemperature>6</MaxApparentTemperature>
             </ElementValue>
@@ -5261,13 +5609,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Apparent Temperature</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinApparentTemperature>0</MinApparentTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -5300,28 +5641,28 @@
             <StartTime>2026-01-24T18:00:00+08:00</StartTime>
             <EndTime>2026-01-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>5</MinApparentTemperature>
+              <MinApparentTemperature>6</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-25T06:00:00+08:00</StartTime>
             <EndTime>2026-01-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>5</MinApparentTemperature>
+              <MinApparentTemperature>6</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-25T18:00:00+08:00</StartTime>
             <EndTime>2026-01-26T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>7</MinApparentTemperature>
+              <MinApparentTemperature>8</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-26T06:00:00+08:00</StartTime>
             <EndTime>2026-01-26T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>7</MinApparentTemperature>
+              <MinApparentTemperature>8</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -5335,41 +5676,47 @@
             <StartTime>2026-01-27T06:00:00+08:00</StartTime>
             <EndTime>2026-01-27T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>5</MinApparentTemperature>
+              <MinApparentTemperature>4</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-27T18:00:00+08:00</StartTime>
             <EndTime>2026-01-28T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>4</MinApparentTemperature>
+              <MinApparentTemperature>2</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>4</MinApparentTemperature>
+              <MinApparentTemperature>2</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>6</MinApparentTemperature>
+              <MinApparentTemperature>4</MinApparentTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinApparentTemperature>4</MinApparentTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinApparentTemperature>5</MinApparentTemperature>
             </ElementValue>
           </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Comfort Index</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxComfortIndex>10</MaxComfortIndex>
-              <MaxComfortIndexDescription>Extremely cold</MaxComfortIndexDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -5438,7 +5785,7 @@
             <StartTime>2026-01-26T18:00:00+08:00</StartTime>
             <EndTime>2026-01-27T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxComfortIndex>14</MaxComfortIndex>
+              <MaxComfortIndex>15</MaxComfortIndex>
               <MaxComfortIndexDescription>Cold</MaxComfortIndexDescription>
             </ElementValue>
           </Time>
@@ -5454,7 +5801,7 @@
             <StartTime>2026-01-27T18:00:00+08:00</StartTime>
             <EndTime>2026-01-28T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxComfortIndex>13</MaxComfortIndex>
+              <MaxComfortIndex>12</MaxComfortIndex>
               <MaxComfortIndexDescription>Cold</MaxComfortIndexDescription>
             </ElementValue>
           </Time>
@@ -5462,13 +5809,29 @@
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxComfortIndex>14</MaxComfortIndex>
+              <MaxComfortIndex>13</MaxComfortIndex>
               <MaxComfortIndexDescription>Cold</MaxComfortIndexDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxComfortIndex>12</MaxComfortIndex>
+              <MaxComfortIndexDescription>Cold</MaxComfortIndexDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxComfortIndex>14</MaxComfortIndex>
+              <MaxComfortIndexDescription>Cold</MaxComfortIndexDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <MaxComfortIndex>13</MaxComfortIndex>
               <MaxComfortIndexDescription>Cold</MaxComfortIndexDescription>
@@ -5478,14 +5841,6 @@
         <WeatherElement>
           <ElementName>Minimum Comfort Index</ElementName>
           <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinComfortIndex>9</MinComfortIndex>
-              <MinComfortIndexDescription>Extremely cold</MinComfortIndexDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
             <ElementValue>
@@ -5505,7 +5860,7 @@
             <StartTime>2026-01-23T18:00:00+08:00</StartTime>
             <EndTime>2026-01-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinComfortIndex>12</MinComfortIndex>
+              <MinComfortIndex>11</MinComfortIndex>
               <MinComfortIndexDescription>Cold</MinComfortIndexDescription>
             </ElementValue>
           </Time>
@@ -5513,7 +5868,7 @@
             <StartTime>2026-01-24T06:00:00+08:00</StartTime>
             <EndTime>2026-01-24T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinComfortIndex>12</MinComfortIndex>
+              <MinComfortIndex>11</MinComfortIndex>
               <MinComfortIndexDescription>Cold</MinComfortIndexDescription>
             </ElementValue>
           </Time>
@@ -5553,7 +5908,7 @@
             <StartTime>2026-01-26T18:00:00+08:00</StartTime>
             <EndTime>2026-01-27T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinComfortIndex>13</MinComfortIndex>
+              <MinComfortIndex>14</MinComfortIndex>
               <MinComfortIndexDescription>Cold</MinComfortIndexDescription>
             </ElementValue>
           </Time>
@@ -5561,7 +5916,7 @@
             <StartTime>2026-01-27T06:00:00+08:00</StartTime>
             <EndTime>2026-01-27T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinComfortIndex>13</MinComfortIndex>
+              <MinComfortIndex>12</MinComfortIndex>
               <MinComfortIndexDescription>Cold</MinComfortIndexDescription>
             </ElementValue>
           </Time>
@@ -5569,21 +5924,37 @@
             <StartTime>2026-01-27T18:00:00+08:00</StartTime>
             <EndTime>2026-01-28T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinComfortIndex>11</MinComfortIndex>
-              <MinComfortIndexDescription>Cold</MinComfortIndexDescription>
+              <MinComfortIndex>10</MinComfortIndex>
+              <MinComfortIndexDescription>Extremely cold</MinComfortIndexDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinComfortIndex>11</MinComfortIndex>
-              <MinComfortIndexDescription>Cold</MinComfortIndexDescription>
+              <MinComfortIndex>10</MinComfortIndex>
+              <MinComfortIndexDescription>Extremely cold</MinComfortIndexDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinComfortIndex>11</MinComfortIndex>
+              <MinComfortIndexDescription>Cold</MinComfortIndexDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinComfortIndex>11</MinComfortIndex>
+              <MinComfortIndexDescription>Cold</MinComfortIndexDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <MinComfortIndex>12</MinComfortIndex>
               <MinComfortIndexDescription>Cold</MinComfortIndexDescription>
@@ -5593,14 +5964,6 @@
         <WeatherElement>
           <ElementName>Wind Speed</ElementName>
           <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindSpeed>&gt;= 11</WindSpeed>
-              <BeaufortScale>&gt;= 6</BeaufortScale>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
             <ElementValue>
@@ -5699,6 +6062,22 @@
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindSpeed>&gt;= 11</WindSpeed>
+              <BeaufortScale>&gt;= 6</BeaufortScale>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindSpeed>10</WindSpeed>
+              <BeaufortScale>5</BeaufortScale>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
             <ElementValue>
               <WindSpeed>&gt;= 11</WindSpeed>
               <BeaufortScale>&gt;= 6</BeaufortScale>
@@ -5708,13 +6087,6 @@
         <WeatherElement>
           <ElementName>Wind Direction</ElementName>
           <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindDirection>NE</WindDirection>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
             <ElementValue>
@@ -5805,16 +6177,23 @@
               <WindDirection>NE</WindDirection>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindDirection>NE</WindDirection>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindDirection>NE</WindDirection>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>12 Hours Probability Of Precipitation</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -5854,14 +6233,14 @@
             <StartTime>2026-01-25T06:00:00+08:00</StartTime>
             <EndTime>2026-01-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-25T18:00:00+08:00</StartTime>
             <EndTime>2026-01-26T06:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -5906,17 +6285,23 @@
               <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Weather</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <Weather>Cloudy</Weather>
-              <WeatherCode>07</WeatherCode>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -5993,8 +6378,8 @@
             <StartTime>2026-01-27T06:00:00+08:00</StartTime>
             <EndTime>2026-01-27T18:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Mostly cloudy</Weather>
-              <WeatherCode>06</WeatherCode>
+              <Weather>Cloudy</Weather>
+              <WeatherCode>07</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -6002,15 +6387,15 @@
             <EndTime>2026-01-28T06:00:00+08:00</EndTime>
             <ElementValue>
               <Weather>Mostly cloudy</Weather>
-              <WeatherCode>05</WeatherCode>
+              <WeatherCode>06</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Partly cloudy</Weather>
-              <WeatherCode>04</WeatherCode>
+              <Weather>Partly clear</Weather>
+              <WeatherCode>03</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -6021,17 +6406,25 @@
               <WeatherCode>02</WeatherCode>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <Weather>Mostly clear</Weather>
+              <WeatherCode>02</WeatherCode>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <Weather>Mostly cloudy</Weather>
+              <WeatherCode>06</WeatherCode>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Ultraviolet Index</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <UVIndex>1</UVIndex>
-              <UVExposureLevel>Low</UVExposureLevel>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-23T06:00:00+08:00</StartTime>
             <EndTime>2026-01-23T18:00:00+08:00</EndTime>
@@ -6080,16 +6473,17 @@
               <UVExposureLevel>Moderate</UVExposureLevel>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <UVIndex>4</UVIndex>
+              <UVExposureLevel>Moderate</UVExposureLevel>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>Weather Description</ElementName>
-          <Time>
-            <StartTime>2026-01-22T12:00:00+08:00</StartTime>
-            <EndTime>2026-01-22T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <WeatherDescription>Cloudy. Temperature between 8 and 9 centigrade. Extremely cold. NorthEast wind &gt;= 11m/s. Chance of precipitation 20%.</WeatherDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-01-22T18:00:00+08:00</StartTime>
             <EndTime>2026-01-23T06:00:00+08:00</EndTime>
@@ -6129,14 +6523,14 @@
             <StartTime>2026-01-25T06:00:00+08:00</StartTime>
             <EndTime>2026-01-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly cloudy. Temperature between 12 and 16 centigrade. Cold ~ Cool. North wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy. Temperature between 12 and 16 centigrade. Cold ~ Cool. North wind &gt;= 11m/s. Chance of precipitation 20%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-25T18:00:00+08:00</StartTime>
             <EndTime>2026-01-26T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly cloudy. Temperature between 13 and 14 centigrade. Cold. North wind 10m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Mostly cloudy. Temperature between 13 and 14 centigrade. Cold. North wind 10m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -6150,35 +6544,49 @@
             <StartTime>2026-01-26T18:00:00+08:00</StartTime>
             <EndTime>2026-01-27T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 13 and 14 centigrade. Cold. NorthEast wind 10m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Mostly clear. Temperature between 14 and 15 centigrade. Cold. NorthEast wind 10m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-27T06:00:00+08:00</StartTime>
             <EndTime>2026-01-27T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly cloudy. Temperature between 12 and 15 centigrade. Cold. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Cloudy. Temperature between 11 and 15 centigrade. Cold. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-27T18:00:00+08:00</StartTime>
             <EndTime>2026-01-28T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly cloudy. Temperature between 11 and 12 centigrade. Cold. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Mostly cloudy. Temperature between 10 and 11 centigrade. Extremely cold ~ Cold. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T06:00:00+08:00</StartTime>
             <EndTime>2026-01-28T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly cloudy. Temperature between 11 and 14 centigrade. Cold. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Partly clear. Temperature between 10 and 12 centigrade. Extremely cold ~ Cold. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-01-28T18:00:00+08:00</StartTime>
             <EndTime>2026-01-29T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 12 and 13 centigrade. Cold. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Mostly clear. Temperature between 11 and 11 centigrade. Cold. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T06:00:00+08:00</StartTime>
+            <EndTime>2026-01-29T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <WeatherDescription>Mostly clear. Temperature between 11 and 14 centigrade. Cold. NorthEast wind 10m/s. Chance of precipitation -%.</WeatherDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-01-29T18:00:00+08:00</StartTime>
+            <EndTime>2026-01-30T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <WeatherDescription>Mostly cloudy. Temperature between 12 and 13 centigrade. Cold. NorthEast wind &gt;= 11m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
           </Time>
         </WeatherElement>
