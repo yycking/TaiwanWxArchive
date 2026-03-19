@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <cwaopendata xmlns="urn:cwa:gov:tw:cwacommon:0.1">
-  <Identifier>92aecddd-6cd9-415f-b459-b199c2f2f81b</Identifier>
+  <Identifier>335d2c1c-eb27-4492-8155-576c792a6170</Identifier>
   <Sender>weather@cwa.gov.tw</Sender>
-  <Sent>2026-03-19T18:17:26+08:00</Sent>
+  <Sent>2026-03-20T00:17:07+08:00</Sent>
   <Status>Actual</Status>
   <Scope>Public</Scope>
   <MsgType>Issue</MsgType>
@@ -34,12 +34,12 @@
         <WeatherCode description="weather code" unit="NA"/>
         <WeatherDescription description="weather description" unit="NA"/>
       </DataValueInfo>
-      <IssueTime>2026-03-19T17:00:00+08:00</IssueTime>
+      <IssueTime>2026-03-19T23:00:00+08:00</IssueTime>
       <ValidTime>
-        <StartTime>2026-03-19T18:00:00+08:00</StartTime>
+        <StartTime>2026-03-20T00:00:00+08:00</StartTime>
         <EndTime>2026-03-27T00:00:00+08:00</EndTime>
       </ValidTime>
-      <Update>2026-03-19T18:17:26+08:00</Update>
+      <Update>2026-03-20T00:17:07+08:00</Update>
     </DatasetInfo>
     <Locations>
       <LocationsName>Penghu County</LocationsName>
@@ -536,16 +536,16 @@
             <StartTime>2026-03-20T00:00:00+08:00</StartTime>
             <EndTime>2026-03-21T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>10</WindSpeed>
-              <BeaufortScale>5</BeaufortScale>
+              <WindSpeed>&gt;= 11</WindSpeed>
+              <BeaufortScale>&gt;= 6</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-03-21T00:00:00+08:00</StartTime>
             <EndTime>2026-03-22T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>10</WindSpeed>
-              <BeaufortScale>5</BeaufortScale>
+              <WindSpeed>&gt;= 11</WindSpeed>
+              <BeaufortScale>&gt;= 6</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -609,7 +609,7 @@
             <StartTime>2026-03-22T00:00:00+08:00</StartTime>
             <EndTime>2026-03-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindDirection>NE</WindDirection>
+              <WindDirection>N</WindDirection>
             </ElementValue>
           </Time>
           <Time>
@@ -817,21 +817,21 @@
             <StartTime>2026-03-20T00:00:00+08:00</StartTime>
             <EndTime>2026-03-21T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly cloudy. Temperature between 18 and 22 centigrade. Cool ~ Comfortable. NorthEast wind 10m/s. Chance of precipitation 10%.</WeatherDescription>
+              <WeatherDescription>Mostly cloudy. Temperature between 18 and 22 centigrade. Cool ~ Comfortable. NorthEast wind &gt;= 11m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-03-21T00:00:00+08:00</StartTime>
             <EndTime>2026-03-22T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly cloudy. Temperature between 19 and 22 centigrade. Cool ~ Comfortable. NorthEast wind 10m/s. Chance of precipitation 10%.</WeatherDescription>
+              <WeatherDescription>Mostly cloudy. Temperature between 19 and 22 centigrade. Cool ~ Comfortable. NorthEast wind &gt;= 11m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-03-22T00:00:00+08:00</StartTime>
             <EndTime>2026-03-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 19 and 23 centigrade. Cool ~ Comfortable. NorthEast wind 8m/s. Chance of precipitation 10%.</WeatherDescription>
+              <WeatherDescription>Mostly clear. Temperature between 19 and 23 centigrade. Cool ~ Comfortable. North wind 8m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -1357,16 +1357,16 @@
             <StartTime>2026-03-20T00:00:00+08:00</StartTime>
             <EndTime>2026-03-21T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>10</WindSpeed>
-              <BeaufortScale>5</BeaufortScale>
+              <WindSpeed>&gt;= 11</WindSpeed>
+              <BeaufortScale>&gt;= 6</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-03-21T00:00:00+08:00</StartTime>
             <EndTime>2026-03-22T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>10</WindSpeed>
-              <BeaufortScale>5</BeaufortScale>
+              <WindSpeed>&gt;= 11</WindSpeed>
+              <BeaufortScale>&gt;= 6</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -1458,7 +1458,7 @@
             <StartTime>2026-03-26T00:00:00+08:00</StartTime>
             <EndTime>2026-03-27T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindDirection>NE</WindDirection>
+              <WindDirection>N</WindDirection>
             </ElementValue>
           </Time>
         </WeatherElement>
@@ -1638,14 +1638,14 @@
             <StartTime>2026-03-20T00:00:00+08:00</StartTime>
             <EndTime>2026-03-21T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly cloudy. Temperature between 18 and 22 centigrade. Cool ~ Comfortable. North wind 10m/s. Chance of precipitation 10%.</WeatherDescription>
+              <WeatherDescription>Mostly cloudy. Temperature between 18 and 22 centigrade. Cool ~ Comfortable. North wind &gt;= 11m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-03-21T00:00:00+08:00</StartTime>
             <EndTime>2026-03-22T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly cloudy. Temperature between 19 and 21 centigrade. Cool ~ Comfortable. North wind 10m/s. Chance of precipitation 10%.</WeatherDescription>
+              <WeatherDescription>Mostly cloudy. Temperature between 19 and 21 centigrade. Cool ~ Comfortable. North wind &gt;= 11m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -1680,7 +1680,7 @@
             <StartTime>2026-03-26T00:00:00+08:00</StartTime>
             <EndTime>2026-03-27T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 20 and 23 centigrade. Comfortable. NorthEast wind 6m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Mostly clear. Temperature between 20 and 23 centigrade. Comfortable. North wind 6m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
           </Time>
         </WeatherElement>
@@ -2999,8 +2999,8 @@
             <StartTime>2026-03-20T00:00:00+08:00</StartTime>
             <EndTime>2026-03-21T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>10</WindSpeed>
-              <BeaufortScale>5</BeaufortScale>
+              <WindSpeed>&gt;= 11</WindSpeed>
+              <BeaufortScale>&gt;= 6</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -3072,7 +3072,7 @@
             <StartTime>2026-03-22T00:00:00+08:00</StartTime>
             <EndTime>2026-03-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindDirection>NE</WindDirection>
+              <WindDirection>N</WindDirection>
             </ElementValue>
           </Time>
           <Time>
@@ -3280,7 +3280,7 @@
             <StartTime>2026-03-20T00:00:00+08:00</StartTime>
             <EndTime>2026-03-21T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly cloudy. Temperature between 18 and 22 centigrade. Cool ~ Comfortable. NorthEast wind 10m/s. Chance of precipitation 10%.</WeatherDescription>
+              <WeatherDescription>Mostly cloudy. Temperature between 18 and 22 centigrade. Cool ~ Comfortable. NorthEast wind &gt;= 11m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -3294,7 +3294,7 @@
             <StartTime>2026-03-22T00:00:00+08:00</StartTime>
             <EndTime>2026-03-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 18 and 23 centigrade. Cool ~ Comfortable. NorthEast wind 8m/s. Chance of precipitation 10%.</WeatherDescription>
+              <WeatherDescription>Mostly clear. Temperature between 18 and 23 centigrade. Cool ~ Comfortable. North wind 8m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -3828,8 +3828,8 @@
             <StartTime>2026-03-21T00:00:00+08:00</StartTime>
             <EndTime>2026-03-22T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>10</WindSpeed>
-              <BeaufortScale>5</BeaufortScale>
+              <WindSpeed>&gt;= 11</WindSpeed>
+              <BeaufortScale>&gt;= 6</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -3900,7 +3900,7 @@
             <StartTime>2026-03-23T00:00:00+08:00</StartTime>
             <EndTime>2026-03-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindDirection>SE</WindDirection>
+              <WindDirection>N</WindDirection>
             </ElementValue>
           </Time>
           <Time>
@@ -4108,7 +4108,7 @@
             <StartTime>2026-03-21T00:00:00+08:00</StartTime>
             <EndTime>2026-03-22T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly cloudy. Temperature between 19 and 22 centigrade. Cool ~ Comfortable. North wind 10m/s. Chance of precipitation 10%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy. Temperature between 19 and 22 centigrade. Cool ~ Comfortable. North wind &gt;= 11m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -4122,7 +4122,7 @@
             <StartTime>2026-03-23T00:00:00+08:00</StartTime>
             <EndTime>2026-03-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 20 and 24 centigrade. Comfortable. SouthEast wind 4m/s. Chance of precipitation -%.</WeatherDescription>
+              <WeatherDescription>Mostly clear. Temperature between 20 and 24 centigrade. Comfortable. North wind 4m/s. Chance of precipitation -%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
