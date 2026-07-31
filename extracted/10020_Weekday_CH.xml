@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <cwaopendata xmlns="urn:cwa:gov:tw:cwacommon:0.1">
-  <Identifier>98726a7a-710e-459f-909d-a5c66214e58b</Identifier>
+  <Identifier>2801c7c3-390f-4c59-9722-efc2dffdf76a</Identifier>
   <Sender>weather@cwa.gov.tw</Sender>
-  <Sent>2026-07-31T12:15:55+08:00</Sent>
+  <Sent>2026-07-31T18:15:37+08:00</Sent>
   <Status>Actual</Status>
   <Scope>Public</Scope>
   <MsgType>Issue</MsgType>
@@ -34,12 +34,12 @@
         <WeatherCode description="天氣現象代碼" unit="NA"/>
         <WeatherDescription description="天氣預報綜合描述" unit="NA"/>
       </DataValueInfo>
-      <IssueTime>2026-07-31T11:00:00+08:00</IssueTime>
+      <IssueTime>2026-07-31T17:00:00+08:00</IssueTime>
       <ValidTime>
-        <StartTime>2026-07-31T12:00:00+08:00</StartTime>
-        <EndTime>2026-08-07T06:00:00+08:00</EndTime>
+        <StartTime>2026-07-31T18:00:00+08:00</StartTime>
+        <EndTime>2026-08-08T06:00:00+08:00</EndTime>
       </ValidTime>
-      <Update>2026-07-31T12:15:55+08:00</Update>
+      <Update>2026-07-31T18:15:37+08:00</Update>
     </DatasetInfo>
     <Locations>
       <LocationsName>嘉義市</LocationsName>
@@ -50,13 +50,6 @@
         <Longitude>120.445361</Longitude>
         <WeatherElement>
           <ElementName>平均溫度</ElementName>
-          <Time>
-            <StartTime>2026-07-31T12:00:00+08:00</StartTime>
-            <EndTime>2026-07-31T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <Temperature>32</Temperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-07-31T18:00:00+08:00</StartTime>
             <EndTime>2026-08-01T06:00:00+08:00</EndTime>
@@ -82,7 +75,7 @@
             <StartTime>2026-08-02T06:00:00+08:00</StartTime>
             <EndTime>2026-08-02T18:00:00+08:00</EndTime>
             <ElementValue>
-              <Temperature>31</Temperature>
+              <Temperature>30</Temperature>
             </ElementValue>
           </Time>
           <Time>
@@ -96,7 +89,7 @@
             <StartTime>2026-08-03T06:00:00+08:00</StartTime>
             <EndTime>2026-08-03T18:00:00+08:00</EndTime>
             <ElementValue>
-              <Temperature>31</Temperature>
+              <Temperature>30</Temperature>
             </ElementValue>
           </Time>
           <Time>
@@ -131,7 +124,7 @@
             <StartTime>2026-08-05T18:00:00+08:00</StartTime>
             <EndTime>2026-08-06T06:00:00+08:00</EndTime>
             <ElementValue>
-              <Temperature>27</Temperature>
+              <Temperature>26</Temperature>
             </ElementValue>
           </Time>
           <Time>
@@ -148,16 +141,23 @@
               <Temperature>27</Temperature>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2026-08-07T06:00:00+08:00</StartTime>
+            <EndTime>2026-08-07T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <Temperature>31</Temperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T18:00:00+08:00</StartTime>
+            <EndTime>2026-08-08T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <Temperature>27</Temperature>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>最高溫度</ElementName>
-          <Time>
-            <StartTime>2026-07-31T12:00:00+08:00</StartTime>
-            <EndTime>2026-07-31T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxTemperature>33</MaxTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-07-31T18:00:00+08:00</StartTime>
             <EndTime>2026-08-01T06:00:00+08:00</EndTime>
@@ -225,7 +225,7 @@
             <StartTime>2026-08-05T06:00:00+08:00</StartTime>
             <EndTime>2026-08-05T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxTemperature>34</MaxTemperature>
+              <MaxTemperature>33</MaxTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -249,42 +249,49 @@
               <MaxTemperature>29</MaxTemperature>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2026-08-07T06:00:00+08:00</StartTime>
+            <EndTime>2026-08-07T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxTemperature>34</MaxTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T18:00:00+08:00</StartTime>
+            <EndTime>2026-08-08T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxTemperature>29</MaxTemperature>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>最低溫度</ElementName>
           <Time>
-            <StartTime>2026-07-31T12:00:00+08:00</StartTime>
-            <EndTime>2026-07-31T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinTemperature>30</MinTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-07-31T18:00:00+08:00</StartTime>
             <EndTime>2026-08-01T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinTemperature>25</MinTemperature>
+              <MinTemperature>26</MinTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-01T06:00:00+08:00</StartTime>
             <EndTime>2026-08-01T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinTemperature>25</MinTemperature>
+              <MinTemperature>26</MinTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-01T18:00:00+08:00</StartTime>
             <EndTime>2026-08-02T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinTemperature>25</MinTemperature>
+              <MinTemperature>26</MinTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-02T06:00:00+08:00</StartTime>
             <EndTime>2026-08-02T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinTemperature>25</MinTemperature>
+              <MinTemperature>26</MinTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -319,14 +326,14 @@
             <StartTime>2026-08-04T18:00:00+08:00</StartTime>
             <EndTime>2026-08-05T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinTemperature>26</MinTemperature>
+              <MinTemperature>25</MinTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-05T06:00:00+08:00</StartTime>
             <EndTime>2026-08-05T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinTemperature>26</MinTemperature>
+              <MinTemperature>25</MinTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -347,20 +354,27 @@
             <StartTime>2026-08-06T18:00:00+08:00</StartTime>
             <EndTime>2026-08-07T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinTemperature>25</MinTemperature>
+              <MinTemperature>26</MinTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T06:00:00+08:00</StartTime>
+            <EndTime>2026-08-07T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinTemperature>26</MinTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T18:00:00+08:00</StartTime>
+            <EndTime>2026-08-08T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinTemperature>26</MinTemperature>
             </ElementValue>
           </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>平均露點溫度</ElementName>
           <Time>
-            <StartTime>2026-07-31T12:00:00+08:00</StartTime>
-            <EndTime>2026-07-31T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <DewPoint>27</DewPoint>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-07-31T18:00:00+08:00</StartTime>
             <EndTime>2026-08-01T06:00:00+08:00</EndTime>
             <ElementValue>
@@ -420,7 +434,7 @@
             <StartTime>2026-08-04T18:00:00+08:00</StartTime>
             <EndTime>2026-08-05T06:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>25</DewPoint>
+              <DewPoint>24</DewPoint>
             </ElementValue>
           </Time>
           <Time>
@@ -447,6 +461,20 @@
           <Time>
             <StartTime>2026-08-06T18:00:00+08:00</StartTime>
             <EndTime>2026-08-07T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <DewPoint>25</DewPoint>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T06:00:00+08:00</StartTime>
+            <EndTime>2026-08-07T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <DewPoint>28</DewPoint>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T18:00:00+08:00</StartTime>
+            <EndTime>2026-08-08T06:00:00+08:00</EndTime>
             <ElementValue>
               <DewPoint>25</DewPoint>
             </ElementValue>
@@ -454,13 +482,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>平均相對濕度</ElementName>
-          <Time>
-            <StartTime>2026-07-31T12:00:00+08:00</StartTime>
-            <EndTime>2026-07-31T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <RelativeHumidity>75</RelativeHumidity>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-07-31T18:00:00+08:00</StartTime>
             <EndTime>2026-08-01T06:00:00+08:00</EndTime>
@@ -552,16 +573,23 @@
               <RelativeHumidity>90</RelativeHumidity>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2026-08-07T06:00:00+08:00</StartTime>
+            <EndTime>2026-08-07T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <RelativeHumidity>84</RelativeHumidity>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T18:00:00+08:00</StartTime>
+            <EndTime>2026-08-08T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <RelativeHumidity>90</RelativeHumidity>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>最高體感溫度</ElementName>
-          <Time>
-            <StartTime>2026-07-31T12:00:00+08:00</StartTime>
-            <EndTime>2026-07-31T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxApparentTemperature>38</MaxApparentTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-07-31T18:00:00+08:00</StartTime>
             <EndTime>2026-08-01T06:00:00+08:00</EndTime>
@@ -587,7 +615,7 @@
             <StartTime>2026-08-02T06:00:00+08:00</StartTime>
             <EndTime>2026-08-02T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>39</MaxApparentTemperature>
+              <MaxApparentTemperature>38</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -651,19 +679,26 @@
             <EndTime>2026-08-07T06:00:00+08:00</EndTime>
             <ElementValue>
               <MaxApparentTemperature>34</MaxApparentTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T06:00:00+08:00</StartTime>
+            <EndTime>2026-08-07T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxApparentTemperature>37</MaxApparentTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T18:00:00+08:00</StartTime>
+            <EndTime>2026-08-08T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxApparentTemperature>32</MaxApparentTemperature>
             </ElementValue>
           </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>最低體感溫度</ElementName>
           <Time>
-            <StartTime>2026-07-31T12:00:00+08:00</StartTime>
-            <EndTime>2026-07-31T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinApparentTemperature>34</MinApparentTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-07-31T18:00:00+08:00</StartTime>
             <EndTime>2026-08-01T06:00:00+08:00</EndTime>
             <ElementValue>
@@ -752,20 +787,26 @@
             <EndTime>2026-08-07T06:00:00+08:00</EndTime>
             <ElementValue>
               <MinApparentTemperature>29</MinApparentTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T06:00:00+08:00</StartTime>
+            <EndTime>2026-08-07T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinApparentTemperature>29</MinApparentTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T18:00:00+08:00</StartTime>
+            <EndTime>2026-08-08T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinApparentTemperature>26</MinApparentTemperature>
             </ElementValue>
           </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>最大舒適度指數</ElementName>
           <Time>
-            <StartTime>2026-07-31T12:00:00+08:00</StartTime>
-            <EndTime>2026-07-31T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxComfortIndex>30</MaxComfortIndex>
-              <MaxComfortIndexDescription>悶熱</MaxComfortIndexDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-07-31T18:00:00+08:00</StartTime>
             <EndTime>2026-08-01T06:00:00+08:00</EndTime>
             <ElementValue>
@@ -793,8 +834,8 @@
             <StartTime>2026-08-02T06:00:00+08:00</StartTime>
             <EndTime>2026-08-02T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxComfortIndex>31</MaxComfortIndex>
-              <MaxComfortIndexDescription>易中暑</MaxComfortIndexDescription>
+              <MaxComfortIndex>30</MaxComfortIndex>
+              <MaxComfortIndexDescription>悶熱</MaxComfortIndexDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -817,7 +858,7 @@
             <StartTime>2026-08-03T18:00:00+08:00</StartTime>
             <EndTime>2026-08-04T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxComfortIndex>28</MaxComfortIndex>
+              <MaxComfortIndex>27</MaxComfortIndex>
               <MaxComfortIndexDescription>悶熱</MaxComfortIndexDescription>
             </ElementValue>
           </Time>
@@ -833,7 +874,7 @@
             <StartTime>2026-08-04T18:00:00+08:00</StartTime>
             <EndTime>2026-08-05T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxComfortIndex>28</MaxComfortIndex>
+              <MaxComfortIndex>27</MaxComfortIndex>
               <MaxComfortIndexDescription>悶熱</MaxComfortIndexDescription>
             </ElementValue>
           </Time>
@@ -849,7 +890,7 @@
             <StartTime>2026-08-05T18:00:00+08:00</StartTime>
             <EndTime>2026-08-06T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxComfortIndex>28</MaxComfortIndex>
+              <MaxComfortIndex>27</MaxComfortIndex>
               <MaxComfortIndexDescription>悶熱</MaxComfortIndexDescription>
             </ElementValue>
           </Time>
@@ -864,6 +905,22 @@
           <Time>
             <StartTime>2026-08-06T18:00:00+08:00</StartTime>
             <EndTime>2026-08-07T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxComfortIndex>28</MaxComfortIndex>
+              <MaxComfortIndexDescription>悶熱</MaxComfortIndexDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T06:00:00+08:00</StartTime>
+            <EndTime>2026-08-07T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxComfortIndex>32</MaxComfortIndex>
+              <MaxComfortIndexDescription>易中暑</MaxComfortIndexDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T18:00:00+08:00</StartTime>
+            <EndTime>2026-08-08T06:00:00+08:00</EndTime>
             <ElementValue>
               <MaxComfortIndex>28</MaxComfortIndex>
               <MaxComfortIndexDescription>悶熱</MaxComfortIndexDescription>
@@ -873,14 +930,6 @@
         <WeatherElement>
           <ElementName>最小舒適度指數</ElementName>
           <Time>
-            <StartTime>2026-07-31T12:00:00+08:00</StartTime>
-            <EndTime>2026-07-31T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinComfortIndex>28</MinComfortIndex>
-              <MinComfortIndexDescription>悶熱</MinComfortIndexDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-07-31T18:00:00+08:00</StartTime>
             <EndTime>2026-08-01T06:00:00+08:00</EndTime>
             <ElementValue>
@@ -984,17 +1033,25 @@
               <MinComfortIndexDescription>舒適</MinComfortIndexDescription>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2026-08-07T06:00:00+08:00</StartTime>
+            <EndTime>2026-08-07T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinComfortIndex>25</MinComfortIndex>
+              <MinComfortIndexDescription>舒適</MinComfortIndexDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T18:00:00+08:00</StartTime>
+            <EndTime>2026-08-08T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinComfortIndex>24</MinComfortIndex>
+              <MinComfortIndexDescription>舒適</MinComfortIndexDescription>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>風速</ElementName>
-          <Time>
-            <StartTime>2026-07-31T12:00:00+08:00</StartTime>
-            <EndTime>2026-07-31T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindSpeed>2</WindSpeed>
-              <BeaufortScale>2</BeaufortScale>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-07-31T18:00:00+08:00</StartTime>
             <EndTime>2026-08-01T06:00:00+08:00</EndTime>
@@ -1099,16 +1156,25 @@
               <BeaufortScale>&lt;= 1</BeaufortScale>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2026-08-07T06:00:00+08:00</StartTime>
+            <EndTime>2026-08-07T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindSpeed>6</WindSpeed>
+              <BeaufortScale>4</BeaufortScale>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T18:00:00+08:00</StartTime>
+            <EndTime>2026-08-08T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindSpeed>4</WindSpeed>
+              <BeaufortScale>3</BeaufortScale>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>風向</ElementName>
-          <Time>
-            <StartTime>2026-07-31T12:00:00+08:00</StartTime>
-            <EndTime>2026-07-31T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindDirection>西南風</WindDirection>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-07-31T18:00:00+08:00</StartTime>
             <EndTime>2026-08-01T06:00:00+08:00</EndTime>
@@ -1200,16 +1266,23 @@
               <WindDirection>偏東風</WindDirection>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2026-08-07T06:00:00+08:00</StartTime>
+            <EndTime>2026-08-07T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindDirection>偏北風</WindDirection>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T18:00:00+08:00</StartTime>
+            <EndTime>2026-08-08T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindDirection>偏北風</WindDirection>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>12小時降雨機率</ElementName>
-          <Time>
-            <StartTime>2026-07-31T12:00:00+08:00</StartTime>
-            <EndTime>2026-07-31T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-07-31T18:00:00+08:00</StartTime>
             <EndTime>2026-08-01T06:00:00+08:00</EndTime>
@@ -1228,7 +1301,7 @@
             <StartTime>2026-08-01T18:00:00+08:00</StartTime>
             <EndTime>2026-08-02T06:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -1249,14 +1322,14 @@
             <StartTime>2026-08-03T06:00:00+08:00</StartTime>
             <EndTime>2026-08-03T18:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-03T18:00:00+08:00</StartTime>
             <EndTime>2026-08-04T06:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -1301,39 +1374,45 @@
               <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2026-08-07T06:00:00+08:00</StartTime>
+            <EndTime>2026-08-07T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T18:00:00+08:00</StartTime>
+            <EndTime>2026-08-08T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>天氣現象</ElementName>
           <Time>
-            <StartTime>2026-07-31T12:00:00+08:00</StartTime>
-            <EndTime>2026-07-31T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <Weather>多雲</Weather>
-              <WeatherCode>04</WeatherCode>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-07-31T18:00:00+08:00</StartTime>
             <EndTime>2026-08-01T06:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>多雲時晴</Weather>
-              <WeatherCode>03</WeatherCode>
+              <Weather>多雲時陰</Weather>
+              <WeatherCode>05</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-01T06:00:00+08:00</StartTime>
             <EndTime>2026-08-01T18:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>多雲</Weather>
-              <WeatherCode>04</WeatherCode>
+              <Weather>陰時多雲</Weather>
+              <WeatherCode>06</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-01T18:00:00+08:00</StartTime>
             <EndTime>2026-08-02T06:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>多雲時晴</Weather>
-              <WeatherCode>03</WeatherCode>
+              <Weather>多雲時陰</Weather>
+              <WeatherCode>05</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -1348,8 +1427,8 @@
             <StartTime>2026-08-02T18:00:00+08:00</StartTime>
             <EndTime>2026-08-03T06:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>多雲時晴</Weather>
-              <WeatherCode>03</WeatherCode>
+              <Weather>多雲時陰</Weather>
+              <WeatherCode>05</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -1372,16 +1451,16 @@
             <StartTime>2026-08-04T06:00:00+08:00</StartTime>
             <EndTime>2026-08-04T18:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>晴時多雲</Weather>
-              <WeatherCode>02</WeatherCode>
+              <Weather>多雲</Weather>
+              <WeatherCode>04</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-04T18:00:00+08:00</StartTime>
             <EndTime>2026-08-05T06:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>多雲</Weather>
-              <WeatherCode>04</WeatherCode>
+              <Weather>多雲時晴</Weather>
+              <WeatherCode>03</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -1404,13 +1483,29 @@
             <StartTime>2026-08-06T06:00:00+08:00</StartTime>
             <EndTime>2026-08-06T18:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>晴時多雲</Weather>
-              <WeatherCode>02</WeatherCode>
+              <Weather>晴午後短暫雷陣雨</Weather>
+              <WeatherCode>21</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-06T18:00:00+08:00</StartTime>
             <EndTime>2026-08-07T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <Weather>多雲</Weather>
+              <WeatherCode>04</WeatherCode>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T06:00:00+08:00</StartTime>
+            <EndTime>2026-08-07T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <Weather>多雲午後短暫雷陣雨</Weather>
+              <WeatherCode>22</WeatherCode>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T18:00:00+08:00</StartTime>
+            <EndTime>2026-08-08T06:00:00+08:00</EndTime>
             <ElementValue>
               <Weather>晴時多雲</Weather>
               <WeatherCode>02</WeatherCode>
@@ -1419,14 +1514,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>紫外線指數</ElementName>
-          <Time>
-            <StartTime>2026-07-31T12:00:00+08:00</StartTime>
-            <EndTime>2026-07-31T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <UVIndex>8</UVIndex>
-              <UVExposureLevel>過量級</UVExposureLevel>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-01T06:00:00+08:00</StartTime>
             <EndTime>2026-08-01T18:00:00+08:00</EndTime>
@@ -1471,6 +1558,14 @@
             <StartTime>2026-08-06T06:00:00+08:00</StartTime>
             <EndTime>2026-08-06T18:00:00+08:00</EndTime>
             <ElementValue>
+              <UVIndex>8</UVIndex>
+              <UVExposureLevel>過量級</UVExposureLevel>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T06:00:00+08:00</StartTime>
+            <EndTime>2026-08-07T18:00:00+08:00</EndTime>
+            <ElementValue>
               <UVIndex>9</UVIndex>
               <UVExposureLevel>過量級</UVExposureLevel>
             </ElementValue>
@@ -1479,80 +1574,73 @@
         <WeatherElement>
           <ElementName>天氣預報綜合描述</ElementName>
           <Time>
-            <StartTime>2026-07-31T12:00:00+08:00</StartTime>
-            <EndTime>2026-07-31T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <WeatherDescription>多雲。降雨機率20%。溫度攝氏30至33度。悶熱。西南風 風速2級(每秒2公尺)。相對濕度75%。</WeatherDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-07-31T18:00:00+08:00</StartTime>
             <EndTime>2026-08-01T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>多雲時晴。降雨機率20%。溫度攝氏25至30度。舒適至悶熱。偏東風 風速2級(每秒2公尺)。相對濕度89%。</WeatherDescription>
+              <WeatherDescription>多雲時陰。降雨機率20%。溫度攝氏26至30度。舒適至悶熱。偏東風 風速2級(每秒2公尺)。相對濕度89%。</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-01T06:00:00+08:00</StartTime>
             <EndTime>2026-08-01T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>多雲。降雨機率20%。溫度攝氏25至33度。舒適至悶熱。偏西風 風速&lt;= 1級(每秒1公尺)。相對濕度74%。</WeatherDescription>
+              <WeatherDescription>陰時多雲。降雨機率20%。溫度攝氏26至33度。舒適至悶熱。偏西風 風速&lt;= 1級(每秒1公尺)。相對濕度74%。</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-01T18:00:00+08:00</StartTime>
             <EndTime>2026-08-02T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>多雲時晴。降雨機率10%。溫度攝氏25至29度。舒適至悶熱。東南風 風速&lt;= 1級(每秒1公尺)。相對濕度90%。</WeatherDescription>
+              <WeatherDescription>多雲時陰。降雨機率20%。溫度攝氏26至29度。舒適至悶熱。東南風 風速&lt;= 1級(每秒1公尺)。相對濕度90%。</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-02T06:00:00+08:00</StartTime>
             <EndTime>2026-08-02T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>多雲時陰。降雨機率20%。溫度攝氏25至34度。舒適至易中暑。偏北風 風速2級(每秒2公尺)。相對濕度77%。</WeatherDescription>
+              <WeatherDescription>多雲時陰。降雨機率20%。溫度攝氏26至34度。舒適至悶熱。偏北風 風速2級(每秒2公尺)。相對濕度77%。</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-02T18:00:00+08:00</StartTime>
             <EndTime>2026-08-03T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>多雲時晴。降雨機率10%。溫度攝氏25至29度。舒適至悶熱。東北風 風速&lt;= 1級(每秒1公尺)。相對濕度91%。</WeatherDescription>
+              <WeatherDescription>多雲時陰。降雨機率10%。溫度攝氏25至29度。舒適至悶熱。東北風 風速&lt;= 1級(每秒1公尺)。相對濕度91%。</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-03T06:00:00+08:00</StartTime>
             <EndTime>2026-08-03T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>晴時多雲。溫度攝氏25至34度。舒適至悶熱。偏北風 風速2級(每秒3公尺)。相對濕度72%。</WeatherDescription>
+              <WeatherDescription>晴時多雲。降雨機率20%。溫度攝氏25至34度。舒適至悶熱。偏北風 風速2級(每秒3公尺)。相對濕度72%。</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-03T18:00:00+08:00</StartTime>
             <EndTime>2026-08-04T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>晴時多雲。溫度攝氏26至29度。舒適至悶熱。偏北風 風速2級(每秒2公尺)。相對濕度88%。</WeatherDescription>
+              <WeatherDescription>晴時多雲。降雨機率10%。溫度攝氏26至29度。舒適至悶熱。偏北風 風速2級(每秒2公尺)。相對濕度88%。</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-04T06:00:00+08:00</StartTime>
             <EndTime>2026-08-04T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>晴時多雲。溫度攝氏26至34度。舒適至悶熱。偏北風 風速2級(每秒3公尺)。相對濕度77%。</WeatherDescription>
+              <WeatherDescription>多雲。溫度攝氏26至34度。舒適至悶熱。偏北風 風速2級(每秒3公尺)。相對濕度77%。</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-04T18:00:00+08:00</StartTime>
             <EndTime>2026-08-05T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>多雲。溫度攝氏26至29度。舒適至悶熱。偏西風 風速2級(每秒2公尺)。相對濕度88%。</WeatherDescription>
+              <WeatherDescription>多雲時晴。溫度攝氏25至29度。舒適至悶熱。偏西風 風速2級(每秒2公尺)。相對濕度88%。</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-05T06:00:00+08:00</StartTime>
             <EndTime>2026-08-05T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>晴午後短暫雷陣雨。溫度攝氏26至34度。舒適至悶熱。偏北風 風速3級(每秒4公尺)。相對濕度76%。</WeatherDescription>
+              <WeatherDescription>晴午後短暫雷陣雨。溫度攝氏25至33度。舒適至悶熱。偏北風 風速3級(每秒4公尺)。相對濕度76%。</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -1566,14 +1654,28 @@
             <StartTime>2026-08-06T06:00:00+08:00</StartTime>
             <EndTime>2026-08-06T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>晴時多雲。溫度攝氏25至33度。舒適至易中暑。偏西風 風速2級(每秒2公尺)。相對濕度82%。</WeatherDescription>
+              <WeatherDescription>晴午後短暫雷陣雨。溫度攝氏25至33度。舒適至易中暑。偏西風 風速2級(每秒2公尺)。相對濕度82%。</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-06T18:00:00+08:00</StartTime>
             <EndTime>2026-08-07T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>晴時多雲。溫度攝氏25至29度。舒適至悶熱。偏東風 風速&lt;= 1級(每秒1公尺)。相對濕度90%。</WeatherDescription>
+              <WeatherDescription>多雲。溫度攝氏26至29度。舒適至悶熱。偏東風 風速&lt;= 1級(每秒1公尺)。相對濕度90%。</WeatherDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T06:00:00+08:00</StartTime>
+            <EndTime>2026-08-07T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <WeatherDescription>多雲午後短暫雷陣雨。溫度攝氏26至34度。舒適至易中暑。偏北風 風速4級(每秒6公尺)。相對濕度84%。</WeatherDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T18:00:00+08:00</StartTime>
+            <EndTime>2026-08-08T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <WeatherDescription>晴時多雲。溫度攝氏26至29度。舒適至悶熱。偏北風 風速3級(每秒4公尺)。相對濕度90%。</WeatherDescription>
             </ElementValue>
           </Time>
         </WeatherElement>
@@ -1585,13 +1687,6 @@
         <Longitude>120.427285</Longitude>
         <WeatherElement>
           <ElementName>平均溫度</ElementName>
-          <Time>
-            <StartTime>2026-07-31T12:00:00+08:00</StartTime>
-            <EndTime>2026-07-31T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <Temperature>32</Temperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-07-31T18:00:00+08:00</StartTime>
             <EndTime>2026-08-01T06:00:00+08:00</EndTime>
@@ -1659,7 +1754,7 @@
             <StartTime>2026-08-05T06:00:00+08:00</StartTime>
             <EndTime>2026-08-05T18:00:00+08:00</EndTime>
             <ElementValue>
-              <Temperature>31</Temperature>
+              <Temperature>30</Temperature>
             </ElementValue>
           </Time>
           <Time>
@@ -1683,16 +1778,23 @@
               <Temperature>27</Temperature>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2026-08-07T06:00:00+08:00</StartTime>
+            <EndTime>2026-08-07T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <Temperature>31</Temperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T18:00:00+08:00</StartTime>
+            <EndTime>2026-08-08T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <Temperature>27</Temperature>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>最高溫度</ElementName>
-          <Time>
-            <StartTime>2026-07-31T12:00:00+08:00</StartTime>
-            <EndTime>2026-07-31T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxTemperature>33</MaxTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-07-31T18:00:00+08:00</StartTime>
             <EndTime>2026-08-01T06:00:00+08:00</EndTime>
@@ -1784,16 +1886,23 @@
               <MaxTemperature>29</MaxTemperature>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2026-08-07T06:00:00+08:00</StartTime>
+            <EndTime>2026-08-07T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxTemperature>33</MaxTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T18:00:00+08:00</StartTime>
+            <EndTime>2026-08-08T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxTemperature>29</MaxTemperature>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>最低溫度</ElementName>
-          <Time>
-            <StartTime>2026-07-31T12:00:00+08:00</StartTime>
-            <EndTime>2026-07-31T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinTemperature>30</MinTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-07-31T18:00:00+08:00</StartTime>
             <EndTime>2026-08-01T06:00:00+08:00</EndTime>
@@ -1868,19 +1977,33 @@
             <StartTime>2026-08-05T18:00:00+08:00</StartTime>
             <EndTime>2026-08-06T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MinTemperature>26</MinTemperature>
+              <MinTemperature>25</MinTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-06T06:00:00+08:00</StartTime>
             <EndTime>2026-08-06T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinTemperature>26</MinTemperature>
+              <MinTemperature>25</MinTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-06T18:00:00+08:00</StartTime>
             <EndTime>2026-08-07T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinTemperature>26</MinTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T06:00:00+08:00</StartTime>
+            <EndTime>2026-08-07T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinTemperature>26</MinTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T18:00:00+08:00</StartTime>
+            <EndTime>2026-08-08T06:00:00+08:00</EndTime>
             <ElementValue>
               <MinTemperature>26</MinTemperature>
             </ElementValue>
@@ -1889,13 +2012,6 @@
         <WeatherElement>
           <ElementName>平均露點溫度</ElementName>
           <Time>
-            <StartTime>2026-07-31T12:00:00+08:00</StartTime>
-            <EndTime>2026-07-31T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <DewPoint>27</DewPoint>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-07-31T18:00:00+08:00</StartTime>
             <EndTime>2026-08-01T06:00:00+08:00</EndTime>
             <ElementValue>
@@ -1986,16 +2102,23 @@
               <DewPoint>25</DewPoint>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2026-08-07T06:00:00+08:00</StartTime>
+            <EndTime>2026-08-07T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <DewPoint>28</DewPoint>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T18:00:00+08:00</StartTime>
+            <EndTime>2026-08-08T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <DewPoint>25</DewPoint>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>平均相對濕度</ElementName>
-          <Time>
-            <StartTime>2026-07-31T12:00:00+08:00</StartTime>
-            <EndTime>2026-07-31T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <RelativeHumidity>75</RelativeHumidity>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-07-31T18:00:00+08:00</StartTime>
             <EndTime>2026-08-01T06:00:00+08:00</EndTime>
@@ -2087,16 +2210,23 @@
               <RelativeHumidity>90</RelativeHumidity>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2026-08-07T06:00:00+08:00</StartTime>
+            <EndTime>2026-08-07T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <RelativeHumidity>84</RelativeHumidity>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T18:00:00+08:00</StartTime>
+            <EndTime>2026-08-08T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <RelativeHumidity>89</RelativeHumidity>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>最高體感溫度</ElementName>
-          <Time>
-            <StartTime>2026-07-31T12:00:00+08:00</StartTime>
-            <EndTime>2026-07-31T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxApparentTemperature>38</MaxApparentTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-07-31T18:00:00+08:00</StartTime>
             <EndTime>2026-08-01T06:00:00+08:00</EndTime>
@@ -2136,7 +2266,7 @@
             <StartTime>2026-08-03T06:00:00+08:00</StartTime>
             <EndTime>2026-08-03T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>37</MaxApparentTemperature>
+              <MaxApparentTemperature>36</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -2164,7 +2294,7 @@
             <StartTime>2026-08-05T06:00:00+08:00</StartTime>
             <EndTime>2026-08-05T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>37</MaxApparentTemperature>
+              <MaxApparentTemperature>36</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -2188,16 +2318,23 @@
               <MaxApparentTemperature>34</MaxApparentTemperature>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2026-08-07T06:00:00+08:00</StartTime>
+            <EndTime>2026-08-07T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxApparentTemperature>37</MaxApparentTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T18:00:00+08:00</StartTime>
+            <EndTime>2026-08-08T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxApparentTemperature>32</MaxApparentTemperature>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>最低體感溫度</ElementName>
-          <Time>
-            <StartTime>2026-07-31T12:00:00+08:00</StartTime>
-            <EndTime>2026-07-31T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinApparentTemperature>34</MinApparentTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-07-31T18:00:00+08:00</StartTime>
             <EndTime>2026-08-01T06:00:00+08:00</EndTime>
@@ -2286,21 +2423,27 @@
             <StartTime>2026-08-06T18:00:00+08:00</StartTime>
             <EndTime>2026-08-07T06:00:00+08:00</EndTime>
             <ElementValue>
+              <MinApparentTemperature>30</MinApparentTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T06:00:00+08:00</StartTime>
+            <EndTime>2026-08-07T18:00:00+08:00</EndTime>
+            <ElementValue>
               <MinApparentTemperature>29</MinApparentTemperature>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T18:00:00+08:00</StartTime>
+            <EndTime>2026-08-08T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinApparentTemperature>27</MinApparentTemperature>
             </ElementValue>
           </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>最大舒適度指數</ElementName>
           <Time>
-            <StartTime>2026-07-31T12:00:00+08:00</StartTime>
-            <EndTime>2026-07-31T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxComfortIndex>30</MaxComfortIndex>
-              <MaxComfortIndexDescription>悶熱</MaxComfortIndexDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-07-31T18:00:00+08:00</StartTime>
             <EndTime>2026-08-01T06:00:00+08:00</EndTime>
             <ElementValue>
@@ -2328,8 +2471,8 @@
             <StartTime>2026-08-02T06:00:00+08:00</StartTime>
             <EndTime>2026-08-02T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxComfortIndex>31</MaxComfortIndex>
-              <MaxComfortIndexDescription>易中暑</MaxComfortIndexDescription>
+              <MaxComfortIndex>30</MaxComfortIndex>
+              <MaxComfortIndexDescription>悶熱</MaxComfortIndexDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -2399,6 +2542,22 @@
           <Time>
             <StartTime>2026-08-06T18:00:00+08:00</StartTime>
             <EndTime>2026-08-07T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxComfortIndex>28</MaxComfortIndex>
+              <MaxComfortIndexDescription>悶熱</MaxComfortIndexDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T06:00:00+08:00</StartTime>
+            <EndTime>2026-08-07T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MaxComfortIndex>31</MaxComfortIndex>
+              <MaxComfortIndexDescription>易中暑</MaxComfortIndexDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T18:00:00+08:00</StartTime>
+            <EndTime>2026-08-08T06:00:00+08:00</EndTime>
             <ElementValue>
               <MaxComfortIndex>28</MaxComfortIndex>
               <MaxComfortIndexDescription>悶熱</MaxComfortIndexDescription>
@@ -2408,14 +2567,6 @@
         <WeatherElement>
           <ElementName>最小舒適度指數</ElementName>
           <Time>
-            <StartTime>2026-07-31T12:00:00+08:00</StartTime>
-            <EndTime>2026-07-31T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinComfortIndex>28</MinComfortIndex>
-              <MinComfortIndexDescription>悶熱</MinComfortIndexDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-07-31T18:00:00+08:00</StartTime>
             <EndTime>2026-08-01T06:00:00+08:00</EndTime>
             <ElementValue>
@@ -2519,17 +2670,25 @@
               <MinComfortIndexDescription>舒適</MinComfortIndexDescription>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2026-08-07T06:00:00+08:00</StartTime>
+            <EndTime>2026-08-07T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinComfortIndex>25</MinComfortIndex>
+              <MinComfortIndexDescription>舒適</MinComfortIndexDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T18:00:00+08:00</StartTime>
+            <EndTime>2026-08-08T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <MinComfortIndex>25</MinComfortIndex>
+              <MinComfortIndexDescription>舒適</MinComfortIndexDescription>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>風速</ElementName>
-          <Time>
-            <StartTime>2026-07-31T12:00:00+08:00</StartTime>
-            <EndTime>2026-07-31T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindSpeed>2</WindSpeed>
-              <BeaufortScale>2</BeaufortScale>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-07-31T18:00:00+08:00</StartTime>
             <EndTime>2026-08-01T06:00:00+08:00</EndTime>
@@ -2634,16 +2793,25 @@
               <BeaufortScale>2</BeaufortScale>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2026-08-07T06:00:00+08:00</StartTime>
+            <EndTime>2026-08-07T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindSpeed>6</WindSpeed>
+              <BeaufortScale>4</BeaufortScale>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T18:00:00+08:00</StartTime>
+            <EndTime>2026-08-08T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindSpeed>5</WindSpeed>
+              <BeaufortScale>3</BeaufortScale>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>風向</ElementName>
-          <Time>
-            <StartTime>2026-07-31T12:00:00+08:00</StartTime>
-            <EndTime>2026-07-31T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindDirection>偏北風</WindDirection>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-07-31T18:00:00+08:00</StartTime>
             <EndTime>2026-08-01T06:00:00+08:00</EndTime>
@@ -2735,16 +2903,23 @@
               <WindDirection>偏東風</WindDirection>
             </ElementValue>
           </Time>
+          <Time>
+            <StartTime>2026-08-07T06:00:00+08:00</StartTime>
+            <EndTime>2026-08-07T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindDirection>偏北風</WindDirection>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T18:00:00+08:00</StartTime>
+            <EndTime>2026-08-08T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <WindDirection>偏北風</WindDirection>
+            </ElementValue>
+          </Time>
         </WeatherElement>
         <WeatherElement>
           <ElementName>12小時降雨機率</ElementName>
-          <Time>
-            <StartTime>2026-07-31T12:00:00+08:00</StartTime>
-            <EndTime>2026-07-31T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-07-31T18:00:00+08:00</StartTime>
             <EndTime>2026-08-01T06:00:00+08:00</EndTime>
@@ -2763,7 +2938,7 @@
             <StartTime>2026-08-01T18:00:00+08:00</StartTime>
             <EndTime>2026-08-02T06:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -2784,14 +2959,14 @@
             <StartTime>2026-08-03T06:00:00+08:00</StartTime>
             <EndTime>2026-08-03T18:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-03T18:00:00+08:00</StartTime>
             <EndTime>2026-08-04T06:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -2832,6 +3007,20 @@
           <Time>
             <StartTime>2026-08-06T18:00:00+08:00</StartTime>
             <EndTime>2026-08-07T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T06:00:00+08:00</StartTime>
+            <EndTime>2026-08-07T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T18:00:00+08:00</StartTime>
+            <EndTime>2026-08-08T06:00:00+08:00</EndTime>
             <ElementValue>
               <ProbabilityOfPrecipitation>-</ProbabilityOfPrecipitation>
             </ElementValue>
@@ -2840,35 +3029,27 @@
         <WeatherElement>
           <ElementName>天氣現象</ElementName>
           <Time>
-            <StartTime>2026-07-31T12:00:00+08:00</StartTime>
-            <EndTime>2026-07-31T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <Weather>多雲</Weather>
-              <WeatherCode>04</WeatherCode>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-07-31T18:00:00+08:00</StartTime>
             <EndTime>2026-08-01T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <Weather>多雲時晴</Weather>
-              <WeatherCode>03</WeatherCode>
-            </ElementValue>
-          </Time>
-          <Time>
-            <StartTime>2026-08-01T06:00:00+08:00</StartTime>
-            <EndTime>2026-08-01T18:00:00+08:00</EndTime>
             <ElementValue>
               <Weather>多雲時陰</Weather>
               <WeatherCode>05</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
+            <StartTime>2026-08-01T06:00:00+08:00</StartTime>
+            <EndTime>2026-08-01T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <Weather>陰時多雲</Weather>
+              <WeatherCode>06</WeatherCode>
+            </ElementValue>
+          </Time>
+          <Time>
             <StartTime>2026-08-01T18:00:00+08:00</StartTime>
             <EndTime>2026-08-02T06:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>多雲時晴</Weather>
-              <WeatherCode>03</WeatherCode>
+              <Weather>多雲</Weather>
+              <WeatherCode>04</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -2883,8 +3064,8 @@
             <StartTime>2026-08-02T18:00:00+08:00</StartTime>
             <EndTime>2026-08-03T06:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>多雲時晴</Weather>
-              <WeatherCode>03</WeatherCode>
+              <Weather>多雲時陰</Weather>
+              <WeatherCode>05</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -2907,8 +3088,8 @@
             <StartTime>2026-08-04T06:00:00+08:00</StartTime>
             <EndTime>2026-08-04T18:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>多雲短暫陣雨</Weather>
-              <WeatherCode>08</WeatherCode>
+              <Weather>多雲時晴</Weather>
+              <WeatherCode>03</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -2923,29 +3104,45 @@
             <StartTime>2026-08-05T06:00:00+08:00</StartTime>
             <EndTime>2026-08-05T18:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>晴午後短暫雷陣雨</Weather>
-              <WeatherCode>21</WeatherCode>
+              <Weather>晴時多雲</Weather>
+              <WeatherCode>02</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-05T18:00:00+08:00</StartTime>
             <EndTime>2026-08-06T06:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>多雲時晴</Weather>
-              <WeatherCode>03</WeatherCode>
+              <Weather>晴時多雲</Weather>
+              <WeatherCode>02</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-06T06:00:00+08:00</StartTime>
             <EndTime>2026-08-06T18:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>晴時多雲</Weather>
-              <WeatherCode>02</WeatherCode>
+              <Weather>晴午後短暫雷陣雨</Weather>
+              <WeatherCode>21</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-06T18:00:00+08:00</StartTime>
             <EndTime>2026-08-07T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <Weather>多雲</Weather>
+              <WeatherCode>04</WeatherCode>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T06:00:00+08:00</StartTime>
+            <EndTime>2026-08-07T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <Weather>晴午後短暫雷陣雨</Weather>
+              <WeatherCode>21</WeatherCode>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T18:00:00+08:00</StartTime>
+            <EndTime>2026-08-08T06:00:00+08:00</EndTime>
             <ElementValue>
               <Weather>晴時多雲</Weather>
               <WeatherCode>02</WeatherCode>
@@ -2955,14 +3152,6 @@
         <WeatherElement>
           <ElementName>紫外線指數</ElementName>
           <Time>
-            <StartTime>2026-07-31T12:00:00+08:00</StartTime>
-            <EndTime>2026-07-31T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <UVIndex>8</UVIndex>
-              <UVExposureLevel>過量級</UVExposureLevel>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-01T06:00:00+08:00</StartTime>
             <EndTime>2026-08-01T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -2974,7 +3163,7 @@
             <StartTime>2026-08-02T06:00:00+08:00</StartTime>
             <EndTime>2026-08-02T18:00:00+08:00</EndTime>
             <ElementValue>
-              <UVIndex>9</UVIndex>
+              <UVIndex>8</UVIndex>
               <UVExposureLevel>過量級</UVExposureLevel>
             </ElementValue>
           </Time>
@@ -3006,6 +3195,14 @@
             <StartTime>2026-08-06T06:00:00+08:00</StartTime>
             <EndTime>2026-08-06T18:00:00+08:00</EndTime>
             <ElementValue>
+              <UVIndex>8</UVIndex>
+              <UVExposureLevel>過量級</UVExposureLevel>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T06:00:00+08:00</StartTime>
+            <EndTime>2026-08-07T18:00:00+08:00</EndTime>
+            <ElementValue>
               <UVIndex>9</UVIndex>
               <UVExposureLevel>過量級</UVExposureLevel>
             </ElementValue>
@@ -3014,66 +3211,59 @@
         <WeatherElement>
           <ElementName>天氣預報綜合描述</ElementName>
           <Time>
-            <StartTime>2026-07-31T12:00:00+08:00</StartTime>
-            <EndTime>2026-07-31T18:00:00+08:00</EndTime>
-            <ElementValue>
-              <WeatherDescription>多雲。降雨機率20%。溫度攝氏30至33度。悶熱。偏北風 風速2級(每秒2公尺)。相對濕度75%。</WeatherDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-07-31T18:00:00+08:00</StartTime>
             <EndTime>2026-08-01T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>多雲時晴。降雨機率20%。溫度攝氏26至30度。舒適至悶熱。偏東風 風速2級(每秒2公尺)。相對濕度89%。</WeatherDescription>
+              <WeatherDescription>多雲時陰。降雨機率20%。溫度攝氏26至30度。舒適至悶熱。偏東風 風速2級(每秒2公尺)。相對濕度89%。</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-01T06:00:00+08:00</StartTime>
             <EndTime>2026-08-01T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>多雲時陰。降雨機率20%。溫度攝氏26至33度。舒適至悶熱。偏西風 風速&lt;= 1級(每秒1公尺)。相對濕度74%。</WeatherDescription>
+              <WeatherDescription>陰時多雲。降雨機率20%。溫度攝氏26至33度。舒適至悶熱。偏西風 風速&lt;= 1級(每秒1公尺)。相對濕度74%。</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-01T18:00:00+08:00</StartTime>
             <EndTime>2026-08-02T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>多雲時晴。降雨機率10%。溫度攝氏26至29度。舒適至悶熱。東南風 風速&lt;= 1級(每秒1公尺)。相對濕度90%。</WeatherDescription>
+              <WeatherDescription>多雲。降雨機率20%。溫度攝氏26至29度。舒適至悶熱。東南風 風速&lt;= 1級(每秒1公尺)。相對濕度90%。</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-02T06:00:00+08:00</StartTime>
             <EndTime>2026-08-02T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>多雲。降雨機率20%。溫度攝氏26至33度。舒適至易中暑。偏北風 風速2級(每秒2公尺)。相對濕度78%。</WeatherDescription>
+              <WeatherDescription>多雲。降雨機率20%。溫度攝氏26至33度。舒適至悶熱。偏北風 風速2級(每秒2公尺)。相對濕度78%。</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-02T18:00:00+08:00</StartTime>
             <EndTime>2026-08-03T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>多雲時晴。降雨機率10%。溫度攝氏26至29度。舒適至悶熱。東北風 風速&lt;= 1級(每秒1公尺)。相對濕度91%。</WeatherDescription>
+              <WeatherDescription>多雲時陰。降雨機率10%。溫度攝氏26至29度。舒適至悶熱。東北風 風速&lt;= 1級(每秒1公尺)。相對濕度91%。</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-03T06:00:00+08:00</StartTime>
             <EndTime>2026-08-03T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>晴時多雲。溫度攝氏26至33度。舒適至悶熱。偏北風 風速2級(每秒3公尺)。相對濕度73%。</WeatherDescription>
+              <WeatherDescription>晴時多雲。降雨機率20%。溫度攝氏26至33度。舒適至悶熱。偏北風 風速2級(每秒3公尺)。相對濕度73%。</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-03T18:00:00+08:00</StartTime>
             <EndTime>2026-08-04T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>晴時多雲。溫度攝氏26至29度。舒適至悶熱。偏北風 風速2級(每秒3公尺)。相對濕度88%。</WeatherDescription>
+              <WeatherDescription>晴時多雲。降雨機率10%。溫度攝氏26至29度。舒適至悶熱。偏北風 風速2級(每秒3公尺)。相對濕度88%。</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-04T06:00:00+08:00</StartTime>
             <EndTime>2026-08-04T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>多雲短暫陣雨。溫度攝氏26至33度。舒適至悶熱。偏北風 風速2級(每秒3公尺)。相對濕度77%。</WeatherDescription>
+              <WeatherDescription>多雲時晴。溫度攝氏26至33度。舒適至悶熱。偏北風 風速2級(每秒3公尺)。相對濕度77%。</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -3087,28 +3277,42 @@
             <StartTime>2026-08-05T06:00:00+08:00</StartTime>
             <EndTime>2026-08-05T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>晴午後短暫雷陣雨。溫度攝氏26至33度。舒適至悶熱。偏北風 風速3級(每秒4公尺)。相對濕度77%。</WeatherDescription>
+              <WeatherDescription>晴時多雲。溫度攝氏26至33度。舒適至悶熱。偏北風 風速3級(每秒4公尺)。相對濕度77%。</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-05T18:00:00+08:00</StartTime>
             <EndTime>2026-08-06T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>多雲時晴。溫度攝氏26至29度。舒適至悶熱。偏北風 風速2級(每秒3公尺)。相對濕度89%。</WeatherDescription>
+              <WeatherDescription>晴時多雲。溫度攝氏25至29度。舒適至悶熱。偏北風 風速2級(每秒3公尺)。相對濕度89%。</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-06T06:00:00+08:00</StartTime>
             <EndTime>2026-08-06T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>晴時多雲。溫度攝氏26至33度。舒適至易中暑。偏西風 風速2級(每秒2公尺)。相對濕度82%。</WeatherDescription>
+              <WeatherDescription>晴午後短暫雷陣雨。溫度攝氏25至33度。舒適至易中暑。偏西風 風速2級(每秒2公尺)。相對濕度82%。</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-06T18:00:00+08:00</StartTime>
             <EndTime>2026-08-07T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>晴時多雲。溫度攝氏26至29度。舒適至悶熱。偏東風 風速2級(每秒2公尺)。相對濕度90%。</WeatherDescription>
+              <WeatherDescription>多雲。溫度攝氏26至29度。舒適至悶熱。偏東風 風速2級(每秒2公尺)。相對濕度90%。</WeatherDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T06:00:00+08:00</StartTime>
+            <EndTime>2026-08-07T18:00:00+08:00</EndTime>
+            <ElementValue>
+              <WeatherDescription>晴午後短暫雷陣雨。溫度攝氏26至33度。舒適至易中暑。偏北風 風速4級(每秒6公尺)。相對濕度84%。</WeatherDescription>
+            </ElementValue>
+          </Time>
+          <Time>
+            <StartTime>2026-08-07T18:00:00+08:00</StartTime>
+            <EndTime>2026-08-08T06:00:00+08:00</EndTime>
+            <ElementValue>
+              <WeatherDescription>晴時多雲。溫度攝氏26至29度。舒適至悶熱。偏北風 風速3級(每秒5公尺)。相對濕度89%。</WeatherDescription>
             </ElementValue>
           </Time>
         </WeatherElement>
